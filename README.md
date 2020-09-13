@@ -4,18 +4,24 @@ Fe Developer, In ShenZhen, China -
 
 ## WHAT I CAN DO
 
-![TypeScript Badge][TypeScript-Badge]
-![Node.js Badge][Node.js-Badge]
-![Java Badge][Java-Badge]
-![HTML5 Badge][HTML5-Badge]
-![CSS3 Badge][CSS3-Badge]
+![MacOS Badge][MacOS-Badge]
+![Windows Badge][Windows-Badge]
+
+![CircleCi-Badge][CircleCi-Badge]
+![GitHubActions Badge][GitHubActions-Badge]
+
+![Webpack Badge][Webpack-Badge]
+![Rollup.js Badge][Rollup.js-Badge]
 
 ![React Badge][React-Badge]
 ![Vue Badge][Vue-Badge]
 ![Svelte Badge][Svelte-Badge]
 
-![Webpack Badge][Webpack-Badge]
-![Rollup.js Badge][Rollup.js-Badge]
+![TypeScript Badge][TypeScript-Badge]
+![Node.js Badge][Node.js-Badge]
+![Java Badge][Java-Badge]
+![HTML5 Badge][HTML5-Badge]
+![CSS3 Badge][CSS3-Badge]
 
 ![Sass Badge][Sass-Badge]
 ![PostCSS Badge][PostCSS-Badge]
@@ -24,17 +30,11 @@ Fe Developer, In ShenZhen, China -
 ![Jest Badge][Jest-Badge]
 ![Storybook Badge][Storybook-Badge]
 
-![CircleCi-Badge][CircleCi-Badge]
-![GitHubActions Badge][GitHubActions-Badge]
-
 ![Git Badge][Git-Badge]
 ![PowerShell Badge][PowerShell-Badge]
 ![VisualStudioCode Badge][VisualStudioCode-Badge]
 ![VisualStudio Badge][VisualStudio-Badge]
 ![Sketch Badge][Sketch-Badge]
-
-![MacOS Badge][MacOS-Badge]
-![Windows Badge][Windows-Badge]
 
 
 <!-- # Skills Badges -->
@@ -66,7 +66,7 @@ Fe Developer, In ShenZhen, China -
 
 [Node.js-Badge]: https://img.shields.io/badge/-Node.js-%23339933?style=flat-square&logo=node.js&logoColor=white "Node.js Badge"
 
-[Webpack-Badge]: https://img.shields.io/badge/-Webpack-%238DD6F9?style=flat-square&logo=webpack&logoColor=black "Webpack Badge"
+[Webpack-Badge]: https://img.shields.io/badge/-Webpack-blue?style=flat-square&logo=webpack&logoColor=white "Webpack Badge"
 
 [Windows-Badge]: https://img.shields.io/badge/-Windows-%230078D6?style=flat-square&logo=windows&logoColor=white "Windows Badge"
 
