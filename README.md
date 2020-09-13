@@ -10,21 +10,19 @@ Fe Developer, In ShenZhen, China -
 ![HTML5 Badge][HTML5-Badge]
 ![CSS3 Badge][CSS3-Badge]
 
-![Sass Badge][Sass-Badge]
-![PostCSS Badge][PostCSS-Badge]
-
 ![React Badge][React-Badge]
 ![Vue Badge][Vue-Badge]
 ![Svelte Badge][Svelte-Badge]
 
-![Yarn Badge][Yarn-Badge]
 ![Webpack Badge][Webpack-Badge]
 ![Rollup.js Badge][Rollup.js-Badge]
-![Jest Badge][Jest-Badge]
-![Storybook Badge][Storybook-Badge]
 
+![Sass Badge][Sass-Badge]
+![PostCSS Badge][PostCSS-Badge]
 ![ESLint Badge][ESLint-Badge]
 ![Prettier Badge][Prettier-Badge]
+![Jest Badge][Jest-Badge]
+![Storybook Badge][Storybook-Badge]
 
 ![CircleCi-Badge][CircleCi-Badge]
 ![GitHubActions Badge][GitHubActions-Badge]
