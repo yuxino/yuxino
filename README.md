@@ -8,17 +8,14 @@ Fe Developer, In ShenZhen, China -
 ![HTML5 Badge][HTML5-Badge]
 ![CSS3 Badge][CSS3-Badge]
 ![TypeScript Badge][TypeScript-Badge]
-![CSharp Badge][CSharp-Badge]
-![XAML Badge][XAML-Badge]
+![Node.js Badge][Node.js-Badge]
 
 ![Sass Badge][Sass-Badge]
 ![PostCSS Badge][PostCSS-Badge]
 ![Bootstrap Badge][Bootstrap-Badge]
 
 ![React Badge][React-Badge]
-![Gatsby Badge][Gatsby-Badge]
-![Node.js Badge][Node.js-Badge]
-![DotNet Badge][DotNet-Badge]
+![Vue Badge][Vue-Badge]
 
 ![Yarn Badge][Yarn-Badge]
 ![Webpack Badge][Webpack-Badge]
@@ -34,9 +31,7 @@ Fe Developer, In ShenZhen, China -
 ![PowerShell Badge][PowerShell-Badge]
 ![VisualStudioCode Badge][VisualStudioCode-Badge]
 ![VisualStudio Badge][VisualStudio-Badge]
-![Xcode Badge][Xcode-Badge]
 ![Sketch Badge][Sketch-Badge]
-![InVision Badge][InVision-Badge]
 
 ![MacOS Badge][MacOS-Badge]
 ![Windows Badge][Windows-Badge]
@@ -48,8 +43,6 @@ Fe Developer, In ShenZhen, China -
 
 [TypeScript-Badge]: https://img.shields.io/badge/-TypeScript-%23007ACC?style=flat-square&logo=typescript&logoColor=white "TypeScript Badge"
 
-[CSharp-Badge]: https://img.shields.io/badge/-C_Sharp-%23239120?style=flat-square&logo=c-sharp&logoColor=white "C Sharp Badge"
-
 [Git-Badge]: https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=white "Git Badge"
 
 [Sass-Badge]: https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=white "Sass Badge"
@@ -58,15 +51,11 @@ Fe Developer, In ShenZhen, China -
 
 [Yarn-Badge]: https://img.shields.io/badge/-Yarn-%232C8EBB?style=flat-square&logo=yarn&logoColor=white "Yarn Badge"
 
-[XAML-Badge]: https://img.shields.io/badge/-XAML-%230C54C2?style=flat-square&logo=xaml&logoColor=white "XAML Badge"
-
 [Babel-Badge]: https://img.shields.io/badge/-Babel-%23F9DC3E?style=flat-square&logo=babel&logoColor=white "Babel Badge"
 
-[React-Badge]: https://img.shields.io/badge/-React-%2361DAFB?style=flat-square&logo=react&logoColor=white "React Badge"
+[React-Badge]: https://img.shields.io/badge/react%20-%2320232a.svg?&style=flat-square&logo=react&logoColor=%2361DAFB "React Badge"
 
-[Xcode-Badge]: https://img.shields.io/badge/-Xcode-%231575F9?style=flat-square&logo=xcode&logoColor=white "Xcode Badge"
-
-[Gatsby-Badge]: https://img.shields.io/badge/-Gatsby-%23663399?style=flat-square&logo=gatsby&logoColor=white "Gatsby Badge"
+[Vue-Badge]: https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=flat-square&logo=vue.js&logoColor=%234FC08D "React Badge"
 
 [Sketch-Badge]: https://img.shields.io/badge/-Sketch-%23F7B500?style=flat-square&logo=sketch&logoColor=white "Sketch Badge"
 
@@ -81,8 +70,6 @@ Fe Developer, In ShenZhen, China -
 [Windows-Badge]: https://img.shields.io/badge/-Windows-%230078D6?style=flat-square&logo=windows&logoColor=white "Windows Badge"
 
 [DotNet-Badge]: https://img.shields.io/badge/-.Net-%235C2D91?style=flat-square&logo=.net&logoColor=white ".Net Badge"
-
-[InVision-Badge]: https://img.shields.io/badge/-InVision-%23FF3366?style=flat-square&logo=invision&logoColor=white "InVision Badge"
 
 [Prettier-Badge]: https://img.shields.io/badge/-Prettier-%23F7B93E?style=flat-square&logo=prettier&logoColor=white "Prettier Badge"
 
@@ -101,3 +88,5 @@ Fe Developer, In ShenZhen, China -
 [VisualStudioCode-Badge]: https://img.shields.io/badge/-Visual_Studio_Code-%23007ACC?style=flat-square&logo=visual-studio-code&logoColor=white "Visual Studio Code Badge"
 
 [MacOS-Badge]: https://img.shields.io/badge/-macOS-%23999999?style=flat-square&logo=apple&logoColor=white "macOS Badge"
+
+[Vue-Badge]: https://img.shields.io/badge/-macOS-%23999999?style=flat-square&logo=apple&logoColor=white "macOS Badge"
