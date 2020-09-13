@@ -4,17 +4,17 @@ Fe Developer, In ShenZhen, China -
 
 ## WHAT I CAN DO
 
+![TypeScript Badge][TypeScript-Badge]
+![Node.js Badge][Node.js-Badge]
+![Dart Badge][Dart-Badge]
+![Java Badge][Java-Badge]
+![HTML5 Badge][HTML5-Badge]
+![CSS3 Badge][CSS3-Badge]
+
 ![React Badge][React-Badge]
 ![Vue Badge][Vue-Badge]
 ![Svelte Badge][Svelte-Badge]
 ![Flutter Badge][Flutter-Badge]
-
-![TypeScript Badge][TypeScript-Badge]
-![Node.js Badge][Node.js-Badge]
-![Java Badge][Java-Badge]
-![HTML5 Badge][HTML5-Badge]
-![CSS3 Badge][CSS3-Badge]
-![Dart Badge][Dart-Badge]
 
 ![Sass Badge][Sass-Badge]
 ![PostCSS Badge][PostCSS-Badge]
@@ -31,12 +31,13 @@ Fe Developer, In ShenZhen, China -
 
 ![Webpack Badge][Webpack-Badge]
 ![Rollup.js Badge][Rollup.js-Badge]
+![Docker Badge][Docker-Badge]
+![Drone-Badge][Drone-Badge]
 ![CircleCi-Badge][CircleCi-Badge]
 ![GitHubActions Badge][GitHubActions-Badge]
 
 ![MacOS Badge][MacOS-Badge]
 ![Windows Badge][Windows-Badge]
-
 
 <!-- # Skills Badges -->
 [HTML5-Badge]: https://img.shields.io/badge/-HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white "HTML5 Badge"
@@ -99,5 +100,8 @@ Fe Developer, In ShenZhen, China -
 
 [Flutter-Badge]: http://img.shields.io/badge/-Flutter-%2302569B?style=flat-square&logo=flutter&logoColor=white "Flutter Badge"
 
+[Docker-Badge]: http://img.shields.io/badge/-Docker-%232496ED?style=flat-square&logo=docker&logoColor=white "Docker Badge" 
+
+[Drone-Badge]: http://img.shields.io/badge/-Drone-%23212121?style=flat-square&logo=drone&logoColor=white "Drone Badge" 
 
 <!-- # TODO: Socical Badges -->
