@@ -4,6 +4,44 @@ Fe Developer, In ShenZhen, China -
 
 ## What I can do
 
+
+![HTML5 Badge][HTML5-Badge]
+![CSS3 Badge][CSS3-Badge]
+![TypeScript Badge][TypeScript-Badge]
+![CSharp Badge][CSharp-Badge]
+![XAML Badge][XAML-Badge]
+
+![Sass Badge][Sass-Badge]
+![PostCSS Badge][PostCSS-Badge]
+![Bootstrap Badge][Bootstrap-Badge]
+
+![React Badge][React-Badge]
+![Gatsby Badge][Gatsby-Badge]
+![Node.js Badge][Node.js-Badge]
+![DotNet Badge][DotNet-Badge]
+
+![Yarn Badge][Yarn-Badge]
+![Webpack Badge][Webpack-Badge]
+![Rollup.js Badge][Rollup.js-Badge]
+![ESLint Badge][ESLint-Badge]
+![Prettier Badge][Prettier-Badge]
+![Babel Badge][Babel-Badge]
+![Jest Badge][Jest-Badge]
+![Storybook Badge][Storybook-Badge]
+![GitHubActions Badge][GitHubActions-Badge]
+
+![Git Badge][Git-Badge]
+![PowerShell Badge][PowerShell-Badge]
+![VisualStudioCode Badge][VisualStudioCode-Badge]
+![VisualStudio Badge][VisualStudio-Badge]
+![Xcode Badge][Xcode-Badge]
+![Sketch Badge][Sketch-Badge]
+![InVision Badge][InVision-Badge]
+
+![MacOS Badge][MacOS-Badge]
+![Windows Badge][Windows-Badge]
+
+<!-- # Badges -->
 [HTML5-Badge]: https://img.shields.io/badge/-HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white "HTML5 Badge"
 
 [CSS3-Badge]: https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white "CSS3 Badge"
