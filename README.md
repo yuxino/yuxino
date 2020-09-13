@@ -15,6 +15,7 @@ Fe Developer, In ShenZhen, China -
 
 ![React Badge][React-Badge]
 ![Vue Badge][Vue-Badge]
+![Svelte Badge][Svelte-Badge]
 
 ![Yarn Badge][Yarn-Badge]
 ![Webpack Badge][Webpack-Badge]
@@ -38,7 +39,7 @@ Fe Developer, In ShenZhen, China -
 ![Windows Badge][Windows-Badge]
 
 
-<!-- # Badges -->
+<!-- # Skills Badges -->
 [HTML5-Badge]: https://img.shields.io/badge/-HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white "HTML5 Badge"
 
 [CSS3-Badge]: https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white "CSS3 Badge"
@@ -92,3 +93,7 @@ Fe Developer, In ShenZhen, China -
 [MacOS-Badge]: https://img.shields.io/badge/-macOS-black?style=flat-square&logo=apple&logoColor=white "macOS Badge"
 
 [Vue-Badge]: https://img.shields.io/badge/-macOS-%23999999?style=flat-square&logo=apple&logoColor=white "macOS Badge"
+
+[Svelte-Badge]: http://img.shields.io/badge/-Svelte-%23FF3E00?style=flat-square&logo=svelte&logoColor=white "Svelte Badge"
+
+<!-- # TODO: Socical Badges -->
