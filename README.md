@@ -21,11 +21,9 @@ Fe Developer, In ShenZhen, China -
 ![Rollup.js Badge][Rollup.js-Badge]
 ![ESLint Badge][ESLint-Badge]
 ![Prettier Badge][Prettier-Badge]
-![Babel Badge][Babel-Badge]
 ![Jest Badge][Jest-Badge]
 ![Storybook Badge][Storybook-Badge]
 
-![GitHubActions Badge][GitHubActions-Badge]
 ![GitHubActions Badge][GitHubActions-Badge]
 
 ![Git Badge][Git-Badge]
@@ -52,8 +50,6 @@ Fe Developer, In ShenZhen, China -
 [Jest-Badge]: https://img.shields.io/badge/-Jest-%23C21325?style=flat-square&logo=jest&logoColor=white "Jest Badge"
 
 [Yarn-Badge]: https://img.shields.io/badge/-Yarn-%232C8EBB?style=flat-square&logo=yarn&logoColor=white "Yarn Badge"
-
-[Babel-Badge]: https://img.shields.io/badge/-Babel-%23F9DC3E?style=flat-square&logo=babel&logoColor=white "Babel Badge"
 
 [React-Badge]: https://img.shields.io/badge/react%20-%2320232a.svg?&style=flat-square&logo=react&logoColor=%2361DAFB "React Badge"
 
