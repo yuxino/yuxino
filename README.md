@@ -4,14 +4,14 @@ Fe Developer, In ShenZhen, China -
 
 ## WHAT I CAN DO
 
-![HTML5 Badge][HTML5-Badge]
-![CSS3 Badge][CSS3-Badge]
 ![TypeScript Badge][TypeScript-Badge]
 ![Node.js Badge][Node.js-Badge]
+![Java Badge][Java-Badge]
+![HTML5 Badge][HTML5-Badge]
+![CSS3 Badge][CSS3-Badge]
 
 ![Sass Badge][Sass-Badge]
 ![PostCSS Badge][PostCSS-Badge]
-![Bootstrap Badge][Bootstrap-Badge]
 
 ![React Badge][React-Badge]
 ![Vue Badge][Vue-Badge]
@@ -19,11 +19,13 @@ Fe Developer, In ShenZhen, China -
 ![Yarn Badge][Yarn-Badge]
 ![Webpack Badge][Webpack-Badge]
 ![Rollup.js Badge][Rollup.js-Badge]
-![ESLint Badge][ESLint-Badge]
-![Prettier Badge][Prettier-Badge]
 ![Jest Badge][Jest-Badge]
 ![Storybook Badge][Storybook-Badge]
 
+![ESLint Badge][ESLint-Badge]
+![Prettier Badge][Prettier-Badge]
+
+![CircleCi-Badge][CircleCi-Badge]
 ![GitHubActions Badge][GitHubActions-Badge]
 
 ![Git Badge][Git-Badge]
@@ -46,6 +48,8 @@ Fe Developer, In ShenZhen, China -
 [Git-Badge]: https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=white "Git Badge"
 
 [Sass-Badge]: https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=white "Sass Badge"
+
+[Java-Badge]: https://img.shields.io/badge/-Java-red?style=flat-square&logo=java&logoColor=white "Java Badge"
 
 [Jest-Badge]: https://img.shields.io/badge/-Jest-%23C21325?style=flat-square&logo=jest&logoColor=white "Jest Badge"
 
@@ -75,8 +79,6 @@ Fe Developer, In ShenZhen, China -
 
 [Rollup.js-Badge]: https://img.shields.io/badge/-Rollup.js-%23EC4A3F?style=flat-square&logo=rollup.js&logoColor=white "Rollup.js Badge"
 
-[Bootstrap-Badge]: https://img.shields.io/badge/-Bootstrap-%23563D7C?style=flat-square&logo=bootstrap&logoColor=white "Bootstrap Badge"
-
 [PowerShell-Badge]: https://img.shields.io/badge/-PowerShell-%235391FE?style=flat-square&logo=powershell&logoColor=white "PowerShell Badge"
 
 [VisualStudio-Badge]: https://img.shields.io/badge/-Visual_Studio-%235C2D91?style=flat-square&logo=visual-studio&logoColor=white "Visual Studio Badge"
@@ -85,6 +87,8 @@ Fe Developer, In ShenZhen, China -
 
 [VisualStudioCode-Badge]: https://img.shields.io/badge/-Visual_Studio_Code-%23007ACC?style=flat-square&logo=visual-studio-code&logoColor=white "Visual Studio Code Badge"
 
-[MacOS-Badge]: https://img.shields.io/badge/-macOS-%23999999?style=flat-square&logo=apple&logoColor=white "macOS Badge"
+[CircleCi-Badge]: http://img.shields.io/badge/-CircleCi-black?style=flat-square&logo=circleci&logoColor=white "CircleCi Badge"
+
+[MacOS-Badge]: https://img.shields.io/badge/-macOS-black?style=flat-square&logo=apple&logoColor=white "macOS Badge"
 
 [Vue-Badge]: https://img.shields.io/badge/-macOS-%23999999?style=flat-square&logo=apple&logoColor=white "macOS Badge"
