@@ -66,7 +66,7 @@ Fe Developer, In ShenZhen, China -
 
 [Node.js-Badge]: https://img.shields.io/badge/-Node.js-%23339933?style=flat-square&logo=node.js&logoColor=white "Node.js Badge"
 
-[Webpack-Badge]: https://img.shields.io/badge/-Webpack-%238DD6F9?style=flat-square&logo=webpack&logoColor=white "Webpack Badge"
+[Webpack-Badge]: https://img.shields.io/badge/-Webpack-%238DD6F9?style=flat-square&logo=webpack&logoColor=black "Webpack Badge"
 
 [Windows-Badge]: https://img.shields.io/badge/-Windows-%230078D6?style=flat-square&logo=windows&logoColor=white "Windows Badge"
 
