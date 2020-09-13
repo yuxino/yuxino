@@ -1,9 +1,8 @@
-## I'm yuxino
+## I'M YUXINO
 
 Fe Developer, In ShenZhen, China -
 
-## What I can do
-
+## WHAT I CAN DO
 
 ![HTML5 Badge][HTML5-Badge]
 ![CSS3 Badge][CSS3-Badge]
@@ -25,6 +24,8 @@ Fe Developer, In ShenZhen, China -
 ![Babel Badge][Babel-Badge]
 ![Jest Badge][Jest-Badge]
 ![Storybook Badge][Storybook-Badge]
+
+![GitHubActions Badge][GitHubActions-Badge]
 ![GitHubActions Badge][GitHubActions-Badge]
 
 ![Git Badge][Git-Badge]
@@ -35,6 +36,7 @@ Fe Developer, In ShenZhen, China -
 
 ![MacOS Badge][MacOS-Badge]
 ![Windows Badge][Windows-Badge]
+
 
 <!-- # Badges -->
 [HTML5-Badge]: https://img.shields.io/badge/-HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white "HTML5 Badge"
