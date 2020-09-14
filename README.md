@@ -69,7 +69,7 @@ Fe Developer, In ShenZhen, China -
 
 [React-Badge]: https://img.shields.io/badge/react%20-%2320232a.svg?&style=flat-square&logo=react&logoColor=%2361DAFB "React Badge"
 
-[Vue-Badge]: https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=flat-square&logo=vue.js&logoColor=%234FC08D "React Badge"
+[Vue-Badge]: https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=flat-square&logo=vue.js&logoColor=%234FC08D "Vue Badge"
 
 [Sketch-Badge]: https://img.shields.io/badge/-Sketch-%23F7B500?style=flat-square&logo=sketch&logoColor=white "Sketch Badge"
 
