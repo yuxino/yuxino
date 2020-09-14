@@ -39,6 +39,15 @@ Fe Developer, In ShenZhen, China -
 ![MacOS Badge][MacOS-Badge]
 ![Windows Badge][Windows-Badge]
 
+## PROJECT
+
+[![Blog Project][Blog Project]][Blog Link]
+[![Meteorite Project][Blog Project]][Meteorite Link]
+[![Pyfl Project][Pyfl Project]][Pyfl Link]
+[![Fex Project][Fex Project]][Fex Link]
+[![Kiracli Project][Kiracli Project]][Kiracli Link]
+[![The Scripts Project][The Scripts Project]][The Scripts Link]
+
 <!-- # Skills Badges -->
 [HTML5-Badge]: https://img.shields.io/badge/-HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white "HTML5 Badge"
 
@@ -105,3 +114,16 @@ Fe Developer, In ShenZhen, China -
 [Drone-Badge]: http://img.shields.io/badge/-Drone-%23212121?style=flat-square&logo=drone&logoColor=white "Drone Badge" 
 
 <!-- # TODO: Socical Badges -->
+
+[Pyfl Project]: https://img.shields.io/github/stars/yuxino/pyfl?label=pyfl&logo=github&style=flat-square "Pyfl Project"
+[Pyfl Link]: https://github.com/yuxino/pyfl "Pyfl Link"
+[Blog Project]: https://img.shields.io/github/stars/yuxino/blog?label=blog&logo=github&style=flat-square "Blog Project"
+[Blog Link]: https://github.com/yuxino/blog "Blog Link"
+[Meteorite Project]: https://img.shields.io/github/stars/yuxino/meteorite?label=meteorite&logo=github&style=flat-square "Meteorite Project"
+[Meteorite Link]: https://github.com/yuxino/meteorite "Meteorite Link"
+[Kiracli Project]: https://img.shields.io/github/stars/kirakira-template/kiracli?label=kiracli&logo=github&style=flat-square "Kiracli Project"
+[Kiracli Link]: "https://github.com/kirakira-template/kiracli" "Kiracli Link"
+[The Scripts Project]: https://img.shields.io/github/stars/yuxino/the-scripts?label=the-scripts&logo=github&style=flat-square "The Scripts Project"
+[The Scripts Link]: https://github.com/yuxino/link "The Scripts Link"
+[Fex Project]: https://img.shields.io/github/stars/yuxino/fex?label=fex&logo=github&style=flat-square "Fex Project"
+[Fex Link]: https://github.com/yuxino/fex "Fex Link"
