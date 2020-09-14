@@ -1,6 +1,15 @@
-## I'M YUXINO ![visitors](https://visitor-badge.glitch.me/badge?page_id=yuxino)
+## I'M YUXINO ![Visitor][Visitor]
 
 Fe Developer, In ShenZhen, China -
+
+## PROJECT
+
+[![Blog Project][Blog Project]][Blog Link]
+[![Meteorite Project][Blog Project]][Meteorite Link]
+[![Pyfl Project][Pyfl Project]][Pyfl Link]
+[![Fex Project][Fex Project]][Fex Link]
+[![Kiracli Project][Kiracli Project]][Kiracli Link]
+[![The Scripts Project][The Scripts Project]][The Scripts Link]
 
 ## WHAT I CAN DO
 
@@ -39,14 +48,7 @@ Fe Developer, In ShenZhen, China -
 ![MacOS Badge][MacOS-Badge]
 ![Windows Badge][Windows-Badge]
 
-## PROJECT
-
-[![Blog Project][Blog Project]][Blog Link]
-[![Meteorite Project][Blog Project]][Meteorite Link]
-[![Pyfl Project][Pyfl Project]][Pyfl Link]
-[![Fex Project][Fex Project]][Fex Link]
-[![Kiracli Project][Kiracli Project]][Kiracli Link]
-[![The Scripts Project][The Scripts Project]][The Scripts Link]
+[Visitor]: https://visitor-badge.glitch.me/badge?page_id=yuxino "Visitor"
 
 <!-- # Skills Badges -->
 [HTML5-Badge]: https://img.shields.io/badge/-HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white "HTML5 Badge"
