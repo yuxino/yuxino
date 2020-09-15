@@ -48,6 +48,11 @@ Fe Developer, In ShenZhen, China -
 ![MacOS Badge][MacOS-Badge]
 ![Windows Badge][Windows-Badge]
 
+## DO YOU LIKE ME
+
+[![](https://api.gh-polls.com/poll/01EJ7QQ8YW6YRHQ63ANXSGAD0R/YES)](https://api.gh-polls.com/poll/01EJ7QQ8YW6YRHQ63ANXSGAD0R/YES/vote)
+[![](https://api.gh-polls.com/poll/01EJ7QQ8YW6YRHQ63ANXSGAD0R/NOPE)](https://api.gh-polls.com/poll/01EJ7QQ8YW6YRHQ63ANXSGAD0R/NOPE/vote)
+
 [Visitor]: https://visitor-badge.glitch.me/badge?page_id=yuxino "Visitor"
 
 <!-- # Skills Badges -->
