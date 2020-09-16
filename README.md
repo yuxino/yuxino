@@ -4,12 +4,12 @@ Fe Developer, In ShenZhen, China -
 
 ## PROJECT
 
-[![Blog Project][Blog Project]][Blog Link]
 [![Meteorite Project][Blog Project]][Meteorite Link]
 [![Pyfl Project][Pyfl Project]][Pyfl Link]
-[![Fex Project][Fex Project]][Fex Link]
 [![Kiracli Project][Kiracli Project]][Kiracli Link]
 [![The Scripts Project][The Scripts Project]][The Scripts Link]
+[![Blog Project][Blog Project]][Blog Link]
+[![Fex Project][Fex Project]][Fex Link]
 
 ## WHAT I CAN DO
 
@@ -123,15 +123,15 @@ Fe Developer, In ShenZhen, China -
 
 <!-- # TODO: Socical Badges -->
 
-[Pyfl Project]: https://img.shields.io/github/stars/yuxino/pyfl?label=pyfl&logo=github&style=flat-square "Pyfl Project"
+[Pyfl Project]: https://img.shields.io/github/stars/yuxino/pyfl?label=pyfl&logo=typescript&style=flat-square "Pyfl Project"
 [Pyfl Link]: https://github.com/yuxino/pyfl "Pyfl Link"
 [Blog Project]: https://img.shields.io/github/stars/yuxino/blog?label=blog&logo=github&style=flat-square "Blog Project"
 [Blog Link]: https://github.com/yuxino/blog "Blog Link"
-[Meteorite Project]: https://img.shields.io/github/stars/yuxino/meteorite?label=meteorite&logo=github&style=flat-square "Meteorite Project"
+[Meteorite Project]: https://img.shields.io/github/stars/yuxino/meteorite?label=meteorite&logo=typescript&style=flat-square "Meteorite Project"
 [Meteorite Link]: https://github.com/yuxino/meteorite "Meteorite Link"
-[Kiracli Project]: https://img.shields.io/github/stars/kirakira-template/kiracli?label=kiracli&logo=github&style=flat-square "Kiracli Project"
+[Kiracli Project]: https://img.shields.io/github/stars/kirakira-template/kiracli?label=kiracli&logo=javascript&style=flat-square "Kiracli Project"
 [Kiracli Link]: "https://github.com/kirakira-template/kiracli" "Kiracli Link"
-[The Scripts Project]: https://img.shields.io/github/stars/yuxino/the-scripts?label=the-scripts&logo=github&style=flat-square "The Scripts Project"
+[The Scripts Project]: https://img.shields.io/github/stars/yuxino/the-scripts?label=the-scripts&logo=javascript&style=flat-square "The Scripts Project"
 [The Scripts Link]: https://github.com/yuxino/link "The Scripts Link"
 [Fex Project]: https://img.shields.io/github/stars/yuxino/fex?label=fex&logo=github&style=flat-square "Fex Project"
 [Fex Link]: https://github.com/yuxino/fex "Fex Link"
