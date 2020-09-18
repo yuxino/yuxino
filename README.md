@@ -1,8 +1,8 @@
-## I'M YUXINO ![Visitor][Visitor]
+## HI,DEAR I'M YUXINO ![Visitor][Visitor]
 
 Fe Developer, In ShenZhen, China -
 
-## PROJECT
+## MY PROJECTS
 
 [![Meteorite Project][Meteorite Project]][Meteorite Link]
 [![Pyfl Project][Pyfl Project]][Pyfl Link]
@@ -11,7 +11,7 @@ Fe Developer, In ShenZhen, China -
 [![Blog Project][Blog Project]][Blog Link]
 [![Fex Project][Fex Project]][Fex Link]
 
-## WHAT I CAN DO
+## MY SKILLS
 
 ![TypeScript Badge][TypeScript-Badge]
 ![Node.js Badge][Node.js-Badge]
