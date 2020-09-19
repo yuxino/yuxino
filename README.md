@@ -23,6 +23,7 @@ Fe Developer, In ShenZhen, China -
 ![React Badge][React-Badge]
 ![Vue Badge][Vue-Badge]
 ![Svelte Badge][Svelte-Badge]
+![Taro-Badge][Taro-Badge]
 ![Flutter Badge][Flutter-Badge]
 ![Spring Badge][Spring-Badge]
 
@@ -126,6 +127,8 @@ Fe Developer, In ShenZhen, China -
 [Drone-Badge]: http://img.shields.io/badge/-Drone-%23212121?style=flat-square&logo=drone&logoColor=white "Drone Badge" 
 
 [Spring-Badge]: http://img.shields.io/badge/-Spring-%236DB33F?style=flat-square&logo=spring&logoColor=white "Spring Badge" 
+
+[Taro-Badge]: http://img.shields.io/badge/-Taro.js-%23000000?style=flat-square&logo=wechat&logoColor=white "Taro Badge" 
 
 <!-- # TODO: Socical Badges -->
 
