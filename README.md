@@ -54,11 +54,6 @@ Fe Developer, In ShenZhen, China -
 
 [![](https://api.gh-polls.com/poll/01EJ7RYQK67MYVZXEQGWNHQTVR/YES)](https://api.gh-polls.com/poll/01EJ7RYQK67MYVZXEQGWNHQTVR/YES/vote) [![](https://api.gh-polls.com/poll/01EJ7RYQK67MYVZXEQGWNHQTVR/NO)](https://api.gh-polls.com/poll/01EJ7RYQK67MYVZXEQGWNHQTVR/NO/vote)
 
-## IF YOU VOTE NO I WILL
-
-<img src="https://user-images.githubusercontent.com/12481935/93556487-6ce6a480-f9ab-11ea-81f8-5588282b2565.png" width="150" />
-
-
 [Visitor]: https://visitor-badge.glitch.me/badge?page_id=yuxino "Visitor"
 
 <!-- # Skills Badges -->
