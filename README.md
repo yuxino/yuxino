@@ -1,1 +1,1 @@
-🐳 Whoa dizzy
+🐳 Imitation & learning& and combination & creating
