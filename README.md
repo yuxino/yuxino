@@ -1,1 +1,1 @@
-👌 Hello
+🐳 Whoa dizzy
