@@ -18,7 +18,6 @@ Things I built, learned from, and eventually left behind.
 
 ### PUBLIC
 
-- **2016–2026** · [vido](https://github.com/yuxino/vido) — My first video player, built with Vue 1.x. I came back in 2026 to fix autoplay and then left it alone again.
 - **2020** · [flutter_npass](https://github.com/yuxino/flutter_npass) — A Flutter client for my unfinished password manager.
 - **2020** · [mobile-pdf-viewer](https://github.com/yuxino/mobile-pdf-viewer) — A modified pdf.js viewer for opening PDFs inside Android WeChat.
 - **2020** · [the-scripts](https://github.com/yuxino/the-scripts) — A tiny CLI for browsing and running scripts from `package.json`.
@@ -34,6 +33,7 @@ Things I built, learned from, and eventually left behind.
 - **2018** · [react-scratch](https://github.com/yuxino/react-scratch) — A simple scratch-card component for React.
 - **2017–2018** · [dashboard](https://github.com/yuxino/dashboard) — A Vue dashboard I built while learning components and interactions.
 - **2017** · [vue-typescript-starter](https://github.com/yuxino/vue-typescript-starter) — A small starter for trying Vue and TypeScript together.
+- **2016–2017** · [vido](https://github.com/yuxino/vido) — An early custom video player I built with Vue 1.x.
 
 ### PRIVATE
 
