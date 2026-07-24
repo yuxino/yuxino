@@ -36,9 +36,15 @@ I was already learning by making things, just more slowly.
 
 Then I started rebuilding the parts underneath. [**`ob`**](https://github.com/yuxino/ob) described itself as “an ex to learn Observere (💩)” and eventually became a small MVVM experiment. [**`react-mini`**](https://github.com/yuxino/react-mini) said only “just for fun”. I picked up [**SICP**](https://github.com/yuxino/sicp-ex) because I wanted to understand functional programming rather than just collect another syntax. While following that trail I got interested in higher-order functions, recursion and odd little wonders like the Y combinator. I made it to exercise 2.29 before another curiosity won. The book, unlike me, stayed on course.
 
-For a while it looked like I might become a great Java backend developer. **`miaohu`** was a Zhihu clone; I wrote most of the backend APIs, my friend never quite got around to the frontend, and that was that. Then I wrote **`Marisa`**, a small HTTP server inspired by Spring, complete with a cute bootstrap. I did not become a great Java developer, but for a moment the evidence was convincing.
+For a while it looked like I might become a great Java backend developer. **`miaohu`** was a Zhihu clone; I wrote most of the backend APIs, my friend never quite got around to the frontend, and that was that. Then I wrote **`Marisa`**, a small HTTP server inspired by Spring, complete with a cute bootstrap. I did not become a great Java developer. I ran off to frontend instead.
 
-There was also a period when I wandered into other people's frameworks and sent patches. A tiny change made it into [Lodash](https://github.com/lodash/lodash/pull/3467), and another made it into [Redux](https://github.com/reduxjs/redux/pull/2976). I also tried things in [Vite](https://github.com/vitejs/vite/pull/219), [VitePress](https://github.com/vuejs/vitepress/pull/116), [Taro](https://github.com/NervJS/taro/pull/4334), [iView](https://github.com/iview/iview/pull/5413) and [Zustand](https://github.com/pmndrs/zustand/pull/785). Some landed, some did not, and several of those projects later became much larger than the versions I once poked at.
+Before I learned the normal ways to participate in open source, I wrote emails.
+
+In college I sent one titled **“加入 Blade Orgnaization 的申请”** to the author of [**Blade**](https://github.com/lets-blade/blade). I introduced myself, talked about HTTP servers and Tale, listed some books I had read, and promised that even if I could not solve the hard problems, I would at least try. He replied patiently, invited me into the GitHub organization, and even offered to walk me through the architecture. A month later I emailed again, embarrassed that I had only fixed a few typos, asking whether there was anything useful I could do. Reading those emails now makes me want to close the tab. I am still very grateful that he took a university student so seriously.
+
+Two years later, while making [**`pyfl`**](https://github.com/yuxino/pyfl), I emailed the author of [**pinyin.js**](https://github.com/sxei/pinyinjs) because I wanted to reuse only the first-letter dictionary and could not find a license. He said it was fine as long as I credited the source. A week later I replied: `以著名 感谢`. The typo has survived longer than the project. I still wonder how both authors are doing.
+
+Eventually I learned to just send patches. A tiny change made it into [Lodash](https://github.com/lodash/lodash/pull/3467), and another made it into [Redux](https://github.com/reduxjs/redux/pull/2976). I also tried things in [Vite](https://github.com/vitejs/vite/pull/219), [VitePress](https://github.com/vuejs/vitepress/pull/116), [Taro](https://github.com/NervJS/taro/pull/4334), [iView](https://github.com/iview/iview/pull/5413) and [Zustand](https://github.com/pmndrs/zustand/pull/785). Some landed, some did not, and several of those projects later became much larger than the versions I once poked at.
 
 ## some projects just stayed there
 
@@ -52,7 +58,6 @@ Sometimes I stopped because I had learned what I came for. Sometimes the other h
 <summary>some older shelves</summary>
 
 - [**`osu`**](https://github.com/yuxino/osu) — a currency converter, despite the name.
-- [**`pyfl`**](https://github.com/yuxino/pyfl) — first letters of Chinese pinyin in the browser.
 - [**`mobile-pdf-viewer`**](https://github.com/yuxino/mobile-pdf-viewer) — opening PDFs inside Android WeChat.
 - [**`vscode-pdf-reader`**](https://github.com/yuxino/vscode-pdf-reader) — reading PDFs inside VS Code; pdf.js was involved twice, which was already one time too many.
 - [**`the-scripts`**](https://github.com/yuxino/the-scripts) — browsing and running scripts from `package.json`.
