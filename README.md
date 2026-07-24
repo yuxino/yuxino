@@ -47,6 +47,9 @@ There were also practical tools that survived because they solved annoyingly spe
 - [**vscode-pdf-reader**](https://github.com/yuxino/vscode-pdf-reader) — A VS Code PDF reader built on pdf.js. Using pdf.js to work around pdf.js went about as expected.
 - [**the-scripts**](https://github.com/yuxino/the-scripts) — Browse and run scripts from `package.json`.
 - [**pyfl**](https://github.com/yuxino/pyfl) — Get the first letters of Chinese pinyin in the browser. Bigger than necessary, but it worked.
+- [**lemuro**](https://github.com/yuxino/lemuro) — Filesystem helpers I kept rewriting, so I finally gave them a home of their own.
+
+Some project names came from whatever I was watching or liking at the time. They are less a naming system than a small record of where my head was then.
 
 The rest are still here somewhere: unfinished password managers, abandoned blogs, half-built frameworks, an empty repository named `ghost`, and another one literally named `-`.
 
