@@ -10,19 +10,23 @@
 
 ## LATELY
 
-I still like making small things for myself.
+I still make small things for myself. AI made the typing faster; it did not make the ideas stay in their original lane.
 
-Some help me remember things: **`nichijou`** keeps posts, photos and ordinary days; **`ele`** remembers meals; **`ashita`** is a timeline for the larger gaps.
+Some are for remembering. **`nichijou`** started with a week calendar and a contribution grid, then slowly became a feed for posts, photos and ordinary days. **`ele`** remembers meals. **`ashita`** keeps the longer timeline — and occasionally edits it back to what actually happened when the summary gets too dramatic.
 
-Some make my Mac a little more mine: **`mimi`** does live translated subtitles, **`tick`** puts macOS `launchd` behind a friendly window (and Miku in the menu bar), and **`deepsuck`** lets me use Claude Code from my phone — for the important engineering problem of not wanting to walk back to the desk.
+Some make my Mac feel a little more like mine. **`mimi`** does live translated subtitles. **`tick`** puts macOS `launchd` behind a friendly window, with Miku in the menu bar.
 
-Then there is **`comet`**. It needed a better way to publish, so I made **`meow`**. `meow` needed APIs, auth, templates and release jobs. That is roughly how [`yuxino-labs`](https://github.com/yuxino-labs) became a collection of apps plus the small machine that keeps them alive.
+**`deepsuck`** has the best record of me changing my mind. I started it when DeepSeek V4 came out: a Tauri desktop client with streaming chat, tools and reasoning. Not long after, some Claude Code internals started making the rounds, so I replaced almost the whole project with a mobile PWA for using local Claude Code from my phone. The repository kept its name. I did not keep the model.
 
-**`yomi`** is a visual workflow editor. **`paw`** is a web file explorer. I did not need all of these equally. Wanting to know whether I could make them was usually enough.
+Then **`comet`** wanted a better release process. That became **`meow`**; `meow` wanted APIs, auth, templates, versioned OSS releases and bootstrap scripts. This is roughly how [`yuxino-labs`](https://github.com/yuxino-labs) became a collection of apps and the small machine that keeps them alive.
+
+The early commits are honest about the speed: `meow` briefly still had an expense tracker's README, and **`yomi`** kept the page title `记账本` while becoming a visual workflow editor. The code usually moves first. The labels catch up later.
+
+**`paw`** is a web file explorer. I did not need all of these equally. Wanting to know whether I could make them was often enough.
 
 ## BEFORE AI COULD TYPE THIS FAST
 
-Before Codex and Claude, the method was slower but mostly the same: find something interesting, rebuild enough of it to stop being mysterious.
+The method was slower, but mostly the same: find something interesting and rebuild enough of it to stop being mysterious.
 
 [**vido**](https://github.com/yuxino/vido), [**WeChat**](https://github.com/yuxino/WeChat) and [**dashboard**](https://github.com/yuxino/dashboard) were how I learned frontend by rebuilding things I could see.
 
@@ -38,7 +42,7 @@ I also made tools for annoyingly specific problems:
 - [**pyfl**](https://github.com/yuxino/pyfl) — Get the first letters of Chinese pinyin in the browser. Bigger than necessary, but it worked.
 - [**lemuro**](https://github.com/yuxino/lemuro) — Filesystem helpers I kept rewriting, so I finally put them in one place.
 
-`lemuro` was named after Rimuru from *That Time I Got Reincarnated as a Slime*, with the spelling taking a small detour somewhere between the subtitles and GitHub. A few other names came from whatever I was watching at the time. They work surprisingly well as timestamps now.
+Some names are timestamps. `lemuro` came from Rimuru in *That Time I Got Reincarnated as a Slime*, after the spelling took a small detour. The code is filesystem utilities. Both made sense at the time.
 
 There are unfinished password managers, abandoned blogs, half-built frameworks, an empty repository named `ghost`, and another one literally named `-`.
 
