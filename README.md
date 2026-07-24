@@ -14,11 +14,11 @@ I make things mostly for myself. Sometimes I need them. Sometimes I just want to
 
 **`mimi`** does live translated subtitles because teenage me wanted to understand Japanese AV instead of guessing. **`wnacg`** started because I wanted to learn Tauri and needed something to build, so I made a doujin reader. I worked on it for quite a while and, yes, jerked off a lot while testing it.
 
-**`deepsuck`** started as a DeepSeek desktop client when V4 appeared. Then Claude Code's leaked source showed up, I got distracted, and almost the whole project became a way to use local Claude Code from my phone. The repository kept its name. I changed sides.
+**`deepsuck`** began as a DeepSeek desktop client when V4 appeared. The name was only a couple of letters off. Then Claude Code's leaked source showed up, I got distracted, and almost the whole project became a way to use local Claude Code from my phone. In hindsight, the name may have been trying to tell me something.
 
 **`comet`** is another idea that refused to disappear. Years earlier I had **`task-daily`**, a small app for recording tasks. AI changed how fast I can build it, but apparently I still need to write software to tell myself what to do.
 
-`comet` also wanted a better way to publish, which turned into **`meow`**, and then into a small pile of templates, APIs and release tools in [`yuxino-labs`](https://github.com/yuxino-labs). This happens more often than planned.
+`comet` needed a better way to publish, so I made **`meow`** — the little release platform that manages the frontends I build with AI. It keeps track of projects, builds, versions and releases. The projects multiply; the cat ships them.
 
 The names are part of the memory too. **`yomi`** is Yuumi from *League of Legends*. **`ashita`** means tomorrow. **`lemuro`** came from Rimuru. **`vido`** belongs to the period when I was learning Vue and liked Miku very much. I like cute characters, cats, and names that sound a little Japanese. There is no naming system. There was just whatever I liked at the time.
 
