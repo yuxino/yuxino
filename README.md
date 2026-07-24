@@ -10,40 +10,46 @@
 
 ## LATELY
 
-I still make small things for myself. AI made the typing faster; it did not make the ideas stay in their original lane.
+I still make things mostly for myself. Not because the problems are especially difficult. I want something, or I want to know whether I can make it, and that is usually enough.
 
-Some are for remembering. **`nichijou`** started with a week calendar and a contribution grid, then slowly became a feed for posts, photos and ordinary days. **`ele`** remembers meals. **`ashita`** keeps the longer timeline — and occasionally edits it back to what actually happened when the summary gets too dramatic.
+Some are ways to remember things. **`nichijou`** started with a week calendar and a contribution grid, then slowly became a feed for posts, photos and ordinary days. **`ele`** remembers meals. **`ashita`** means “tomorrow”; it keeps the longer timeline — first meetings, marriage, a honeymoon, and whatever else survives my occasional urge to rewrite life too dramatically.
 
-Some make my Mac feel a little more like mine. **`mimi`** does live translated subtitles. **`tick`** puts macOS `launchd` behind a friendly window, with Miku in the menu bar.
+Some make my Mac feel more like mine. **`tick`** puts macOS `launchd` behind a friendly window, with Miku in the menu bar. **`mimi`** does live translated subtitles. The honest reason is that teenage me wanted to understand Japanese AV instead of guessing what everyone was saying. It took a few years and rather more AI than expected, but the dream is now technically feasible.
 
-**`deepsuck`** has the best record of me changing my mind. I started it when DeepSeek V4 came out: a Tauri desktop client with streaming chat, tools and reasoning. Not long after, some Claude Code internals started making the rounds, so I replaced almost the whole project with a mobile PWA for using local Claude Code from my phone. The repository kept its name. I did not keep the model.
+**`deepsuck`** has the best record of me changing my mind. It started when DeepSeek V4 came out: a Tauri desktop client with streaming chat, tools and reasoning. Then Claude Code's leaked source appeared and I wanted to play with that instead, so I replaced almost the whole project with a mobile PWA for using local Claude Code from my phone. The repository kept its name. I did not keep the model.
 
-Then **`comet`** wanted a better release process. That became **`meow`**; `meow` wanted APIs, auth, templates, versioned OSS releases and bootstrap scripts. This is roughly how [`yuxino-labs`](https://github.com/yuxino-labs) became a collection of apps and the small machine that keeps them alive.
+**`comet`** is the current version of an idea that has followed me for years. Long before it, **`task-daily`** was a Svelte app for recording my tasks. Its sample list contained `Leetcode`, `SICP` and `Runing`, which is a fairly complete portrait of my ambitions and spelling at the time. AI changed the stack and the speed; apparently I still need to build software to tell myself what to do.
 
-The early commits are honest about the speed: `meow` briefly still had an expense tracker's README, and **`yomi`** kept the page title `记账本` while becoming a visual workflow editor. The code usually moves first. The labels catch up later.
+Then `comet` wanted a better release process. That became **`meow`**; `meow` wanted APIs, auth, templates, versioned OSS releases and bootstrap scripts. This is roughly how [`yuxino-labs`](https://github.com/yuxino-labs) became a collection of apps and the small machine that keeps them alive.
 
-**`paw`** is a web file explorer. I did not need all of these equally. Wanting to know whether I could make them was often enough.
+The early commits are honest about the speed. `meow` briefly still had an expense tracker's README. **`yomi`** kept the page title `记账本` while becoming a visual workflow editor. The code usually moves first; the labels catch up later.
+
+`yomi`, by the way, is named after Yuumi from *League of Legends*. It is not a workflow term. I just like cute things, characters, cats, and names that feel a little Japanese. **`ashita`** is tomorrow, **`lemuro`** came from Rimuru, and **`vido`** belongs to the period when I was learning Vue naming conventions and liked Miku very much. The names are not a system. They are timestamps.
 
 ## BEFORE AI COULD TYPE THIS FAST
 
 The method was slower, but mostly the same: find something interesting and rebuild enough of it to stop being mysterious.
 
-[**vido**](https://github.com/yuxino/vido), [**WeChat**](https://github.com/yuxino/WeChat) and [**dashboard**](https://github.com/yuxino/dashboard) were how I learned frontend by rebuilding things I could see.
+[**vido**](https://github.com/yuxino/vido) was a Vue 1.x video player. [**WeChat**](https://github.com/yuxino/WeChat), [**dashboard**](https://github.com/yuxino/dashboard) and [**2048**](https://github.com/yuxino/2048) were from the years when learning frontend often meant rebuilding whatever I could see.
 
-[**ob**](https://github.com/yuxino/ob), **`react-mini`**, **`vue-ssr`** and **`Marisa`** were attempts to understand the parts underneath: MVVM, hooks, server rendering, routers, annotations and thread pools.
+Then I started rebuilding the parts underneath. [**ob**](https://github.com/yuxino/ob) grew from an Observer exercise into a tiny MVVM implementation. **`react-scratch`**, **`react-mini`** and **`react-impl`** were several attempts at understanding React by making smaller Reacts. **`vue-ssr`**, **`create-react-app`**, **`promise_impl`**, **`y-language`** and a tiny Babel experiment were other versions of the same habit: reading is useful, but apparently I prefer creating a repository first.
 
-[**sicp-ex**](https://github.com/yuxino/sicp-ex) was the period when exercise 2.29 seemed like a reasonable way to spend an evening.
+**`Marisa`** was a Java web server for learning routers, annotations and thread pools. [**sicp-ex**](https://github.com/yuxino/sicp-ex), **`algs-notes`** and **`algs4-ts`** mark the periods when algorithms and exercise books seemed like reasonable evening entertainment. I made it to SICP 2.29. The book continued without me.
 
-I also made tools for annoyingly specific problems:
+I also kept making small tools because I wanted them nearby:
 
-- [**mobile-pdf-viewer**](https://github.com/yuxino/mobile-pdf-viewer) — Open PDFs inside Android WeChat.
-- [**vscode-pdf-reader**](https://github.com/yuxino/vscode-pdf-reader) — A VS Code PDF reader built on pdf.js. Using pdf.js to work around pdf.js went about as expected.
-- [**the-scripts**](https://github.com/yuxino/the-scripts) — Browse and run scripts from `package.json`.
-- [**pyfl**](https://github.com/yuxino/pyfl) — Get the first letters of Chinese pinyin in the browser. Bigger than necessary, but it worked.
-- [**lemuro**](https://github.com/yuxino/lemuro) — Filesystem helpers I kept rewriting, so I finally put them in one place.
+- [**mobile-pdf-viewer**](https://github.com/yuxino/mobile-pdf-viewer) — open PDFs inside Android WeChat.
+- [**vscode-pdf-reader**](https://github.com/yuxino/vscode-pdf-reader) — read PDFs in VS Code; using pdf.js to work around pdf.js went about as expected.
+- [**the-scripts**](https://github.com/yuxino/the-scripts) — browse and run scripts from `package.json`.
+- [**pyfl**](https://github.com/yuxino/pyfl) — get the first letters of Chinese pinyin in the browser.
+- [**lemuro**](https://github.com/yuxino/lemuro) — filesystem helpers that kept reappearing, so I finally gave them a repository.
 
-Some names are timestamps. `lemuro` came from Rimuru in *That Time I Got Reincarnated as a Slime*, after the spelling took a small detour. The code is filesystem utilities. Both made sense at the time.
+There were repeated ideas too. **`server-npass`**, **`swiftui-npass`** and [**flutter_npass**](https://github.com/yuxino/flutter_npass) are one password manager passing through several stacks. Blogs became **`blog`**, **`moment`**, **`ashita`** and, in a different way, `nichijou`. `task-daily` eventually returned as `comet`. Some projects ended; some merely waited for a new framework, a new model, or a better name.
 
-There are unfinished password managers, abandoned blogs, half-built frameworks, an empty repository named `ghost`, and another one literally named `-`.
+There are also experiments with Flutter, Three.js, Ruby-like syntax in Babel, serverless deployments, bots, snippets, cloned interfaces, empty repositories, an actual **`ghost`**, and another repository literally named **`-`**. I do not remember every original plan. I remember the person who kept making them.
 
-I do not think all unfinished projects are failures. Most of them answered the question I had when I started. The better ones also made the next question possible.
+I have been learning for a long time. I have also been abandoning projects for a long time.
+
+Sometimes I stopped because I had learned what I came for. Sometimes something newer or cuter appeared. Sometimes the same unfinished idea crossed several years and came back with different code.
+
+Most of these repositories are not achievements arranged into a career story. They are just my memories, with dependencies.
