@@ -8,11 +8,29 @@
 
 ❤️ Health comes first. Get a good night's sleep.
 
-## NEXT LIFE
+## NOW
+
+I build small personal products with AI, then keep the parts worth reusing: templates, auth, APIs, release tooling, and shared web infrastructure.
+
+Most of the current work lives in [`yuxino-labs`](https://github.com/yuxino-labs).
+
+### PRODUCT SYSTEM
+
+- **meow** *(private)* — A release-control platform for my web projects. It creates projects, triggers GitHub Actions builds, manages versioned OSS releases, switches active versions, configures runtime scripts, and handles cleanup.
+- **meow-api / meow-release / meow-bootstrap** *(private)* — The API, centralized release workflow, and bootstrap layer behind `meow`.
+- **web-template / server-template / web-shared / auth** — Reusable foundations for starting and operating the next project without rebuilding the boring parts.
+
+### CURRENT PRODUCTS
 
 - **2026–now** · `mimi` *(private)* — Live translated subtitles for macOS. This is the new one.
+- **2026** · `nichijou` *(private)* — A personal daily-life journal with posts, memories, categories, image workflows, comments, search, focus tools, badges, and mobile interactions.
+- **2026** · `yomi` *(private)* — A visual workflow editor built around React Flow, configurable nodes, branching, execution logs, local persistence, and runtime settings.
+- **2026** · `paw` *(private)* — A browser-based file explorer connected to the same versioned release platform.
+- **2026** · `ele` *(private)* — A Chinese meal photo diary for remembering what I ate, what I photographed, and how many stars the meal deserved.
+- **2025–2026** · `comet` *(private)* — A personal board-style web app, and the project that pushed me to build the shared OSS release and runtime infrastructure around it.
+- **2026** · `talk` *(private)* — A Slidev deck explaining the `meow` platform and how the pieces fit together.
 
-## GRAVEYARD
+## PREVIOUS LIFE
 
 Things I built, learned from, and eventually left behind.
 
