@@ -63,7 +63,7 @@ Sometimes I stopped because I had learned what I came for. Sometimes the other h
 - [**`lemuro`**](https://github.com/yuxino/lemuro) — filesystem helpers that later turned up inside `viva`.
 - **`server-npass`**, **`swiftui-npass`**, [**`flutter_npass`**](https://github.com/yuxino/flutter_npass) — one password-manager idea trying on several stacks.
 - [**`sicp-ex`**](https://github.com/yuxino/sicp-ex), **`algs-notes`**, **`algs4-ts`** — evidence that I once considered exercise books reasonable evening entertainment.
-- **`ghost`** is empty. Another repository is literally named **`-`**. I no longer remember every plan, which is partly why I keep the repositories.
+- **`ghost`** is empty. [**`-`**](https://github.com/yuxino/-/issues/14) hides a 2020 note where I turned shortest paths into a career decision tree and concluded that nearly every route ended badly except learning. I also wrote that someone might dig it up and embarrass me one day. Someone did.
 
 </details>
 
