@@ -1,12 +1,8 @@
 ## ME, PROBABLY
 
-🐳 Imitation → learning → combination → creating  
-🕶️ Mostly building with Codex and Claude these days  
-❤️ Health first. Sleep is still the best feature.
+I make software mostly because I am curious, occasionally because I need it, and sometimes because I have already thought of a name I like.
 
-I make things mostly for myself. Usually not because the problem is especially hard. I want something, I am curious about a framework, or I just want to know whether I can make the thing myself.
-
-Some projects became tools I still use. Some taught me enough and died. Some only made it as far as a good name.
+Some projects become tools I keep using. Some teach me one thing and stop there. Some are abandoned, then return years later wearing a newer framework.
 
 AI did not cure this habit. It mostly increased the number of unfinished projects I can create per week.
 
@@ -18,7 +14,7 @@ I have rebuilt my blog so many times that it is probably one project with severa
 
 The same thing happened with tasks. Years before **`comet`**, there was **`task-daily`**, a tiny Svelte app whose sample list was `Leetcode`, `SICP` and `Runing`. AI changed how fast I can build it. Apparently I still need to write software to tell myself what to do.
 
-**`meow`** is a different kind of recurring idea: I wanted to own the path from source code to the version people actually see. It manages projects and builds, keeps immutable releases, switches or rolls back versions whenever I want, injects scripts at runtime, and can sit in front as the gateway. It is fairly serious infrastructure with the name and temperament of a cat.
+**`meow`** came from a different itch: I wanted to own the path from source code to the version people actually see. It manages projects and builds, keeps immutable releases, switches or rolls back versions whenever I want, injects scripts at runtime, and can sit in front as the gateway. It is fairly serious infrastructure with the name and temperament of a cat.
 
 ## perfectly reasonable reasons to make software
 
@@ -38,7 +34,7 @@ I was already learning by making things, just more slowly.
 
 [**`vido`**](https://github.com/yuxino/vido), [**`WeChat`**](https://github.com/yuxino/WeChat), [**`dashboard`**](https://github.com/yuxino/dashboard) and [**`2048`**](https://github.com/yuxino/2048) came from the years when learning frontend often meant rebuilding whatever I could see.
 
-Then I started rebuilding the parts underneath. [**`ob`**](https://github.com/yuxino/ob) described itself as “an ex to learn Observere (💩)” and eventually became a small MVVM experiment. [**`react-mini`**](https://github.com/yuxino/react-mini) said only “just for fun”. I opened SICP with the same enthusiasm and made it to exercise 2.29. The book continued without me.
+Then I started rebuilding the parts underneath. [**`ob`**](https://github.com/yuxino/ob) described itself as “an ex to learn Observere (💩)” and eventually became a small MVVM experiment. [**`react-mini`**](https://github.com/yuxino/react-mini) said only “just for fun”. I picked up [**SICP**](https://github.com/yuxino/sicp-ex) because I wanted to understand functional programming rather than just collect another syntax. While following that trail I got interested in higher-order functions, recursion and odd little wonders like the Y combinator. I made it to exercise 2.29 before another curiosity won. The book, unlike me, stayed on course.
 
 For a while it looked like I might become a great Java backend developer. **`miaohu`** was a Zhihu clone; I wrote most of the backend APIs, my friend never quite got around to the frontend, and that was that. Then I wrote **`Marisa`**, a small HTTP server inspired by Spring, complete with a cute bootstrap. I did not become a great Java developer, but for a moment the evidence was convincing.
 
