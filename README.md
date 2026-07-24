@@ -1,69 +1,80 @@
 ## hi
 
-I make software mostly for myself. Sometimes I need something, sometimes I want to learn something, and sometimes I have already thought of a name and now the project has to exist.
+I make software because I want something, want to learn something, or have already thought of a name.
 
-A few projects became things I still use. Many stopped when my curiosity moved somewhere else. AI has made both building and abandoning them much faster.
+AI made opening a new repository much faster. It did not make finishing one more likely.
 
-## the same needs keep coming back
+I have rewritten my blog several times. First **`blog`**, with “Life's a Movie.” on the homepage because I was very into rap. Then **`meteorite`**, **`moment`**, and now **`ashita`** — tomorrow.
 
-I have rebuilt my blog so many times that it is probably one project changing clothes.
+The same thing happened with tasks. Years before **`comet`**, there was **`task-daily`**. Its sample tasks were `Leetcode`, `SICP`, and `Runing`. The spelling got better. I still need software to tell me what to do.
 
-The oldest **`blog`** opened with “Life's a Movie.” because I was very into rap at the time. Then came **`meteorite`**, **`moment`**, and eventually **`ashita`** — “tomorrow”. `ashita` keeps the things that actually happened: meeting my wife, getting married, travelling, exams I was not confident about, cats in a park, and the discovery that her Apple Watch was cheaper than mine after the government subsidy. **`nichijou`** keeps smaller days. **`ele`** remembers what I ate.
+**`meow`** came from being poor. My server had 2 CPUs, 2 GB of RAM, and not much disk. Dokploy was not going to live there, so the frontends went to OSS and CDN and I wrote the rest myself. **`paw`** is how I look around the OSS bucket.
 
-Apparently I need several apps to remember that I have lived.
+Poverty changed the architecture. It also gave the architecture cat names.
 
-Tasks came back too. Long before **`comet`**, there was **`task-daily`**, whose sample tasks were `Leetcode`, `SICP` and `Runing`. The spelling improved. The need to write software telling myself what to do did not.
+## some projects had very clear requirements
 
-**`meow`** exists because `comet` needed somewhere cheap to live. Dokploy looked nice, but my 2-vCPU, 2-GB server and tiny disk disagreed. I moved the frontend files to OSS and wrote my own way to publish them. Then **`paw`** appeared because I needed to see what I had put in the bucket, and some of the pieces wandered into [`yuxino-labs`](https://github.com/yuxino-labs). A small server somehow grew a small cat family.
+**`mimi`** makes live translated subtitles. Teenage me wanted to understand Japanese AV instead of guessing. It took a while, but the dream was technically achievable.
 
-## perfectly normal reasons to make software
+I wanted to learn Tauri and did not know what to build, so **`wnacg`** became a hentai doujin reader. I worked on it for quite a long time. I also jerked off a lot while testing it.
 
-**`mimi`** does live translated subtitles because teenage me wanted to understand Japanese AV instead of guessing what everyone was saying.
+**`deepsuck`** started as a DeepSeek client and ended up with Claude. The repository kept its name.
 
-**`wnacg`** began because I wanted to learn Tauri and had no idea what to build, so I made a hentai doujin reader. I spent quite a while polishing it. I also jerked off a lot while testing it. Both statements are true.
+**`tick`** makes `launchd` less annoying and puts Miku in the menu bar.
 
-**`deepsuck`** started with DeepSeek and ended with Claude. In hindsight, the name was trying to tell me something.
+The names usually came from whatever I liked then. **`yomi`** is Yuumi. **`lemuro`** is Rimuru. **`ashita`** means tomorrow. **`vido`** came from learning Vue, liking its short names, and probably looking at DIYgod's DPlayer a little too much.
 
-**`tick`** makes a small part of macOS less annoying and puts Miku in the menu bar. Useful things are allowed to be cute.
-
-The names mostly record whatever I liked at the time. **`yomi`** came from Yuumi, **`lemuro`** from Rimuru, and **`vido`** from learning Vue and liking Miku very much. There was never a naming system. There was just whatever I liked then.
+There was no system. I just like cute things and Japanese-sounding names.
 
 ## before AI did most of the typing
 
-I learned by rebuilding things I could see: [**`vido`**](https://github.com/yuxino/vido), [**`WeChat`**](https://github.com/yuxino/WeChat), [**`dashboard`**](https://github.com/yuxino/dashboard), [**`2048`**](https://github.com/yuxino/2048), and then smaller attempts at the pieces underneath.
+I learned frontend by rebuilding things: [**`vido`**](https://github.com/yuxino/vido), [**`WeChat`**](https://github.com/yuxino/WeChat), [**`dashboard`**](https://github.com/yuxino/dashboard), [**`2048`**](https://github.com/yuxino/2048). Then I started rebuilding the things underneath them too.
 
-I picked up [**SICP**](https://github.com/yuxino/sicp-ex) because I wanted to understand functional programming. I wandered through higher-order functions, recursion and the Y combinator, reached exercise 2.29, and wandered somewhere else. I still think the strange parts were fun.
+I read [**SICP**](https://github.com/yuxino/sicp-ex) because I wanted to understand functional programming. Higher-order functions, recursion, the Y combinator — all very interesting. I reached exercise 2.29 and became interested in something else.
 
-For a while it looked like I might become a great Java backend developer. **`miaohu`** was a Zhihu clone whose backend I mostly finished before the frontend quietly failed to appear. Then I wrote **`Marisa`**, a small HTTP server inspired by Spring, with a cute bootstrap. I did not become a great Java developer. I ran off to frontend instead.
+For a while I was going to be a great Java backend developer.
 
-At some point, using programming languages was no longer enough, so I started making one. **`y-language`** had the complete sales pitch `like js but not js`. It learned enough grammar to become inconvenient, and then I moved on. Another repository tried to put Ruby-like conditional assignment into JavaScript. That one did not make it past the title.
+**`miaohu`** was a Zhihu clone. I wrote most of the backend. My friend was going to write the frontend. Anyway.
 
-## the people around the repositories
+Then I wrote **`Marisa`**, a small HTTP server inspired by Spring, with a cute bootstrap. I did not become a great Java developer. I became a frontend developer.
 
-**`urban_transportation_system`** was the one and only time this hobby made money. A very good friend referred me for the freelance job. It was exhausting. The system included live EZVIZ camera feeds, and during one long night of overtime I watched the security guard leave, kept working, and was still there when daylight came and he returned. I bought an iPad with the pay and still use it today. The code is old; the iPad and my gratitude to him are still around.
+**`viva`** was for learning Lerna and monorepos. I left it there. Years later, AI gave me too many projects and monorepos became useful again.
 
-Before I knew how people normally joined open source, I wrote emails.
+## a few people I remember
 
-In college I sent the author of [**Blade**](https://github.com/lets-blade/blade) an email titled **“加入 Blade Orgnaization 的申请”**. I introduced myself very seriously, talked about books and HTTP servers, and promised to try even if I could not solve the hard problems. He replied patiently, invited me into the GitHub organization, and offered to explain the architecture. Reading the email now is painful. I am still grateful that he took a university student seriously.
+**`urban_transportation_system`** was a freelance job introduced by a very good friend. It was the only side project that ever paid me.
 
-Later, while making [**`pyfl`**](https://github.com/yuxino/pyfl), I emailed the author of [**pinyin.js**](https://github.com/sxei/pinyinjs) to ask whether I could reuse part of it. He said yes if I credited the source. A week later I replied: `以著名 感谢`. The typo has outlived the project. I still wonder how both authors are doing.
+It had live EZVIZ camera feeds. One night I watched the security guard leave work through the camera, kept coding, and was still there when daylight came and he returned.
 
-Eventually I learned to send patches instead. Small changes made it into [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976); other attempts landed, or did not, in [Vite](https://github.com/vitejs/vite/pull/219), [VitePress](https://github.com/vuejs/vitepress/pull/116), [Taro](https://github.com/NervJS/taro/pull/4334), [iView](https://github.com/iview/iview/pull/5413) and [Zustand](https://github.com/pmndrs/zustand/pull/785).
+I bought an iPad with the money. I still use it.
+
+Before I knew how people joined open source, I emailed authors.
+
+At university I wrote to the author of [**Blade**](https://github.com/lets-blade/blade). The subject was **“加入 Blade Orgnaization 的申请”**. I introduced myself very seriously. He replied patiently, invited me into the GitHub organization, and offered to explain the architecture to me.
+
+A month later I emailed again because I had only fixed a few typos and wanted something more useful to do.
+
+I cannot read those emails for long now. I am very glad he answered them.
+
+Later, while making [**`pyfl`**](https://github.com/yuxino/pyfl), I asked the author of [**pinyin.js**](https://github.com/sxei/pinyinjs) for permission to reuse part of it. He said yes. A week later I replied:
+
+> 以著名 感谢
+
+The typo has outlived the project. I sometimes wonder how both authors are doing.
+
+Eventually I learned to send patches. A couple made it into [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). Others did or did not. This was normal.
 
 <details>
-<summary>some older drawers</summary>
+<summary>a few more old repositories</summary>
 
-- **`viva`** was mostly an excuse to learn Lerna and monorepos. AI-era projects made that old homework useful again.
-- [**`mobile-pdf-viewer`**](https://github.com/yuxino/mobile-pdf-viewer) and [**`vscode-pdf-reader`**](https://github.com/yuxino/vscode-pdf-reader) prove that I have fought with PDFs more than once.
-- **`server-npass`**, **`swiftui-npass`** and [**`flutter_npass`**](https://github.com/yuxino/flutter_npass) are one password-manager idea trying on several outfits.
-- There were short trips through Go, Flutter, serverless and Three.js. Most lasted exactly long enough to create another repository.
-- **`ghost`** is empty.
-- A private repository literally named **`-`** hides a 2020 note where I turned shortest paths into a career decision tree and concluded that almost every route looked bad except learning. I also predicted that someone might dig it up and embarrass me. Someone did.
+There are PDF readers, password managers in several languages, bits of Go, Flutter, serverless, Three.js, and **`ghost`**, which is empty.
+
+There is also a repository called [**`-`**](https://github.com/yuxino/-/issues/14). In 2020 I used shortest-path algorithms to draw a career decision tree and discovered that nearly every route looked terrible. I wrote that someone might dig the note up one day and embarrass me.
+
+Someone did.
 
 </details>
 
-I have been learning for a long time. I have also been abandoning projects for a long time.
+I keep learning things. I keep leaving repositories behind.
 
-They are not really a career story. They are my memories, with dependencies.
-
-There will probably be another repository soon.
+There will probably be another one soon.
