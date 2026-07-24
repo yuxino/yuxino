@@ -26,7 +26,7 @@ Tasks came back too. Long before **`comet`**, there was **`task-daily`**, whose 
 
 **`tick`** makes a small part of macOS less annoying and puts Miku in the menu bar. Useful things are allowed to be cute.
 
-The names mostly record whatever I liked at the time. **`yomi`** came from Yuumi, **`lemuro`** from Rimuru, and **`vido`** from the period when I was learning Vue and liked Miku very much. There was never a naming system.
+The names mostly record whatever I liked at the time. **`yomi`** came from Yuumi, **`lemuro`** from Rimuru, and **`vido`** from liking Vue-style names and probably looking at DIYgod's DPlayer a little too much. There was never a naming system.
 
 ## before AI did most of the typing
 
