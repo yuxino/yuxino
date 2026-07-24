@@ -38,17 +38,17 @@ I was already learning by making things, just more slowly.
 
 [**`vido`**](https://github.com/yuxino/vido), [**`WeChat`**](https://github.com/yuxino/WeChat), [**`dashboard`**](https://github.com/yuxino/dashboard) and [**`2048`**](https://github.com/yuxino/2048) came from the years when learning frontend often meant rebuilding whatever I could see.
 
-Then I started rebuilding the parts underneath. [**`ob`**](https://github.com/yuxino/ob) described itself as “an ex to learn Observere (💩)” and eventually became a small MVVM experiment. [**`react-mini`**](https://github.com/yuxino/react-mini) said only “just for fun”. **`Marisa`**, a Java web server, existed to “finish what I haven't done before”. I opened SICP with the same enthusiasm and made it to exercise 2.29. The book continued without me.
+Then I started rebuilding the parts underneath. [**`ob`**](https://github.com/yuxino/ob) described itself as “an ex to learn Observere (💩)” and eventually became a small MVVM experiment. [**`react-mini`**](https://github.com/yuxino/react-mini) said only “just for fun”. I opened SICP with the same enthusiasm and made it to exercise 2.29. The book continued without me.
+
+For a while it looked like I might become a great Java backend developer. **`miaohu`** was a Zhihu clone; I wrote most of the backend APIs, my friend never quite got around to the frontend, and that was that. Then I wrote **`Marisa`**, a small HTTP server inspired by Spring, complete with a cute bootstrap. I did not become a great Java developer, but for a moment the evidence was convincing.
 
 There was also a period when I wandered into other people's frameworks and sent patches. A tiny change made it into [Lodash](https://github.com/lodash/lodash/pull/3467), and another made it into [Redux](https://github.com/reduxjs/redux/pull/2976). I also tried things in [Vite](https://github.com/vitejs/vite/pull/219), [VitePress](https://github.com/vuejs/vitepress/pull/116), [Taro](https://github.com/NervJS/taro/pull/4334), [iView](https://github.com/iview/iview/pull/5413) and [Zustand](https://github.com/pmndrs/zustand/pull/785). Some landed, some did not, and several of those projects later became much larger than the versions I once poked at.
 
-## not everything survived
+## some projects just stayed there
 
-**`miaohu`** was my attempt to rebuild Zhihu when I had only just started programming. I wrote a surprisingly large part of the backend API. The friend doing the frontend kept procrastinating, so the backend waited patiently until the whole project died.
+**`viva`** was mostly an excuse to learn Lerna and monorepos. I built an Electron workbench, split out a couple of `@viva-ui/*` packages, and then moved on. Now AI-era projects have made monorepos useful to me again. Apparently some abandoned homework becomes infrastructure if you wait long enough.
 
-**`viva`** got much further than its missing README suggests. It became an Electron workbench with an explorer, directory dropping, Markdown, its own `@viva-ui/*` packages, and even a dependency on my own `lemuro`. Then it stopped anyway. Serious effort does not guarantee immortality.
-
-Other projects were born closer to the graveyard. **`nirvana`** mostly remained a Create React App shell. **`moe`** currently has a README copied from another app and a page that says `Hello World`. AI has made abandoning projects faster too.
+**`nirvana`** mostly remained a Create React App shell. **`moe`** currently has a README copied from another app and a page that says `Hello World`. AI has made abandoning projects faster too.
 
 Sometimes I stopped because I had learned what I came for. Sometimes the other half of the project never arrived. Sometimes something newer or cuter appeared. Sometimes the same unfinished idea crossed several years and came back with different code.
 
