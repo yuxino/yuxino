@@ -14,7 +14,7 @@ I have rebuilt my blog so many times that it is probably one project with severa
 
 The same thing happened with tasks. Years before **`comet`**, there was **`task-daily`**, a tiny Svelte app whose sample list was `Leetcode`, `SICP` and `Runing`. AI changed how fast I can build it. Apparently I still need to write software to tell myself what to do.
 
-**`meow`** came from a different itch: I wanted to own the path from source code to the version people actually see. It manages projects and builds, keeps immutable releases, switches or rolls back versions whenever I want, injects scripts at runtime, and can sit in front as the gateway. It is fairly serious infrastructure with the name and temperament of a cat.
+**`meow`** was born because I was poor. My server had 2 vCPUs, 2 GB of RAM and a tiny disk. It could not really run Dokploy, so I pushed frontend assets to CDN and OSS and built the lighter control plane I could afford. It manages projects and builds, keeps immutable releases, switches or rolls back versions whenever I want, injects scripts at runtime, and can sit in front as the gateway. Poverty changed the architecture. The architecture happened to be a cat.
 
 ## perfectly reasonable reasons to make software
 
