@@ -1,51 +1,29 @@
 ## hi
 
-I make things for myself. Sometimes I need them. Sometimes I want to learn something. Sometimes I just like the name.
+I use AI to make small software. When there are enough projects, I end up making the infrastructure too.
 
-I have rewritten my blog several times: **`blog`**, **`meteorite`**, **`moment`**, and now **`ashita`**. The first one said “Life's a Movie.” because I was very into rap. `ashita` means tomorrow. I am apparently still working on the same blog.
+Most of it is for myself. Curiosity starts more repositories than discipline finishes.
 
-Tasks came back too. Years before **`comet`**, there was **`task-daily`**. Its sample tasks were `Leetcode`, `SICP`, and `Runing`. My spelling improved. The need for an app telling me what to do did not.
+## now
 
-**`meow`** exists because I was poor. My server had 2 CPUs, 2 GB of RAM, and a tiny disk. It could not run Dokploy, so I put the frontends on OSS and CDN and wrote my own release system. **`paw`** lets me look around the OSS bucket.
+Most new things live in [`yuxino-labs`](https://github.com/yuxino-labs).
 
-Poverty changed the architecture. The architecture became a cat.
+**`meow`** publishes the frontends I build with AI. It began because my 2-core, 2-GB server and tiny disk could not run Dokploy, so the files went to OSS and CDN and I wrote the missing part myself. It has since grown into a release platform that can switch versions and act as the gateway. **`paw`** is how I look around the OSS behind it.
 
-Some requirements were more personal.
+**`comet`** is my current attempt at telling myself what to do. Years ago, the same idea was called **`task-daily`**. Its sample tasks were `Leetcode`, `SICP`, and `Runing`. The spelling improved.
 
-**`mimi`** makes live translated subtitles because teenage me wanted to understand Japanese AV instead of guessing.
+**`mimi`** makes live translated subtitles. It started with a very old wish to understand Japanese AV instead of guessing what everyone was saying.
 
-I wanted to learn Tauri and did not know what to build, so **`wnacg`** became a hentai doujin reader. I spent a long time polishing it. Testing was frequent.
+**`wnacg`** was how I learned Tauri: I made a hentai doujin reader, polished it for quite a while, and used it a lot.
 
-**`deepsuck`** started as a DeepSeek client and ended up with Claude. The repository kept its name.
+**`deepsuck`** started as a DeepSeek client and ended up controlling Claude Code from my phone. The repository kept its name.
 
-**`tick`** puts Miku in the menu bar. **`yomi`** is named after Yuumi, **`lemuro`** after Rimuru, and **`vido`** after learning Vue and looking at DIYgod's DPlayer a little too much. I like cute things. This has affected the repository list.
+## before
 
-Before all that, I tried to understand functional programming with [**SICP**](https://github.com/yuxino/sicp-ex). Higher-order functions, recursion, the Y combinator — very interesting. I reached exercise 2.29 and became interested in something else.
+I used to do the same thing more slowly.
 
-For a while I was going to be a great Java backend developer. **`miaohu`** was a Zhihu clone. I wrote most of the backend; my friend was going to write the frontend. Anyway.
+**`vido`** was a video player from the time I was learning Vue and looking at DIYgod's DPlayer. Then came a small MVVM, a small React, SSR experiments, Promise implementations, a Java HTTP server inspired by Spring, and a programming language whose entire pitch was `like js but not js`.
 
-Then I made **`Marisa`**, a small HTTP server inspired by Spring, with a cute bootstrap. I did not become a great Java developer. I became a frontend developer.
+I read [**SICP**](https://github.com/yuxino/sicp-ex) to understand functional programming and found the Y combinator wonderfully strange. I reached exercise 2.29, then found something else wonderfully strange.
 
-At university, before I knew how people joined open source, I emailed authors.
-
-I wrote to the author of [**Blade**](https://github.com/lets-blade/blade) with the subject **“加入 Blade Orgnaization 的申请”**. He patiently replied, invited me into the GitHub organization, and offered to explain the architecture. A month later I emailed again because I had only fixed a few typos and wanted something useful to do.
-
-I can barely read those emails now. I am still glad he answered them.
-
-Later, while making [**`pyfl`**](https://github.com/yuxino/pyfl), I asked the author of [**pinyin.js**](https://github.com/sxei/pinyinjs) for permission to reuse part of it. He said yes. A week later I replied:
-
-> 以著名 感谢
-
-I still wonder how they are doing.
-
-**`urban_transportation_system`** was a freelance job from a very good friend. It was also the only side project that ever paid me.
-
-The system had live EZVIZ camera feeds. One night I watched the security guard leave work, kept coding, and was still there when daylight came and he returned.
-
-I bought an iPad with the money. I still use it.
-
-There is also a repository called [**`-`**](https://github.com/yuxino/-/issues/14). In 2020 I used shortest-path algorithms to draw a career decision tree and discovered that nearly every route looked terrible. I wrote that someone might dig it up one day and embarrass me.
-
-Someone did.
-
-AI has made starting projects much faster. Finishing them is still under development.
+Some ideas keep returning. **`blog`** became **`meteorite`**, then **`moment`**, and eventually **`ashita`**. Apparently I do not always need a new idea. Sometimes I just need a new framework.
