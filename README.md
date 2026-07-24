@@ -1,80 +1,51 @@
 ## hi
 
-I make software because I want something, want to learn something, or have already thought of a name.
+I make things for myself. Sometimes I need them. Sometimes I want to learn something. Sometimes I just like the name.
 
-AI made opening a new repository much faster. It did not make finishing one more likely.
+I have rewritten my blog several times: **`blog`**, **`meteorite`**, **`moment`**, and now **`ashita`**. The first one said “Life's a Movie.” because I was very into rap. `ashita` means tomorrow. I am apparently still working on the same blog.
 
-I have rewritten my blog several times. First **`blog`**, with “Life's a Movie.” on the homepage because I was very into rap. Then **`meteorite`**, **`moment`**, and now **`ashita`** — tomorrow.
+Tasks came back too. Years before **`comet`**, there was **`task-daily`**. Its sample tasks were `Leetcode`, `SICP`, and `Runing`. My spelling improved. The need for an app telling me what to do did not.
 
-The same thing happened with tasks. Years before **`comet`**, there was **`task-daily`**. Its sample tasks were `Leetcode`, `SICP`, and `Runing`. The spelling got better. I still need software to tell me what to do.
+**`meow`** exists because I was poor. My server had 2 CPUs, 2 GB of RAM, and a tiny disk. It could not run Dokploy, so I put the frontends on OSS and CDN and wrote my own release system. **`paw`** lets me look around the OSS bucket.
 
-**`meow`** came from being poor. My server had 2 CPUs, 2 GB of RAM, and not much disk. Dokploy was not going to live there, so the frontends went to OSS and CDN and I wrote the rest myself. **`paw`** is how I look around the OSS bucket.
+Poverty changed the architecture. The architecture became a cat.
 
-Poverty changed the architecture. It also gave the architecture cat names.
+Some requirements were more personal.
 
-## some projects had very clear requirements
+**`mimi`** makes live translated subtitles because teenage me wanted to understand Japanese AV instead of guessing.
 
-**`mimi`** makes live translated subtitles. Teenage me wanted to understand Japanese AV instead of guessing. It took a while, but the dream was technically achievable.
-
-I wanted to learn Tauri and did not know what to build, so **`wnacg`** became a hentai doujin reader. I worked on it for quite a long time. I also jerked off a lot while testing it.
+I wanted to learn Tauri and did not know what to build, so **`wnacg`** became a hentai doujin reader. I spent a long time polishing it. Testing was frequent.
 
 **`deepsuck`** started as a DeepSeek client and ended up with Claude. The repository kept its name.
 
-**`tick`** makes `launchd` less annoying and puts Miku in the menu bar.
+**`tick`** puts Miku in the menu bar. **`yomi`** is named after Yuumi, **`lemuro`** after Rimuru, and **`vido`** after learning Vue and looking at DIYgod's DPlayer a little too much. I like cute things. This has affected the repository list.
 
-The names usually came from whatever I liked then. **`yomi`** is Yuumi. **`lemuro`** is Rimuru. **`ashita`** means tomorrow. **`vido`** came from learning Vue, liking its short names, and probably looking at DIYgod's DPlayer a little too much.
+Before all that, I tried to understand functional programming with [**SICP**](https://github.com/yuxino/sicp-ex). Higher-order functions, recursion, the Y combinator — very interesting. I reached exercise 2.29 and became interested in something else.
 
-There was no system. I just like cute things and Japanese-sounding names.
+For a while I was going to be a great Java backend developer. **`miaohu`** was a Zhihu clone. I wrote most of the backend; my friend was going to write the frontend. Anyway.
 
-## before AI did most of the typing
+Then I made **`Marisa`**, a small HTTP server inspired by Spring, with a cute bootstrap. I did not become a great Java developer. I became a frontend developer.
 
-I learned frontend by rebuilding things: [**`vido`**](https://github.com/yuxino/vido), [**`WeChat`**](https://github.com/yuxino/WeChat), [**`dashboard`**](https://github.com/yuxino/dashboard), [**`2048`**](https://github.com/yuxino/2048). Then I started rebuilding the things underneath them too.
+At university, before I knew how people joined open source, I emailed authors.
 
-I read [**SICP**](https://github.com/yuxino/sicp-ex) because I wanted to understand functional programming. Higher-order functions, recursion, the Y combinator — all very interesting. I reached exercise 2.29 and became interested in something else.
+I wrote to the author of [**Blade**](https://github.com/lets-blade/blade) with the subject **“加入 Blade Orgnaization 的申请”**. He patiently replied, invited me into the GitHub organization, and offered to explain the architecture. A month later I emailed again because I had only fixed a few typos and wanted something useful to do.
 
-For a while I was going to be a great Java backend developer.
-
-**`miaohu`** was a Zhihu clone. I wrote most of the backend. My friend was going to write the frontend. Anyway.
-
-Then I wrote **`Marisa`**, a small HTTP server inspired by Spring, with a cute bootstrap. I did not become a great Java developer. I became a frontend developer.
-
-**`viva`** was for learning Lerna and monorepos. I left it there. Years later, AI gave me too many projects and monorepos became useful again.
-
-## a few people I remember
-
-**`urban_transportation_system`** was a freelance job introduced by a very good friend. It was the only side project that ever paid me.
-
-It had live EZVIZ camera feeds. One night I watched the security guard leave work through the camera, kept coding, and was still there when daylight came and he returned.
-
-I bought an iPad with the money. I still use it.
-
-Before I knew how people joined open source, I emailed authors.
-
-At university I wrote to the author of [**Blade**](https://github.com/lets-blade/blade). The subject was **“加入 Blade Orgnaization 的申请”**. I introduced myself very seriously. He replied patiently, invited me into the GitHub organization, and offered to explain the architecture to me.
-
-A month later I emailed again because I had only fixed a few typos and wanted something more useful to do.
-
-I cannot read those emails for long now. I am very glad he answered them.
+I can barely read those emails now. I am still glad he answered them.
 
 Later, while making [**`pyfl`**](https://github.com/yuxino/pyfl), I asked the author of [**pinyin.js**](https://github.com/sxei/pinyinjs) for permission to reuse part of it. He said yes. A week later I replied:
 
 > 以著名 感谢
 
-The typo has outlived the project. I sometimes wonder how both authors are doing.
+I still wonder how they are doing.
 
-Eventually I learned to send patches. A couple made it into [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). Others did or did not. This was normal.
+**`urban_transportation_system`** was a freelance job from a very good friend. It was also the only side project that ever paid me.
 
-<details>
-<summary>a few more old repositories</summary>
+The system had live EZVIZ camera feeds. One night I watched the security guard leave work, kept coding, and was still there when daylight came and he returned.
 
-There are PDF readers, password managers in several languages, bits of Go, Flutter, serverless, Three.js, and **`ghost`**, which is empty.
+I bought an iPad with the money. I still use it.
 
-There is also a repository called [**`-`**](https://github.com/yuxino/-/issues/14). In 2020 I used shortest-path algorithms to draw a career decision tree and discovered that nearly every route looked terrible. I wrote that someone might dig the note up one day and embarrass me.
+There is also a repository called [**`-`**](https://github.com/yuxino/-/issues/14). In 2020 I used shortest-path algorithms to draw a career decision tree and discovered that nearly every route looked terrible. I wrote that someone might dig it up one day and embarrass me.
 
 Someone did.
 
-</details>
-
-I keep learning things. I keep leaving repositories behind.
-
-There will probably be another one soon.
+AI has made starting projects much faster. Finishing them is still under development.
