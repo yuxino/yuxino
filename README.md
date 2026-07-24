@@ -67,6 +67,6 @@ Sometimes I stopped because I had learned what I came for. Sometimes the other h
 
 </details>
 
-I have been learning for a long time. I have also been abandoning projects for a long time.
+I keep learning, I keep dropping things, and sometimes an old idea comes back wearing a newer framework.
 
-This is not a clean career story. It is my memory, with dependencies. Some of the dependencies no longer install.
+There will probably be another repository next week.
