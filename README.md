@@ -40,7 +40,7 @@ At some point, using programming languages was no longer enough, so I started ma
 
 ## the people around the repositories
 
-**`urban_transportation_system`** was the one and only time this hobby made money. A very good friend referred me for the freelance job. I bought an iPad with the pay and still use it today. The code is old; the iPad and my gratitude to him are still around.
+**`urban_transportation_system`** was the one and only time this hobby made money. A very good friend referred me for the freelance job. It was exhausting. The system included live EZVIZ camera feeds, and during one long night of overtime I watched the security guard leave, kept working, and was still there when daylight came and he returned. I bought an iPad with the pay and still use it today. The code is old; the iPad and my gratitude to him are still around.
 
 Before I knew how people normally joined open source, I wrote emails.
 
