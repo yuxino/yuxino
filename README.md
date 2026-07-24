@@ -16,6 +16,8 @@ Some are ways to remember things. **`nichijou`** started with a week calendar an
 
 Some make my Mac feel more like mine. **`tick`** puts macOS `launchd` behind a friendly window, with Miku in the menu bar. **`mimi`** does live translated subtitles. The honest reason is that teenage me wanted to understand Japanese AV instead of guessing what everyone was saying. It took a few years and rather more AI than expected, but the dream is now technically feasible.
 
+**`wnacg`** began because I wanted to learn Tauri and had no idea what to build. So I made a hentai doujin reader and kept polishing it for quite a while, partly to learn the framework and partly to improve the experience. I also jerked off a lot while testing it. Few side projects have had such an immediate feedback loop.
+
 **`deepsuck`** has the best record of me changing my mind. It started when DeepSeek V4 came out: a Tauri desktop client with streaming chat, tools and reasoning. Then Claude Code's leaked source appeared and I wanted to play with that instead, so I replaced almost the whole project with a mobile PWA for using local Claude Code from my phone. The repository kept its name. I did not keep the model.
 
 **`comet`** is the current version of an idea that has followed me for years. Long before it, **`task-daily`** was a Svelte app for recording my tasks. Its sample list contained `Leetcode`, `SICP` and `Runing`, which is a fairly complete portrait of my ambitions and spelling at the time. AI changed the stack and the speed; apparently I still need to build software to tell myself what to do.
