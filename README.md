@@ -26,9 +26,6 @@ Some ideas never really left. They only changed frameworks.
 
 `task-daily` → **`comet`**
 
-The sample tasks in `task-daily` were `Leetcode`, `SICP`, and `Runing`.
-The spelling improved. The habit did not.
-
 ## the server was too small
 
 My 2-core, 2-GB server could not run Dokploy, and I did not want to buy a larger one.
