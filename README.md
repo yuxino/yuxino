@@ -1,8 +1,8 @@
 ## hi
 
-I use AI to make small software. When there are enough projects, I end up making the infrastructure too.
+Most things here started because I wanted something, or because I wanted to learn something and needed an excuse.
 
-Most of it is for myself. Curiosity starts more repositories than discipline finishes.
+Some became software I still use. Some lasted just long enough to get a name.
 
 ## now
 
@@ -10,7 +10,7 @@ Most new things live in [`yuxino-labs`](https://github.com/yuxino-labs).
 
 **`meow`** publishes the frontends I build with AI. It began because my 2-core, 2-GB server and tiny disk could not run Dokploy, so the files went to OSS and CDN and I wrote the missing part myself. It has since grown into a release platform that can switch versions and act as the gateway. **`paw`** is how I look around the OSS behind it.
 
-**`comet`** is my current attempt at telling myself what to do. Years ago, the same idea was called **`task-daily`**. Its sample tasks were `Leetcode`, `SICP`, and `Runing`. The spelling improved.
+**`comet`** is the board I use to tell myself what to do. Long before it, I made **`task-daily`** for exactly the same reason. Its sample tasks were `Leetcode`, `SICP`, and `Runing`. The spelling improved. I still need software to tell me what to do.
 
 **`mimi`** makes live translated subtitles. It started with a very old wish to understand Japanese AV instead of guessing what everyone was saying.
 
