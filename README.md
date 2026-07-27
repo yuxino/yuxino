@@ -2,48 +2,30 @@
 
 I started writing code in 2016.
 
-These repositories are what different stages of learning left behind.
-Some became things I still use. Some only survived as misspelled commits.
-I am glad I kept both.
+Most of the repositories here are leftovers from whatever I was learning at the time.
 
-## 2016 — learning by making unnecessary things
+`vido` was Vue.
 
-I rarely learned a technology first and looked for a project later.
-I usually wanted to make something, then discovered everything I did not know.
+`mvvm`, `react`, `promise`, `ssr`, a Java HTTP server, and a small language called `like js but not js` were me trying to understand how things worked by rebuilding smaller versions of them.
 
-**[`vido`](https://github.com/yuxino/vido)** came from learning Vue and reading DIYgod's DPlayer.
-After that came a tiny MVVM, a tiny React, SSR experiments, Promise implementations, a Java HTTP server inspired by Spring, and a programming language whose entire pitch was:
+I read [SICP](https://github.com/yuxino/sicp-ex), got stuck on the Y combinator for a while, and stopped at exercise 2.29.
 
-> like js but not js
+I have also rebuilt the same ideas more than once.
 
-I read **[SICP](https://github.com/yuxino/sicp-ex)**, became fascinated by the Y combinator, reached exercise 2.29, and then became fascinated by something else.
+`blog` → `meteorite` → `moment` → `ashita`
 
-## the years of rebuilding everything
+`task-daily` → `comet`
 
-Some ideas never really left. They only changed frameworks.
+`meow` exists because my 2-core, 2-GB server could not run Dokploy. The frontend went to OSS and CDN instead.
 
-`blog` → `meteorite` → `moment` → **`ashita`**
+`paw` came later because I needed a way to see what was in the OSS.
 
-`task-daily` → **`comet`**
+More recent things mostly live in [yuxino-labs](https://github.com/yuxino-labs).
 
-## the server was too small
+`mimi` does live translated subtitles.
 
-My 2-core, 2-GB server could not run Dokploy, and I did not want to buy a larger one.
+`deepsuck` started as a DeepSeek client and somehow became a way to control Claude Code from my phone.
 
-So the frontend files went to OSS and CDN, and I wrote **`meow`** to handle releases and version switching. Later I wrote **`paw`** to look around the OSS behind it.
+The technologies changed with the years.
 
-Apparently limited resources are one way to learn infrastructure.
-
-## then AI became normal
-
-At first, AI was another thing to explore. Eventually it became part of how I build.
-
-- **`mimi`** — live translated subtitles, inspired by a very old wish to understand Japanese AV instead of guessing.
-- **`deepsuck`** — started as a DeepSeek client and ended up controlling Claude Code from my phone. The repository kept its name.
-- **[`yuxino-labs`](https://github.com/yuxino-labs)** — where most new experiments now live.
-
-The tools changed: Vue, React, servers, mobile apps, video understanding, LLMs.
-The way I learn did not.
-
-I still make the thing first.
-Then I find out what I need to learn.
+The habit did not.
