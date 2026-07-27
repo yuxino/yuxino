@@ -1,29 +1,52 @@
-## hi
+# yuxino
 
-Most things here started because I wanted something, or because I wanted to learn something and needed an excuse.
+I started writing code in 2016.
 
-Some became software I still use. Some lasted just long enough to get a name.
+These repositories are what different stages of learning left behind.
+Some became things I still use. Some only survived as misspelled commits.
+I am glad I kept both.
 
-## things that stayed
+## 2016 — learning by making unnecessary things
 
-Most new things live in [`yuxino-labs`](https://github.com/yuxino-labs).
+I rarely learned a technology first and looked for a project later.
+I usually wanted to make something, then discovered everything I did not know.
 
-**`meow`** publishes the frontends I build with AI. It began because my 2-core, 2-GB server and tiny disk could not run Dokploy, so the files went to OSS and CDN and I wrote the missing part myself. It has since grown into a release platform that can switch versions and act as the gateway. **`paw`** is how I look around the OSS behind it.
+**[`vido`](https://github.com/yuxino/vido)** came from learning Vue and reading DIYgod's DPlayer.
+After that came a tiny MVVM, a tiny React, SSR experiments, Promise implementations, a Java HTTP server inspired by Spring, and a programming language whose entire pitch was:
 
-**`comet`** is the board I use to tell myself what to do. Long before it, I made **`task-daily`** for exactly the same reason. Its sample tasks were `Leetcode`, `SICP`, and `Runing`. The spelling improved. I still need software to tell me what to do.
+> like js but not js
 
-**`mimi`** makes live translated subtitles. It started with a very old wish to understand Japanese AV instead of guessing what everyone was saying.
+I read **[SICP](https://github.com/yuxino/sicp-ex)**, became fascinated by the Y combinator, reached exercise 2.29, and then became fascinated by something else.
 
-**`wnacg`** was how I learned Tauri: I made a hentai doujin reader, polished it for quite a while, and used it a lot.
+## the years of rebuilding everything
 
-**`deepsuck`** started as a DeepSeek client and ended up controlling Claude Code from my phone. The repository kept its name.
+Some ideas never really left. They only changed frameworks.
 
-## things I made while learning
+`blog` → `meteorite` → `moment` → **`ashita`**
 
-I used to do the same thing more slowly.
+`task-daily` → **`comet`**
 
-**`vido`** was a video player from the time I was learning Vue and looking at DIYgod's DPlayer. Then came a small MVVM, a small React, SSR experiments, Promise implementations, a Java HTTP server inspired by Spring, and a programming language whose entire pitch was `like js but not js`.
+The sample tasks in `task-daily` were `Leetcode`, `SICP`, and `Runing`.
+The spelling improved. The habit did not.
 
-I read [**SICP**](https://github.com/yuxino/sicp-ex) to understand functional programming and found the Y combinator wonderfully strange. I reached exercise 2.29, then found something else wonderfully strange.
+## the server was too small
 
-Some ideas keep returning. **`blog`** became **`meteorite`**, then **`moment`**, and eventually **`ashita`**. Apparently I do not always need a new idea. Sometimes I just need a new framework.
+My 2-core, 2-GB server could not run Dokploy, and I did not want to buy a larger one.
+
+So the frontend files went to OSS and CDN, and I wrote **`meow`** to handle releases and version switching. Later I wrote **`paw`** to look around the OSS behind it.
+
+Apparently limited resources are one way to learn infrastructure.
+
+## then AI became normal
+
+At first, AI was another thing to explore. Eventually it became part of how I build.
+
+- **`mimi`** — live translated subtitles, inspired by a very old wish to understand Japanese AV instead of guessing.
+- **`deepsuck`** — started as a DeepSeek client and ended up controlling Claude Code from my phone. The repository kept its name.
+- **[`yuxino-labs`](https://github.com/yuxino-labs)** — where most new experiments now live.
+
+The tools changed: Vue, React, servers, mobile apps, video understanding, LLMs.
+The way I learn did not.
+
+I still make the thing first.
+Then I find out what I need to learn.
