@@ -4,7 +4,7 @@ Most things here started because I wanted something, or because I wanted to lear
 
 Some became software I still use. Some lasted just long enough to get a name.
 
-## now
+## things that stayed
 
 Most new things live in [`yuxino-labs`](https://github.com/yuxino-labs).
 
@@ -18,7 +18,7 @@ Most new things live in [`yuxino-labs`](https://github.com/yuxino-labs).
 
 **`deepsuck`** started as a DeepSeek client and ended up controlling Claude Code from my phone. The repository kept its name.
 
-## before
+## things I made while learning
 
 I used to do the same thing more slowly.
 
