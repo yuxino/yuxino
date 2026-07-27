@@ -4,11 +4,11 @@ I started writing code in 2016.
 
 Most of the repositories here are leftovers from whatever I was learning at the time.
 
-`vido` was Vue.
+`vido` was one of the first projects I built while learning frontend development.
 
-`mvvm`, `react`, `promise`, `ssr`, a Java HTTP server, and a small language called `like js but not js` were me trying to understand how things worked by rebuilding smaller versions of them.
+I also spent years rebuilding small parts of the web stack to understand how they worked.
 
-I read [SICP](https://github.com/yuxino/sicp-ex), got stuck on the Y combinator for a while, and stopped at exercise 2.29.
+I read [SICP](https://github.com/yuxino/sicp-ex) and got my first real taste of functional programming.
 
 I have also rebuilt the same ideas more than once.
 
