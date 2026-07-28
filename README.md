@@ -2,7 +2,9 @@
 
 I started writing code in 2015, when I was still in high school.
 
-This is not really a portfolio. Looking back, it became a timeline of the things I was curious enough to take apart and rebuild — and, almost by accident, a small record of how the web changed around me.
+It started with C. I spent some time maintaining C# code, then became completely absorbed in Java before eventually finding my way to the web.
+
+This is not really a portfolio. Looking back, it became a timeline of the things I was curious enough to take apart and rebuild — and, almost by accident, a small record of how software changed around me.
 
 ## learning by rebuilding
 
