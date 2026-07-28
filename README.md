@@ -26,8 +26,6 @@ The names and technologies changed. The reasons usually stayed the same.
 
 `tick` puts a small part of my daily workflow into the macOS menu bar. Useful things can also be cute.
 
-Back in the old JavaScript days, a couple of tiny patches of mine landed in [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). They were small changes, but I still like that a little of that time remains in the history of tools I used every day.
+A couple of tiny patches of mine once landed in [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). Nothing major — just traces from an older JavaScript era that somehow made it into tools I was using every day.
 
 More recent experiments mostly live in [yuxino-labs](https://github.com/yuxino-labs).
-
-Most repositories here are not products. They are snapshots of things I cared about at a particular moment. Looking back, that is probably the most valuable part of them.
