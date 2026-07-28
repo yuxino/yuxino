@@ -20,8 +20,6 @@ The names and technologies changed. The reasons were usually the same.
 
 `mimi` does live translated subtitles on macOS.
 
-`deepsuck` is retired now. Building it taught me more than I expected about SSE streams, resumable agent sessions, reverse tunnels, and the risks of putting a local coding agent behind a phone UI.
-
 More recent experiments mostly live in [yuxino-labs](https://github.com/yuxino-labs).
 
 Most of these repositories are old, unfinished, or no longer useful. I still like being able to see what I cared about when I made them.
