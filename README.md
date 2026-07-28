@@ -26,6 +26,8 @@ Nothing major. I just like that a few lines from that time are still somewhere i
 
 [`mimi`](https://github.com/yuxino/mimi) is a macOS app for live translated subtitles.
 
+[`wnacg`](https://github.com/yuxino/wnacg) is a source-only desktop reader I built while exploring Tauri, resilient scraping and multi-window UI. It is strictly for adults and for learning or technical research; it hosts no content and ships no binaries.
+
 `tick` keeps a small part of my daily workflow in the menu bar. Useful things can also be cute.
 
 More recent experiments mostly live in [yuxino-labs](https://github.com/yuxino-labs).
