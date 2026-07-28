@@ -24,9 +24,9 @@ The names and technologies changed. The reasons usually stayed the same.
 
 [`mimi`](https://github.com/yuxino/mimi) is a small macOS app for live translated subtitles.
 
-[`tick`] puts a small part of my daily workflow into the macOS menu bar. Useful things can also be cute.
+`tick` puts a small part of my daily workflow into the macOS menu bar. Useful things can also be cute.
 
-Some experiments became contributions instead. Small changes eventually made their way into projects like Lodash, Redux, Vite, VitePress, Taro and Zustand.
+Back in the old JavaScript days, a couple of tiny patches of mine landed in [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). They were small changes, but I still like that a little of that time remains in the history of tools I used every day.
 
 More recent experiments mostly live in [yuxino-labs](https://github.com/yuxino-labs).
 
