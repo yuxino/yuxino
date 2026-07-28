@@ -26,8 +26,6 @@ The names and technologies changed. The reasons usually stayed the same.
 
 [`tick`] puts a small part of my daily workflow into the macOS menu bar. Useful things can also be cute.
 
-[`urban_transportation_system`] was one of the few projects that escaped from being just a hobby. It was a freelance project with real users and real late nights.
-
 Some experiments became contributions instead. Small changes eventually made their way into projects like Lodash, Redux, Vite, VitePress, Taro and Zustand.
 
 More recent experiments mostly live in [yuxino-labs](https://github.com/yuxino-labs).
