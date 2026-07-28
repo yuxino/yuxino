@@ -1,25 +1,35 @@
 # yuxino
 
-I started writing code in 2016. GitHub gradually became a record of whatever I was trying to understand at the time.
+I started writing code in 2015, back when I was still in high school. What began as curiosity slowly became the way I learn, build things, and understand how software works.
+
+GitHub became a record of the things I wanted to understand at different times.
 
 ## learning by rebuilding
 
-[`vido`](https://github.com/yuxino/vido) was one of the first projects I built while learning frontend development.
+I learned by rebuilding things I could see.
 
-After that I kept rebuilding smaller pieces of the web stack: MVVM, React, Promise, SSR, and even a small Java HTTP server. Reading [SICP](https://github.com/yuxino/sicp-ex) was my first real taste of functional programming.
+[`vido`](https://github.com/yuxino/vido) was one of my first serious frontend projects. Later came experiments around MVVM, React internals, Promise, SSR, and even a small Java HTTP server.
 
-None of those projects needed to become products. They were how I learned what the abstractions were hiding.
+I worked through [SICP](https://github.com/yuxino/sicp-ex) because I wanted to understand functional programming from the foundations: recursion, higher-order functions, and the ideas behind the abstractions I used every day.
+
+Some projects were never meant to become products. They were just ways to find out how things worked.
 
 ## things I keep making
 
-Some ideas have followed me around for years: places to write, tools to organize my days, and small systems that make my own software easier to run.
+Over the years, I kept building the same kinds of things: tools to record life, organize myself, and make my own workflow easier.
 
-The names and technologies changed. The reasons were usually the same.
+The names and technologies changed. The reasons usually stayed the same.
 
-## ai changed the pace
+## projects that stayed with me
 
-`mimi` does live translated subtitles on macOS.
+[`mimi`](https://github.com/yuxino/mimi) is a small macOS app for live translated subtitles.
+
+[`tick`] puts a small part of my daily workflow into the macOS menu bar. Useful things can also be cute.
+
+[`urban_transportation_system`] was one of the few projects that escaped from being just a hobby. It was a freelance project with real users and real late nights.
+
+Some experiments became contributions instead. Small changes eventually made their way into projects like Lodash, Redux, Vite, VitePress, Taro and Zustand.
 
 More recent experiments mostly live in [yuxino-labs](https://github.com/yuxino-labs).
 
-Most of these repositories are old, unfinished, or no longer useful. I still like being able to see what I cared about when I made them.
+Most repositories here are not products. They are snapshots of things I cared about at a particular moment. Looking back, that is probably the most valuable part of them.
