@@ -2,7 +2,9 @@
 
 I started writing code in 2015, when I was still in high school.
 
-It started with C. I spent some time maintaining C# code, then became completely absorbed in Java before eventually finding my way to the web.
+It started with C. I spent some time maintaining C# code, then became completely absorbed in Java. For various reasons, I never followed that path all the way through, and eventually found my place on the web instead.
+
+Now, in the AI era, the boundaries feel less rigid again. I can move across the stack, follow an idea further than before, and build more of the whole thing myself.
 
 This is not really a portfolio. Looking back, it became a timeline of the things I was curious enough to take apart and rebuild — and, almost by accident, a small record of how software changed around me.
 
