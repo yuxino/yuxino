@@ -10,15 +10,11 @@ After that I kept rebuilding smaller pieces of the web stack: MVVM, React, Promi
 
 None of those projects needed to become products. They were how I learned what the abstractions were hiding.
 
-## the same needs kept returning
+## things I keep making
 
-`blog` → `meteorite` → `moment` → `ashita`
+Some ideas have followed me around for years: places to write, tools to organize my days, and small systems that make my own software easier to run.
 
-`task-daily` → `comet`
-
-I apparently still need both a blog and a task app. I just keep replacing them.
-
-`meow` started because my 2-core, 2-GB server could not run the deployment setup I wanted. Moving the frontend to OSS and CDN led to my own release flow; `paw` came later because I needed a way to see and manage what was in the bucket.
+The names and technologies changed. The reasons were usually the same.
 
 ## ai changed the pace
 
