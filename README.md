@@ -26,7 +26,7 @@ Nothing major. I just like that a few lines from that time are still somewhere i
 
 [`mimi`](https://github.com/yuxino/mimi) is a macOS app for live translated subtitles.
 
-[`tick`](https://github.com/yuxino/tick) is a visual macOS LaunchAgent manager I built to understand how `launchd`, plist files and scheduled scripts fit together. Useful things can also be cute.
+[`tick`](https://github.com/yuxino/tick) turns macOS LaunchAgent into an app: create and schedule tasks, run them on demand, and inspect their logs. It can also use DeepSeek to draft a task from a short description.
 
 [`wnacg`](https://github.com/yuxino/wnacg) is a source-only desktop reader I built while exploring Tauri, resilient scraping and multi-window UI. It is strictly for adults and for learning or technical research; it hosts no content and ships no binaries.
 
