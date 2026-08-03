@@ -28,6 +28,8 @@ Nothing major. I just like that a few lines from that time are still somewhere i
 
 [`kiri`](https://github.com/yuxino/kiri) is a native macOS capture tool for screenshots, annotations and short region recordings, with a local library so recent captures do not disappear with the clipboard.
 
+[`satori`](https://github.com/yuxino/satori) is a local-first macOS learning workspace for understanding PDFs with current-page AI explanations, reading progress and optional web sources.
+
 [`tick`](https://github.com/yuxino/tick) turns macOS LaunchAgent into an app: create and schedule tasks, run them on demand, and inspect their logs. It can also use DeepSeek to draft a task from a short description.
 
 [`wnacg`](https://github.com/yuxino/wnacg) is a source-only desktop reader I built while exploring Tauri, resilient scraping and multi-window UI. It is strictly for adults and for learning or technical research; it hosts no content and ships no binaries.
