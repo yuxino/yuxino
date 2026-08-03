@@ -26,6 +26,8 @@ Nothing major. I just like that a few lines from that time are still somewhere i
 
 [`mimi`](https://github.com/yuxino/mimi) is a macOS app for live translated subtitles.
 
+[`kiri`](https://github.com/yuxino/kiri) is a native macOS capture tool for screenshots, annotations and short region recordings, with a local library so recent captures do not disappear with the clipboard.
+
 [`tick`](https://github.com/yuxino/tick) turns macOS LaunchAgent into an app: create and schedule tasks, run them on demand, and inspect their logs. It can also use DeepSeek to draft a task from a short description.
 
 [`wnacg`](https://github.com/yuxino/wnacg) is a source-only desktop reader I built while exploring Tauri, resilient scraping and multi-window UI. It is strictly for adults and for learning or technical research; it hosts no content and ships no binaries.
