@@ -1,6 +1,6 @@
 # yuxino
 
-2015 → C → Java → the web → AI. The tools changed; the habit didn't.
+2015 → C → Java → the web → AI.
 
 ## things i still make
 
