@@ -1,39 +1,29 @@
 # yuxino
 
-I started writing code in 2015, when I was still in high school.
+I mostly write software because I want it to exist.
 
-It started with C. I spent some time maintaining C# code, then became completely absorbed in Java. For various reasons, I never followed that path all the way through, and eventually found my place on the web instead.
+I started in 2015 with C, got lost in Java for a while, eventually found the web, and now AI has made the boundaries blurry again.
 
-Now, in the AI era, the boundaries feel less rigid again. I can move across the stack, follow an idea further than before, and build more of the whole thing myself.
+The tools changed. The habit didn't.
 
-This is not really a portfolio. Looking back, it became a timeline of the things I was curious enough to take apart and rebuild — and, almost by accident, a small record of how software changed around me.
+## things i still make
 
-## learning by rebuilding
+[`mimi`](https://github.com/yuxino/mimi) — live translated subtitles on macOS. I wanted subtitles, so now there is an app.
 
-[`vido`](https://github.com/yuxino/vido) was one of my first serious frontend projects. It came from the era when learning the web often meant opening something you liked and trying to make your own version of it.
+[`kiri`](https://github.com/yuxino/kiri) — screenshots, annotations and short recordings that don't disappear with the clipboard.
 
-That habit stayed. I rebuilt pieces of MVVM, React, Promise and SSR, wrote a tiny Java HTTP server, and worked through [SICP](https://github.com/yuxino/sicp-ex) to understand the ideas underneath the abstractions I was using.
+[`satori`](https://github.com/yuxino/satori) — a local-first place to read PDFs and ask AI what the page is talking about.
 
-Most of those projects were never meant to become products. Finishing the lesson was usually more important than finishing the project.
+[`tick`](https://github.com/yuxino/tick) — macOS LaunchAgent, except it has buttons and doesn't make me remember plist files.
 
-## traces from an older JavaScript era
+More experiments live in [yuxino-labs](https://github.com/yuxino-labs).
 
-A couple of tiny patches of mine once landed in [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976).
+## before that
 
-Nothing major. I just like that a few lines from that time are still somewhere in the history of tools I used every day.
+I learned a lot of programming by rebuilding things: MVVM, React, Promise, SSR, a tiny Java HTTP server, and whatever else I was curious enough to take apart.
 
-## still making small things
+A couple of tiny patches even made their way into [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). Nothing heroic. I just like that they're still there.
 
-[`mimi`](https://github.com/yuxino/mimi) is a macOS app for live translated subtitles.
+2015 → now. Some projects survived. Most became stories.
 
-[`kiri`](https://github.com/yuxino/kiri) is a native macOS capture tool for screenshots, annotations and short region recordings, with a local library so recent captures do not disappear with the clipboard.
-
-[`satori`](https://github.com/yuxino/satori) is a local-first macOS learning workspace for understanding PDFs with current-page AI explanations, reading progress and optional web sources.
-
-[`tick`](https://github.com/yuxino/tick) turns macOS LaunchAgent into an app: create and schedule tasks, run them on demand, and inspect their logs. It can also use DeepSeek to draft a task from a short description.
-
-[`wnacg`](https://github.com/yuxino/wnacg) is a source-only desktop reader I built while exploring Tauri, resilient scraping and multi-window UI. It is strictly for adults and for learning or technical research; it hosts no content and ships no binaries.
-
-More recent experiments mostly live in [yuxino-labs](https://github.com/yuxino-labs).
-
-The technologies have changed a lot since 2015. The reasons I build things have not changed nearly as much: to understand something, make life a little easier, or simply see whether an idea can work.
+I write those stories at [ashita.yuxino.cn](https://ashita.yuxino.cn).
