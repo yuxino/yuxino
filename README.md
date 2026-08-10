@@ -10,9 +10,3 @@ Hi, I'm Gavin. I do frontend, full-stack, and way too much AI.
 - [ding-frame](https://github.com/yuxino/ding-frame) — video analysis tool that understands frames
 - [satori](https://github.com/yuxino/satori) — local-first PDF reader with AI explanations
 - [kiri](https://github.com/yuxino/kiri) — screenshots & notes that don't vanish with the clipboard
-
-## before that
-
-Two of my patches are in [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976).
-
-The recent ones are at [ashita.yuxino.cn](https://ashita.yuxino.cn/).
