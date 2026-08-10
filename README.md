@@ -14,10 +14,8 @@
 
 ## before that
 
-I learned a lot of programming by rebuilding things: MVVM, React, Promise, SSR, a tiny Java HTTP server, and whatever else I was curious enough to take apart.
+I learned by rebuilding things — MVVM, React, Promise, SSR, a tiny Java HTTP server, whatever I was curious about.
 
-A couple of tiny patches even made their way into [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). Nothing heroic. I just like that they're still there.
+A couple of my tiny patches live in [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). Small, but I'm proud of them.
 
-2015 → now. Some projects survived. Most became stories.
-
-I write those stories at [ashita.yuxino.cn](https://ashita.yuxino.cn).
+2015 → now. Some projects survived, most became stories — I write those at [ashita.yuxino.cn](https://ashita.yuxino.cn).
