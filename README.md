@@ -1,21 +1,18 @@
 # yuxino
 
-2015 → C → Java → the web → AI.
+I've been building since 2015 — C → Java → the web → AI. Still at it.
 
 ## currently building
 
-[`mimi`](https://github.com/yuxino/mimi) — live translated subtitles on macOS. I wanted subtitles, so now there is an app.
-
-[`kiri`](https://github.com/yuxino/kiri) — screenshots, annotations and short recordings that don't disappear with the clipboard.
-
-[`satori`](https://github.com/yuxino/satori) — a local-first place to read PDFs and ask AI what the page is talking about.
-
-[`tick`](https://github.com/yuxino/tick) — macOS LaunchAgent, except it has buttons and doesn't make me remember plist files.
+[`mimi`](https://github.com/yuxino/mimi) — live translated subtitles on macOS
+[`kiri`](https://github.com/yuxino/kiri) — screenshots & annotations that don't vanish with the clipboard
+[`satori`](https://github.com/yuxino/satori) — a local-first PDF reader that answers questions about the page
+[`tick`](https://github.com/yuxino/tick) — macOS LaunchAgent with buttons instead of plist files
 
 ## before that
 
-I learned by rebuilding things — MVVM, React, Promise, SSR, a tiny Java HTTP server, whatever I was curious about.
+I've built my own versions of MVVM, React, Promise, SSR, and a tiny Java HTTP server.
 
-A couple of my tiny patches live in [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976). Small, but I'm proud of them.
+A couple of my patches are in [Lodash](https://github.com/lodash/lodash/pull/3467) and [Redux](https://github.com/reduxjs/redux/pull/2976).
 
-2015 → now. Some projects survived, most became stories — I write those at [ashita.yuxino.cn](https://ashita.yuxino.cn).
+2015 → now. Some projects survived; most became stories — those live at [ashita.yuxino.cn](https://ashita.yuxino.cn).
