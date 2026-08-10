@@ -2,7 +2,7 @@
 
 2015 → C → Java → the web → AI.
 
-## things i still make
+## 最近在做的
 
 [`mimi`](https://github.com/yuxino/mimi) — live translated subtitles on macOS. I wanted subtitles, so now there is an app.
 
