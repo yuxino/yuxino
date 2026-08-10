@@ -1,6 +1,6 @@
 # yuxino
 
-I mostly write software because I want it to exist.
+I like taking things apart, rebuilding them, and seeing where they lead.
 
 I started in 2015 with C, got lost in Java for a while, eventually found the web, and now AI has made the boundaries blurry again.
 
