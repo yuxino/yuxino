@@ -2,7 +2,7 @@
 
 Frontend and full-stack by trade, AI by hobby.
 
-## currently building
+## What I'm working on
 
 - [mimi](https://github.com/yuxino/mimi) — realtime translated subtitles on macOS
 - [meow](https://github.com/yuxino-labs/meow) — versioned release & hosting for web projects
