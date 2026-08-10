@@ -1,7 +1,5 @@
 # yuxino
 
-I like taking things apart, rebuilding them, and seeing where they lead.
-
 2015 → C → Java → the web → AI. The tools changed; the habit didn't.
 
 ## things i still make
