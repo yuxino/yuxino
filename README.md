@@ -2,9 +2,7 @@
 
 I like taking things apart, rebuilding them, and seeing where they lead.
 
-I started in 2015 with C, got lost in Java for a while, eventually found the web, and now AI has made the boundaries blurry again.
-
-The tools changed. The habit didn't.
+2015 → C → Java → the web → AI. The tools changed; the habit didn't.
 
 ## things i still make
 
@@ -15,8 +13,6 @@ The tools changed. The habit didn't.
 [`satori`](https://github.com/yuxino/satori) — a local-first place to read PDFs and ask AI what the page is talking about.
 
 [`tick`](https://github.com/yuxino/tick) — macOS LaunchAgent, except it has buttons and doesn't make me remember plist files.
-
-More experiments live in [yuxino-labs](https://github.com/yuxino-labs).
 
 ## before that
 
