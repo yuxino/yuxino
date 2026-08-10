@@ -5,7 +5,7 @@ I've been building since 2015 — C → Java → the web → AI. Still here, sti
 ## currently building
 
 - [`mimi`](https://github.com/yuxino/mimi) — live translated subtitles on macOS. Watching stuff in Japanese with zero effort
-- [`meow`](https://github.com/yuxino-labs/meow) — versioned release & hosting for web projects. This very blog runs on it 🐾
+- [`meow`](https://github.com/yuxino-labs/meow) — versioned release & hosting for web projects. It ships [ashita](https://ashita.yuxino.cn) 🐾
 - [`wnacg`](https://github.com/yuxino/wnacg) — manga reader with local OCR + AI translation. Raw manga? Translated on the spot
 - [`ding-frame`](https://github.com/yuxino/ding-frame) — video analysis tool that actually understands frames
 - [`satori`](https://github.com/yuxino/satori) — local-first PDF reader with AI explanations, for when reading gets hard
