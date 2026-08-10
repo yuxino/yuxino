@@ -1,6 +1,6 @@
 # yuxino
 
-Hi, I'm Gavin. I do frontend, full-stack, and way too much AI. My favorite hobby is promising AI the world and treating it like my employee ☕
+Hi, I'm Gavin. I do frontend, full-stack, and way too much AI.
 
 ## currently building
 
