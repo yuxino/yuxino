@@ -15,12 +15,10 @@ Frontend and full-stack by trade, AI by hobby.
 
 ### Archive
 
-- 🎬 [vido](https://github.com/yuxino/vido) — a tiny HTML5 video player built with Vue 1.x
-- 🔤 [pyfl](https://github.com/yuxino/pyfl) — Chinese characters to pinyin initials, published on npm
-- 📚 [sicp-ex](https://github.com/yuxino/sicp-ex) — exercises from my time with SICP
-- 🗂️ [lemuro](https://github.com/yuxino/lemuro) — a small collection of filesystem utilities
-- 🧩 [viva](https://github.com/yuxino/viva) — an old monorepo experiment
-- 📄 [vscode-pdf-reader](https://github.com/yuxino/vscode-pdf-reader) — a PDF reader experiment for VS Code that didn't quite work out
+- 🎬 [vido](https://github.com/yuxino/vido) — a tiny HTML5 video player I built in the Vue 1.x days
+- 🔤 [pyfl](https://github.com/yuxino/pyfl) — a pinyin-initials library that came out of a real project and made it onto npm
+- 💬 [WeChat](https://github.com/yuxino/WeChat) — one of the projects I spent a lot of time on in my early Vue days
+- 📚 [sicp-ex](https://github.com/yuxino/sicp-ex) — traces from the time I was working through SICP
 
 ## Writing
 
