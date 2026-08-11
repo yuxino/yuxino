@@ -15,7 +15,12 @@ Frontend and full-stack by trade, AI by hobby.
 
 ### Archive
 
-Older things, experiments, and projects from different stages of my life live in my repositories. I keep them around — some are useful, some are embarrassing, and some are both.
+- 🎬 [vido](https://github.com/yuxino/vido) — a tiny HTML5 video player built with Vue 1.x
+- 🔤 [pyfl](https://github.com/yuxino/pyfl) — Chinese characters to pinyin initials, published on npm
+- 📚 [sicp-ex](https://github.com/yuxino/sicp-ex) — exercises from my time with SICP
+- 🗂️ [lemuro](https://github.com/yuxino/lemuro) — a small collection of filesystem utilities
+- 🧩 [viva](https://github.com/yuxino/viva) — an old monorepo experiment
+- 📄 [vscode-pdf-reader](https://github.com/yuxino/vscode-pdf-reader) — a PDF reader experiment for VS Code that didn't quite work out
 
 ## Writing
 
