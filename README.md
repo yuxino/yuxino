@@ -20,7 +20,6 @@ Frontend and full-stack by trade, AI by hobby.
 - 🔤 [pyfl](https://github.com/yuxino/pyfl) — a pinyin-initials library that came out of a real project and made it onto npm
 - 💬 [WeChat](https://github.com/yuxino/WeChat) — one of the projects I spent a lot of time on in my early Vue days
 - 🎮 [2048](https://github.com/yuxino/2048) — my Vue take on 2048, with tests and CI experiments along the way
-- 📚 [sicp-ex](https://github.com/yuxino/sicp-ex) — traces from the time I was working through SICP
 
 ## Writing
 
