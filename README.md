@@ -2,6 +2,12 @@
 
 Frontend and full-stack by trade, AI by hobby.
 
+### Languages and Tools:
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,vue,react,nodejs,python,rust,swift,tauri,docker,mysql,git" alt="Languages and Tools" />
+</p>
+
 ## Projects
 
 ### Active
