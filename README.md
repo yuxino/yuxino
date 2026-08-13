@@ -9,7 +9,7 @@ Frontend and full-stack by trade, AI by hobby.
 - 🐱 [mimi](https://github.com/yuxino/mimi) — realtime translated subtitles on macOS
 - ✂️ [kiri](https://github.com/yuxino/kiri) — screenshots & notes that don't vanish with the clipboard
 - 📚 [wnacg](https://github.com/yuxino/wnacg) — manga reader with local OCR + AI translation
-- 🎞️ [ding-frame](https://github.com/yuxino/ding-frame) — video analysis tool that understands frames
+- 🎞️ [koma](https://github.com/yuxino/koma) — ai-powered video understanding
 - 🐾 [meow](https://github.com/yuxino-labs/meow) — versioned release & hosting for web projects
 - 📖 [satori](https://github.com/yuxino/satori) — local-first PDF reader with AI explanations
 - 🎧 [koe](https://github.com/yuxino/koe) — Chrome captions for videos with timestamped ASR
