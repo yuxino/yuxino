@@ -1,8 +1,4 @@
-# Hi, I'm Gavin
-
-Frontend and full-stack by trade, AI by hobby.
-
-## Projects
+# Projects
 
 ### Active
 
