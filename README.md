@@ -2,6 +2,7 @@
 
 ### Active
 
+- 🐳 [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — a blue whale maid pet for DeepSeek Harness
 - ✂️ [kiri](https://github.com/yuxino/kiri) — screenshots & notes that don't vanish with the clipboard
 - 🐱 [mimi](https://github.com/yuxino/mimi) — realtime translated subtitles on macOS
 - 🎞️ [koma](https://github.com/yuxino/koma) — ai-powered video understanding
