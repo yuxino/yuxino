@@ -9,7 +9,7 @@
 - 📖 [satori](https://github.com/yuxino/satori) — local-first PDF reader with AI explanations
 - 🎧 [koe](https://github.com/yuxino/koe) — Chrome captions for videos with timestamped ASR
 
-### Fun
+### Side Quests
 
 - 🐳 [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — a blue whale maid pet for DeepSeek Harness
 
