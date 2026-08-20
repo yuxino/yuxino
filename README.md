@@ -2,7 +2,7 @@
 
 ### Active
 
-- - 🎞️ [koma](https://github.com/yuxino/koma) — ai-powered video understanding
+- 🎞️ [koma](https://github.com/yuxino/koma) — ai-powered video understanding
 - ✂️ [kiri](https://github.com/yuxino/kiri) — screenshots & notes that don't vanish with the clipboard
 - 🐱 [mimi](https://github.com/yuxino/mimi) — realtime translated subtitles on macOS
 - 🐾 [meow](https://github.com/yuxino-labs/meow) — versioned release & hosting for web projects
