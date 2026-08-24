@@ -13,13 +13,13 @@ Lately that has meant screenshots, live translated subtitles, PDF reading, video
 - 🎞️ [koma](https://github.com/yuxino/koma) — turns videos into chapters, keyframes, subtitles, and structured data
 - ✂️ [kiri](https://github.com/yuxino/kiri) — a local-first workspace for screenshots, annotation, OCR, and screen recording
 - 🐱 [mimi](https://github.com/yuxino/mimi) — live translated subtitles for anything playing on your Mac or PC
+- 🎧 [koe](https://github.com/yuxino/koe) — local-first Chrome video subtitles with Whisper, playback sync, live tab-audio fallback, and optional on-device Chinese translation
 - 🐾 [meow](https://github.com/yuxino-labs/meow) — frontend releases: build, preview, stage, ship, and roll back
 - 📖 [satori](https://github.com/yuxino/satori) — read PDF textbooks and ask AI about any paragraph, figure, or code block
 
 ### Side Quests
 
 - 🐳 [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — a blue whale maid pet for DeepSeek Harness
-- 🎧 [koe](https://github.com/yuxino/koe) — timestamped live captions for videos in Chrome
 
 ### Archive
 
