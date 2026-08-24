@@ -10,7 +10,7 @@ Lately that has meant screenshots, live translated subtitles, PDF reading, video
 
 ### Active
 
-- 🎞️ [KOMA](https://github.com/yuxino/koma) — turns videos into chapters, keyframes, subtitles, and structured data
+- 🎞️ [koma](https://github.com/yuxino/koma) — turns videos into chapters, keyframes, subtitles, and structured data
 - ✂️ [kiri](https://github.com/yuxino/kiri) — a local-first workspace for screenshots, annotation, OCR, and screen recording
 - 🐱 [mimi](https://github.com/yuxino/mimi) — live translated subtitles for anything playing on your Mac or PC
 - 🐾 [meow](https://github.com/yuxino-labs/meow) — frontend releases: build, preview, stage, ship, and roll back
