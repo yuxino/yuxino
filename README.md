@@ -1,30 +1,38 @@
-# Projects
+# Yuxino
+
+Full-stack developer. Outside work, I build desktop tools and small software I want to use myself.
+
+Lately that has meant screenshots, live translated subtitles, PDF reading, video understanding, and frontend releases.
+
+[Writing](https://ashita.yuxino.cn) · [Works](https://ashita.yuxino.cn/works/)
+
+## Projects
 
 ### Active
 
-- 🎞️ [koma](https://github.com/yuxino/koma) — ai-powered video understanding
-- ✂️ [kiri](https://github.com/yuxino/kiri) — screenshots & notes that don't vanish with the clipboard
-- 🐱 [mimi](https://github.com/yuxino/mimi) — realtime translated subtitles on macOS
-- 🐾 [meow](https://github.com/yuxino-labs/meow) — versioned release & hosting for web projects
-- 📖 [satori](https://github.com/yuxino/satori) — local-first PDF reader with AI explanations
+- 🎞️ [KOMA](https://github.com/yuxino/koma) — turns videos into chapters, keyframes, subtitles, and structured data
+- ✂️ [kiri](https://github.com/yuxino/kiri) — a local-first workspace for screenshots, annotation, OCR, and screen recording
+- 🐱 [mimi](https://github.com/yuxino/mimi) — live translated subtitles for anything playing on your Mac or PC
+- 🐾 [meow](https://github.com/yuxino-labs/meow) — frontend releases: build, preview, stage, ship, and roll back
+- 📖 [satori](https://github.com/yuxino/satori) — read PDF textbooks and ask AI about any paragraph, figure, or code block
 
 ### Side Quests
 
 - 🐳 [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — a blue whale maid pet for DeepSeek Harness
-- 🎧 [koe](https://github.com/yuxino/koe) — Chrome captions for videos with timestamped ASR
+- 🎧 [koe](https://github.com/yuxino/koe) — timestamped live captions for videos in Chrome
 
 ### Archive
 
-- 🎬 [vido](https://github.com/yuxino/vido) — a tiny HTML5 video player I built in the Vue 1.x days
-- 🔤 [pyfl](https://github.com/yuxino/pyfl) — a pinyin-initials library that came out of a real project and made it onto npm
-- 💬 [WeChat](https://github.com/yuxino/WeChat) — one of the projects I spent a lot of time on in my early Vue days
+- 🎬 [vido](https://github.com/yuxino/vido) — a lightweight custom HTML5 video player built with Vue 1.x
+- 🔤 [pyfl](https://github.com/yuxino/pyfl) — a tiny browser library for converting Chinese text to pinyin initials
+- 💬 [WeChat](https://github.com/yuxino/WeChat) — a WeChat client from my early Vue days
 - 🎮 [2048](https://github.com/yuxino/2048) — my Vue take on 2048, with tests and CI experiments along the way
 
 ## Writing
 
 - [Ashita](https://ashita.yuxino.cn) — notes on software, work, and things I don't want to forget.
 
-### Languages and Tools:
+## Languages and tools
 
 <p>
   <img src="https://skillicons.dev/icons?i=ts" width="24" height="24" alt="TypeScript" title="TypeScript" />
