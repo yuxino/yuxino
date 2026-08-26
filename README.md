@@ -2,7 +2,7 @@
 
 Full-stack developer. Outside work, I build desktop tools and small software I want to use myself.
 
-Lately that has meant screenshots, live translated subtitles, PDF reading, video understanding, and frontend releases.
+Lately that has meant screenshots, window pinning, live translated subtitles, PDF reading, video understanding, and frontend releases.
 
 [Writing](https://ashita.yuxino.cn) · [Works](https://ashita.yuxino.cn/works/)
 
@@ -12,6 +12,7 @@ Lately that has meant screenshots, live translated subtitles, PDF reading, video
 
 - 🎞️ [koma](https://github.com/yuxino/koma) — turns videos into chapters, keyframes, subtitles, and structured data
 - ✂️ [kiri](https://github.com/yuxino/kiri) — a local-first workspace for screenshots, annotation, OCR, and screen recording
+- 📌 [fuwa](https://github.com/yuxino/fuwa) — keeps windows and Finder Quick Look visible as private, local live mirrors
 - 🐱 [mimi](https://github.com/yuxino/mimi) — live translated subtitles for anything playing on your Mac or PC
 - 🎧 [koe](https://github.com/yuxino/koe) — local-first Chrome video subtitles with Whisper, playback sync, live tab-audio fallback, and optional on-device Chinese translation
 - 🐾 [meow](https://github.com/yuxino-labs/meow) — frontend releases: build, preview, stage, ship, and roll back
