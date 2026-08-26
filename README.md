@@ -4,7 +4,7 @@ Full-stack developer. Outside work, I build desktop tools and small software I w
 
 Lately that has meant screenshots, window pinning, live translated subtitles, PDF reading, video understanding, and frontend releases.
 
-[Writing](https://ashita.yuxino.cn) · [Works](https://ashita.yuxino.cn/works/)
+[Home](https://yuxino.cn) · [Writing](https://ashita.yuxino.cn) · [Works](https://ashita.yuxino.cn/works/)
 
 ## Projects
 
