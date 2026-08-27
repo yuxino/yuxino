@@ -1,11 +1,3 @@
-# Yuxino
-
-Full-stack developer. Outside work, I build desktop tools and small software I want to use myself.
-
-Lately that has meant screenshots, window pinning, live translated subtitles, PDF reading, video understanding, and frontend releases.
-
-[Home](https://yuxino.cn) · [Writing](https://ashita.yuxino.cn) · [Works](https://ashita.yuxino.cn/works/)
-
 ## Projects
 
 ### Active
