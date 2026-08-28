@@ -11,6 +11,7 @@
 
 ### Side Quests
 
+- 📚 [wnacg](https://github.com/yuxino/wnacg) — a desktop manga reader with continuous, single-page, and two-page modes, plus local OCR and manga translation
 - 🐳 [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — a blue whale maid pet for DeepSeek Harness
 
 ### Archive
