@@ -21,7 +21,3 @@
 - 🔤 [pyfl](https://github.com/yuxino/pyfl) — a tiny browser library for converting Chinese text to pinyin initials
 - 💬 [WeChat](https://github.com/yuxino/WeChat) — a WeChat client from my early Vue days
 - 🎮 [2048](https://github.com/yuxino/2048) — my Vue take on 2048, with tests and CI experiments along the way
-
-## Writing
-
-- [Ashita](https://ashita.yuxino.cn) — notes on software, work, and things I don't want to forget.
