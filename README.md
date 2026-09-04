@@ -1,6 +1,6 @@
 ## Projects
 
-_Small tools, experiments, and things I wanted to exist._
+_Small tools, quiet experiments, and things I wanted to exist._
 
 ### Active
 
