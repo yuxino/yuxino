@@ -1,5 +1,7 @@
 ## Projects
 
+_Small tools, experiments, and things I wanted to exist._
+
 ### Active
 
 - 🎞️ [koma](https://github.com/yuxino/koma) — turns videos into chapters, keyframes, subtitles, and structured data
