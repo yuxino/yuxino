@@ -16,12 +16,12 @@ _Small tools, quiet experiments, and things I wanted to exist._
 - 🎬 [vido](https://github.com/yuxino/vido) — a small, framework-free video player with custom colors and avatars · [play](https://vido.yuxino.cn/en.html) · [ten years later](https://ashita.yuxino.cn/en/essays/vido-ten-years/)
 - 🍤 [doro](https://github.com/yuxino/doro) — bouncy 3D Doro shrimp and dog, made with Blender · [play](https://yuxino.github.io/doro/)
 - 📝 [viva](https://github.com/yuxino/viva) — a quiet, fully local workspace for Markdown
-- 📚 [wnacg](https://github.com/yuxino/wnacg) — a desktop manga reader with continuous, single-page, and two-page modes, plus local OCR and manga translation
+- 🔤 [pyfl](https://github.com/yuxino/pyfl) — a tiny browser library for converting Chinese text to pinyin initials
 - ⏱️ [tick](https://github.com/yuxino/tick) — a macOS LaunchAgent scheduler for creating, running, debugging, and inspecting recurring tasks
 - 🐳 [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — a blue whale maid pet for DeepSeek Harness
+- 📚 [wnacg](https://github.com/yuxino/wnacg) — a desktop manga reader with continuous, single-page, and two-page modes, plus local OCR and manga translation
 
 ### Archive
 
-- 🔤 [pyfl](https://github.com/yuxino/pyfl) — a tiny browser library for converting Chinese text to pinyin initials
 - 💬 [WeChat](https://github.com/yuxino/WeChat) — a WeChat client from my early Vue days
 - 🎮 [2048](https://github.com/yuxino/2048) — my Vue take on 2048, with tests and CI experiments along the way
