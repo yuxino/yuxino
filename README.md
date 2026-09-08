@@ -13,6 +13,7 @@ _Small tools, quiet experiments, and things I wanted to exist._
 
 ### Side Quests
 
+- 🍤 [doro](https://github.com/yuxino/doro) — bouncy 3D Doro shrimp and dog, made with Blender · [play](https://yuxino.github.io/doro/)
 - 📝 [viva](https://github.com/yuxino/viva) — a quiet, fully local workspace for Markdown
 - 📚 [wnacg](https://github.com/yuxino/wnacg) — a desktop manga reader with continuous, single-page, and two-page modes, plus local OCR and manga translation
 - ⏱️ [tick](https://github.com/yuxino/tick) — a macOS LaunchAgent scheduler for creating, running, debugging, and inspecting recurring tasks
