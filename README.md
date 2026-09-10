@@ -13,13 +13,12 @@ _Small tools, quiet experiments, and things I wanted to exist._
 
 ### Side Quests
 
-- 🎬 [vido](https://github.com/yuxino/vido) — a small, framework-free video player with custom colors and avatars · [play](https://vido.yuxino.cn/en.html) · [ten years later](https://ashita.yuxino.cn/en/essays/vido-ten-years/)
+- 🎬 [vido](https://github.com/yuxino/vido) — a small, framework-free video player with custom colors and avatars · [play](https://vido.yuxino.cn/en.html)
 - 🍤 [doro](https://github.com/yuxino/doro) — bouncy 3D Doro shrimp and dog, made with Blender · [play](https://yuxino.github.io/doro/)
 - 📝 [viva](https://github.com/yuxino/viva) — a quiet, fully local workspace for Markdown
 - 🔤 [pyfl](https://github.com/yuxino/pyfl) — a tiny browser library for converting Chinese text to pinyin initials
 - ⏱️ [tick](https://github.com/yuxino/tick) — a macOS LaunchAgent scheduler for creating, running, debugging, and inspecting recurring tasks
 - 🐳 [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — a blue whale maid pet for DeepSeek Harness
-- 📚 [wnacg](https://github.com/yuxino/wnacg) — a desktop manga reader with continuous, single-page, and two-page modes, plus local OCR and manga translation
 
 ### Archive
 
