@@ -8,6 +8,7 @@ _Small tools, quiet experiments, and things I wanted to exist._
 - ✂️ [kiri](https://github.com/yuxino/kiri) — a local-first workspace for screenshots, annotation, OCR, and screen recording
 - 📌 [fuwa](https://github.com/yuxino/fuwa) — keeps windows and Finder Quick Look visible as private, local live mirrors
 - 🐱 [mimi](https://github.com/yuxino/mimi) — live translated subtitles for anything playing on your Mac or PC
+- 📱 [osu](https://github.com/yuxino/osu) — live bilingual subtitles for iPhone in a lyric-style floating window
 - 🎧 [koe](https://github.com/yuxino/koe) — local-first Chrome video subtitles with Whisper, playback sync, live tab-audio fallback, and optional on-device Chinese translation
 - 📖 [satori](https://github.com/yuxino/satori) — read PDF textbooks and ask AI about any paragraph, figure, or code block
 
