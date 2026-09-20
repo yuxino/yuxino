@@ -1,15 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-dark.svg">
-  <img src="assets/profile/intro-light.svg" width="100%" alt="Software by yuxino. Desktop apps, web tools, and open-source libraries.">
+  <img src="assets/profile/intro-light.svg" width="240" alt="yuxino">
 </picture>
-
-Desktop apps, web tools, and open-source libraries.
-
-桌面应用、网页工具与开源库。
-
-[Writing / 随笔](https://ashita.yuxino.cn/) &nbsp; · &nbsp; [Projects / 作品](#works)
-
-## Works
 
 <a href="https://kiri.yuxino.cn/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/kiri-still.webp"><img src="assets/profile/kiri-in-use.gif" width="410" align="right" alt="Kiri feature tour: screenshots, annotation, OCR, and recordings"></picture></a>
 
