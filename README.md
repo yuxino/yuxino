@@ -6,29 +6,29 @@
 </p>
 
 <p>
-<a href="https://github.com/yuxino/satori"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/satori-dark.svg"><img src="assets/profile/gallery/satori-light.svg" width="49%" alt="Satori — PDF 阅读与框选问答；Source / 源码"></picture></a>
+<a href="https://github.com/yuxino/satori"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/satori-white-dark.svg"><img src="assets/profile/gallery/satori-white-light.svg" width="49%" alt="Satori — PDF 阅读与框选问答；Source / 源码"></picture></a>
 <a href="https://github.com/yuxino/fuwa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/fuwa-dark.svg"><img src="assets/profile/gallery/fuwa-light.svg" width="49%" alt="Fuwa — Mac 窗口镜像与鼠标穿透；Source / 源码"></picture></a><br>
 <a href="https://satori.yuxino.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-satori-dark.svg"><img src="assets/profile/gallery/link-satori-light.svg" width="49%" alt="Satori Website / 官网"></picture></a>
 <a href="https://fuwa.yuxino.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-fuwa-dark.svg"><img src="assets/profile/gallery/link-fuwa-light.svg" width="49%" alt="Fuwa Website / 官网"></picture></a>
 </p>
 
 <p>
-<a href="https://github.com/yuxino/tick"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/tick-dark.svg"><img src="assets/profile/gallery/tick-light.svg" width="49%" alt="Tick — Node.js 定时任务；Source / 源码"></picture></a>
-<a href="https://github.com/yuxino/osu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/osu-dark.svg"><img src="assets/profile/gallery/osu-light.svg" width="49%" alt="Osu — iOS 悬浮翻译，源码预览版；Source / 源码"></picture></a><br>
+<a href="https://github.com/yuxino/tick"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/tick-white-dark.svg"><img src="assets/profile/gallery/tick-white-light.svg" width="49%" alt="Tick — Node.js 定时任务；Source / 源码"></picture></a>
+<a href="https://github.com/yuxino/osu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/osu-white-dark.svg"><img src="assets/profile/gallery/osu-white-light.svg" width="49%" alt="Osu — iOS 悬浮翻译，源码预览版；Source / 源码"></picture></a><br>
 <a href="https://tick.yuxino.cn/en/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-tick-dark.svg"><img src="assets/profile/gallery/link-tick-light.svg" width="49%" alt="Tick Website / 官网"></picture></a>
 <a href="https://osu-web.yuxino.cn/en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-osu-dark.svg"><img src="assets/profile/gallery/link-osu-light.svg" width="49%" alt="Osu Website / 官网"></picture></a>
 </p>
 
 <p>
 <a href="https://github.com/yuxino/koma"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/koma-dark.svg"><img src="assets/profile/gallery/koma-light.svg" width="49%" alt="Koma — 视频总结、章节与字幕导出；Source / 源码"></picture></a>
-<a href="https://github.com/yuxino/vido"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/vido-dark.svg"><img src="assets/profile/gallery/vido-light.svg" width="49%" alt="Vido — 零运行时依赖的网页播放器；Source / 源码"></picture></a><br>
+<a href="https://github.com/yuxino/vido"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/vido-white-dark.svg"><img src="assets/profile/gallery/vido-white-light.svg" width="49%" alt="Vido — 零运行时依赖的网页播放器；Source / 源码"></picture></a><br>
 <a href="https://koma.yuxino.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-koma-dark.svg"><img src="assets/profile/gallery/link-koma-light.svg" width="49%" alt="Koma Website / 官网"></picture></a>
 <a href="https://vido.yuxino.cn/en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-vido-dark.svg"><img src="assets/profile/gallery/link-vido-light.svg" width="49%" alt="Vido Website / 官网"></picture></a>
 </p>
 
 <p>
-<a href="https://github.com/yuxino/pyfl"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/pyfl-dark.svg"><img src="assets/profile/gallery/pyfl-light.svg" width="49%" alt="Pyfl — 拼音首字母与多读音搜索；Source / 源码"></picture></a>
-<a href="https://github.com/yuxino/dsh-blue-whale-maid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/dsh-blue-whale-maid-dark.svg"><img src="assets/profile/gallery/dsh-blue-whale-maid-light.svg" width="49%" alt="Blue Whale Maid — 任务提醒与费用估算；Source / 源码"></picture></a><br>
+<a href="https://github.com/yuxino/pyfl"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/pyfl-white-dark.svg"><img src="assets/profile/gallery/pyfl-white-light.svg" width="49%" alt="Pyfl — 拼音首字母与多读音搜索；Source / 源码"></picture></a>
+<a href="https://github.com/yuxino/dsh-blue-whale-maid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/dsh-blue-whale-maid-white-dark.svg"><img src="assets/profile/gallery/dsh-blue-whale-maid-white-light.svg" width="49%" alt="Blue Whale Maid — 任务提醒与费用估算；Source / 源码"></picture></a><br>
 <a href="https://pyfl.yuxino.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-pyfl-dark.svg"><img src="assets/profile/gallery/link-pyfl-light.svg" width="49%" alt="Pyfl Website / 官网"></picture></a>
 <a href="https://whale.yuxino.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-dsh-blue-whale-maid-dark.svg"><img src="assets/profile/gallery/link-dsh-blue-whale-maid-light.svg" width="49%" alt="Blue Whale Maid Website / 官网"></picture></a>
 </p>
