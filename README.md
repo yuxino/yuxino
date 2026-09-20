@@ -2,24 +2,27 @@
 
 _Small tools, quiet experiments, and things I wanted to exist._
 
-### Active
+### Subtitles and video
 
-- 🎞️ [koma](https://github.com/yuxino/koma) — turns videos into chapters, keyframes, subtitles, and structured data
-- ✂️ [kiri](https://github.com/yuxino/kiri) — a local-first workspace for screenshots, annotation, OCR, and screen recording
-- 📌 [fuwa](https://github.com/yuxino/fuwa) — keeps windows and Finder Quick Look visible as private, local live mirrors
-- 🐱 [mimi](https://github.com/yuxino/mimi) — live translated subtitles for anything playing on your Mac or PC
-- 📱 [osu](https://github.com/yuxino/osu) — live bilingual subtitles for iPhone in a lyric-style floating window
-- 🎧 [koe](https://github.com/yuxino/koe) — local-first Chrome video subtitles with Whisper, playback sync, live tab-audio fallback, and optional on-device Chinese translation
-- 📖 [satori](https://github.com/yuxino/satori) — read PDF textbooks and ask AI about any paragraph, figure, or code block
+- [Mimi](https://github.com/yuxino/mimi) — real-time system-audio subtitles and translation for macOS and Windows · 实时字幕翻译 · [Website](https://mimi.yuxino.cn/)
+- [Koe](https://github.com/yuxino/koe) — Chromium video subtitles with local Whisper on Apple silicon Mac and optional Chinese translation · 浏览器视频字幕 · [Website](https://koe.yuxino.cn/)
+- [Osu](https://github.com/yuxino/osu) — floating live subtitle translation for iPhone, using Apple local or Alibaba cloud processing; source-install preview · iOS 悬浮字幕翻译
+- [Koma](https://github.com/yuxino/koma) — self-hosted AI video analysis with summaries, chapters, keyframes, transcripts, and structured exports · AI 视频总结与字幕提取 · [Website](https://koma.yuxino.cn/)
 
-### Side Quests
+### Desktop tools
 
-- 🎬 [vido](https://github.com/yuxino/vido) — a small, framework-free video player with custom colors and avatars · [play](https://vido.yuxino.cn/en.html)
-- 🍤 [doro](https://github.com/yuxino/doro) — bouncy 3D Doro shrimp and dog, made with Blender · [play](https://yuxino.github.io/doro/)
-- 📝 [viva](https://github.com/yuxino/viva) — a quiet, fully local workspace for Markdown
-- 🔤 [pyfl](https://github.com/yuxino/pyfl) — a tiny browser library for converting Chinese text to pinyin initials
-- ⏱️ [tick](https://github.com/yuxino/tick) — a macOS LaunchAgent scheduler for creating, running, debugging, and inspecting recurring tasks
-- 🐳 [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — a blue whale maid pet for DeepSeek Harness
+- [Kiri](https://github.com/yuxino/kiri) — local-first screenshots, annotation, OCR, screen recording, and video editing for macOS and Windows · 截图、文字识别、录屏与剪辑 · [Website](https://kiri.yuxino.cn/)
+- [Fuwa](https://github.com/yuxino/fuwa) — always-on-top, click-through live mirrors of macOS windows and Finder Quick Look · Mac 窗口悬浮镜像 · [Website](https://fuwa.yuxino.cn/)
+- [Satori](https://github.com/yuxino/satori) — AI PDF reader for macOS and Windows: ask about passages, diagrams, and code, with local reading history · PDF 阅读与教材问答 · [Website](https://satori.yuxino.cn/)
+- [Viva](https://github.com/yuxino/viva) — local-first Markdown editor for macOS and Windows, with live preview, workspace search, and version history · 本地 Markdown 编辑器 · [Website](https://viva.yuxino.cn/)
+- [Tick](https://github.com/yuxino/tick) — schedule Node.js tasks with macOS LaunchAgents or Windows Task Scheduler, test scripts, and inspect logs · 定时任务管理 · [Website](https://tick.yuxino.cn/)
+
+### Web libraries and companions
+
+- [Vido](https://github.com/yuxino/vido) — dependency-free TypeScript HTML5 video player with custom controls, WebVTT subtitles, and an avatar progress indicator · 网页视频播放器 · [Interactive demo](https://vido.yuxino.cn/en.html)
+- [Pyfl](https://github.com/yuxino/pyfl) — JavaScript pinyin initials conversion and polyphonic candidate matching for Chinese search · 中文拼音首字母搜索 · [Try it](https://pyfl.yuxino.cn/)
+- [Blue Whale Maid](https://github.com/yuxino/dsh-blue-whale-maid) — DeepSeek Harness Web companion with task notifications, animations, and cost estimates · 蓝鲸女仆桌宠插件 · [Website](https://whale.yuxino.cn/)
+- [Doro](https://github.com/yuxino/doro) — bouncy 3D Doro shrimp and dog, made with Blender · [Play](https://yuxino.github.io/doro/)
 
 ### Archive
 
