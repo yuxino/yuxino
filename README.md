@@ -206,19 +206,4 @@ A desktop companion for DeepSeek Harness Web, with task reminders and cost estim
 
 ---
 
-### [Doro](https://github.com/yuxino/doro)
-
-Interactive 3D characters made with Blender. <br>
-<sub>Blender 制作的 3D 互动角色。</sub>
-
-[Play / 体验](https://yuxino.github.io/doro/)
-
-### [WeChat](https://github.com/yuxino/WeChat)
-
-A WeChat client built with Vue. <br>
-<sub>基于 Vue 的微信客户端。</sub>
-
-### [2048](https://github.com/yuxino/2048)
-
-A 2048 game built with Vue. <br>
-<sub>基于 Vue 的 2048 游戏。</sub>
+[Doro](https://github.com/yuxino/doro) &nbsp; · &nbsp; [WeChat](https://github.com/yuxino/WeChat) &nbsp; · &nbsp; [2048](https://github.com/yuxino/2048)
