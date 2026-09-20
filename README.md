@@ -7,7 +7,7 @@ I build desktop apps and web tools. Each one gets its own little character.
 
 写自己想用的软件，也认真做它们的样子。
 
-[Writing / 随笔](https://ashita.yuxino.cn/) &nbsp; · &nbsp; [More projects / 更多项目](#the-rest-of-the-workbench)
+[Writing / 随笔](https://ashita.yuxino.cn/) &nbsp; · &nbsp; [More projects / 更多项目](#more-things-i-make)
 
 ## Selected work
 
@@ -66,19 +66,52 @@ Read a PDF, select a passage or diagram, and ask a supported AI model. Keep the 
 <br clear="all">
 <br>
 
-## The rest of the workbench
+## More things I make
 
-<table>
-  <tr><td width="35%" align="center"><img src="assets/projects/fuwa.png" width="32" alt=""><br><strong><a href="https://github.com/yuxino/fuwa">Fuwa</a></strong><br><sub><a href="https://fuwa.yuxino.cn/">Website</a></sub></td><td width="65%">Keep a reference in view.<br><sub>Mac 窗口悬浮镜像与鼠标穿透</sub></td></tr>
-  <tr><td width="35%" align="center"><img src="assets/projects/viva.webp" width="32" alt=""><br><strong><a href="https://github.com/yuxino/viva">Viva</a></strong><br><sub><a href="https://viva.yuxino.cn/">Website</a></sub></td><td>A local place to write in Markdown.<br><sub>本地 Markdown 编辑、预览与笔记搜索</sub></td></tr>
-  <tr><td width="35%" align="center"><img src="assets/projects/tick.png" width="32" alt=""><br><strong><a href="https://github.com/yuxino/tick">Tick</a></strong><br><sub><a href="https://tick.yuxino.cn/">Website</a></sub></td><td>Write the script. Give it a schedule.<br><sub>Mac 与 Windows 的 Node.js 定时任务工具</sub></td></tr>
-  <tr><td width="35%" align="center"><img src="assets/projects/koe.png" width="32" alt=""><br><strong><a href="https://github.com/yuxino/koe">Koe</a></strong><br><sub><a href="https://koe.yuxino.cn/">Website</a></sub></td><td>Local Whisper subtitles for browser video.<br><sub>浏览器视频字幕，可选中文翻译</sub></td></tr>
-  <tr><td width="35%" align="center"><img src="assets/projects/osu.png" width="32" alt=""><br><strong><a href="https://github.com/yuxino/osu">Osu</a></strong><br><sub><a href="https://github.com/yuxino/osu/blob/master/CONTRIBUTING.md">Build from source</a></sub></td><td>Floating subtitle translation for iPhone.<br><sub>iOS 悬浮字幕翻译 · 源码安装预览版</sub></td></tr>
-  <tr><td width="35%" align="center"><img src="assets/projects/koma.png" width="32" alt=""><br><strong><a href="https://github.com/yuxino/koma">Koma</a></strong><br><sub><a href="https://koma.yuxino.cn/">Website</a></sub></td><td>Find the useful parts of a video.<br><sub>AI 视频总结、章节、字幕与结构化导出</sub></td></tr>
-  <tr><td width="35%" align="center"><img src="assets/projects/vido.png" width="32" alt=""><br><strong><a href="https://github.com/yuxino/vido">Vido</a></strong><br><sub><a href="https://vido.yuxino.cn/en.html">Playground</a></sub></td><td>A tiny video player with its own character.<br><sub>零运行时依赖的 TypeScript HTML5 播放器</sub></td></tr>
-  <tr><td width="35%" align="center"><img src="assets/projects/pyfl.png" width="32" alt=""><br><strong><a href="https://github.com/yuxino/pyfl">Pyfl</a></strong><br><sub><a href="https://pyfl.yuxino.cn/">Playground</a></sub></td><td>Make Chinese text easier to find.<br><sub>JavaScript 拼音首字母转换与多读音搜索</sub></td></tr>
-  <tr><td width="35%" align="center"><img src="assets/projects/dsh-blue-whale-maid.png" width="32" alt=""><br><strong><a href="https://github.com/yuxino/dsh-blue-whale-maid">Blue Whale Maid</a></strong><br><sub><a href="https://whale.yuxino.cn/">Website</a></sub></td><td>A little company while the agent works.<br><sub>DeepSeek Harness Web 桌宠、任务提醒与费用估算</sub></td></tr>
-</table>
+<br>
+<p><sub>04 &nbsp; / &nbsp; EVERYDAY TOOLS</sub></p>
+
+<p><img src="assets/projects/fuwa.png" width="56" align="right" alt=""><strong>Fuwa</strong> &nbsp; Keep a reference in view.<br>
+<sub>Mac 窗口悬浮镜像与鼠标穿透 &nbsp; · &nbsp; <a href="https://fuwa.yuxino.cn/">Website</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/fuwa">Source</a></sub></p>
+<br clear="all">
+
+<p><img src="assets/projects/viva.webp" width="56" align="right" alt=""><strong>Viva</strong> &nbsp; A local place to write in Markdown.<br>
+<sub>本地 Markdown 编辑、预览与笔记搜索 &nbsp; · &nbsp; <a href="https://viva.yuxino.cn/">Website</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/viva">Source</a></sub></p>
+<br clear="all">
+
+<p><img src="assets/projects/tick.png" width="56" align="right" alt=""><strong>Tick</strong> &nbsp; Write the script. Give it a schedule.<br>
+<sub>Mac 与 Windows 的 Node.js 定时任务工具 &nbsp; · &nbsp; <a href="https://tick.yuxino.cn/">Website</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/tick">Source</a></sub></p>
+<br clear="all">
+
+<br>
+<p><sub>05 &nbsp; / &nbsp; WORDS & VIDEO</sub></p>
+
+<p><img src="assets/projects/koe.png" width="56" align="right" alt=""><strong>Koe</strong> &nbsp; Local Whisper subtitles for browser video.<br>
+<sub>浏览器视频字幕，可选中文翻译 &nbsp; · &nbsp; <a href="https://koe.yuxino.cn/">Website</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/koe">Source</a></sub></p>
+<br clear="all">
+
+<p><img src="assets/projects/osu.png" width="56" align="right" alt=""><strong>Osu</strong> &nbsp; Floating subtitle translation for iPhone.<br>
+<sub>iOS 悬浮字幕翻译 · 源码安装预览版 &nbsp; · &nbsp; <a href="https://github.com/yuxino/osu/blob/master/CONTRIBUTING.md">Build from source</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/osu">Source</a></sub></p>
+<br clear="all">
+
+<p><img src="assets/projects/koma.png" width="56" align="right" alt=""><strong>Koma</strong> &nbsp; Find the useful parts of a video.<br>
+<sub>AI 视频总结、章节、字幕与结构化导出 &nbsp; · &nbsp; <a href="https://koma.yuxino.cn/">Website</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/koma">Source</a></sub></p>
+<br clear="all">
+
+<br>
+<p><sub>06 &nbsp; / &nbsp; BUILT FOR THE WEB</sub></p>
+
+<p><img src="assets/projects/vido.png" width="56" align="right" alt=""><strong>Vido</strong> &nbsp; A tiny video player with its own character.<br>
+<sub>零运行时依赖的 TypeScript HTML5 播放器 &nbsp; · &nbsp; <a href="https://vido.yuxino.cn/en.html">Playground</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/vido">Source</a></sub></p>
+<br clear="all">
+
+<p><img src="assets/projects/pyfl.png" width="56" align="right" alt=""><strong>Pyfl</strong> &nbsp; Make Chinese text easier to find.<br>
+<sub>JavaScript 拼音首字母转换与多读音搜索 &nbsp; · &nbsp; <a href="https://pyfl.yuxino.cn/">Playground</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/pyfl">Source</a></sub></p>
+<br clear="all">
+
+<p><img src="assets/projects/dsh-blue-whale-maid.png" width="56" align="right" alt=""><strong>Blue Whale Maid</strong> &nbsp; A little company while the agent works.<br>
+<sub>DeepSeek Harness Web 桌宠、任务提醒与费用估算 &nbsp; · &nbsp; <a href="https://whale.yuxino.cn/">Website</a> &nbsp; / &nbsp; <a href="https://github.com/yuxino/dsh-blue-whale-maid">Source</a></sub></p>
+<br clear="all">
 
 <details>
 <summary>Just for fun / 小玩具与早期作品</summary>
