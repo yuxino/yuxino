@@ -15,7 +15,7 @@
 <p>
 <a href="https://github.com/yuxino/tick"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/tick-dark.svg"><img src="assets/profile/gallery/tick-light.svg" width="49%" alt="Tick — Node.js 定时任务；Source / 源码"></picture></a>
 <a href="https://github.com/yuxino/osu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/osu-dark.svg"><img src="assets/profile/gallery/osu-light.svg" width="49%" alt="Osu — iOS 悬浮翻译，源码预览版；Source / 源码"></picture></a><br>
-<a href="https://tick.yuxino.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-tick-dark.svg"><img src="assets/profile/gallery/link-tick-light.svg" width="49%" alt="Tick Website / 官网"></picture></a>
+<a href="https://tick.yuxino.cn/en/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-tick-dark.svg"><img src="assets/profile/gallery/link-tick-light.svg" width="49%" alt="Tick Website / 官网"></picture></a>
 <a href="https://osu-web.yuxino.cn/en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/link-osu-dark.svg"><img src="assets/profile/gallery/link-osu-light.svg" width="49%" alt="Osu Website / 官网"></picture></a>
 </p>
 
