@@ -1,0 +1,123 @@
+name: Normalize profile previews
+
+on:
+  push:
+    branches: [master]
+    paths: [.github/workflows/normalize-profile-previews.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: normalize-profile-previews
+  cancel-in-progress: false
+
+jobs:
+  normalize:
+    if: github.repository == 'yuxino/yuxino'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Install image tooling
+        run: python -m pip install 'Pillow==11.3.0'
+      - name: Normalize images and update preview references
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import shutil
+          from pathlib import Path
+          from PIL import Image, ImageDraw, ImageFont, ImageOps
+
+          sources = {
+              'kiri': 'assets/profile/kiri-still.webp',
+              'mimi': 'assets/profile/mimi-film.webp',
+              'fuwa': 'assets/profile/fuwa-feature.webp',
+              'tick': 'assets/profile/tick-website.png',
+              'koma': 'assets/profile/koma-feature.png',
+              'pyfl': 'assets/profile/pyfl-website.png',
+              'vido': 'assets/profile/vido-website.png',
+              'osu': 'assets/profile/osu-website.png',
+          }
+          size = (1200, 675)
+          output = Path('assets/profile/gallery/compact/previews')
+          output.mkdir(parents=True, exist_ok=True)
+          review = Path('/tmp/profile-preview-review')
+          review.mkdir(parents=True, exist_ok=True)
+          readme_path = Path('README.md')
+          original = readme_path.read_text(encoding='utf-8')
+          updated = original
+          manifest = []
+          for name, source in sources.items():
+              target = output / (name + '.webp')
+              with Image.open(source) as image:
+                  image = ImageOps.exif_transpose(image).convert('RGBA')
+                  before_size = image.size
+                  fitted = ImageOps.contain(image, size, method=Image.Resampling.LANCZOS)
+                  canvas = Image.new('RGB', size, 'white')
+                  position = ((size[0] - fitted.width) // 2, (size[1] - fitted.height) // 2)
+                  canvas.paste(fitted, position, fitted.getchannel('A'))
+                  canvas.save(target, format='WEBP', lossless=True, method=6)
+              with Image.open(target) as check:
+                  assert check.size == size, (name, check.size)
+                  check.load()
+              old_src = 'src="' + source + '"'
+              new_src = 'src="' + target.as_posix() + '"'
+              if old_src in updated:
+                  assert updated.count(old_src) == 1, name
+                  updated = updated.replace(old_src, new_src)
+              else:
+                  assert updated.count(new_src) == 1, ('Missing preview', name)
+              manifest.append({'project': name, 'source': source, 'source_size': list(before_size), 'preview': target.as_posix(), 'preview_size': list(size), 'fitted_size': list(fitted.size), 'position': list(position)})
+              shutil.copy2(target, review / target.name)
+              shutil.copy2(source, review / (name + '-original' + Path(source).suffix))
+          assert re.findall(r'href="[^"]+"', original) == re.findall(r'href="[^"]+"', updated), 'Links or project order changed'
+          assert re.findall(r'alt="[^"]+"', original) == re.findall(r'alt="[^"]+"', updated), 'Captions changed'
+          for entry in manifest:
+              assert updated.count('src="' + entry['preview'] + '"') == 1
+          readme_path.write_text(updated, encoding='utf-8')
+          doc_path = Path('assets/profile/gallery/compact/README.md')
+          doc = doc_path.read_text(encoding='utf-8')
+          doc = doc.replace('The profile uses the existing project images directly,', 'The profile uses 16:9 previews derived from the existing project images,')
+          doc = doc.replace('All images render at 49% width without a fixed height, preserving their aspect ratios. No external image services, generated screenshots, cropped artwork, or workflows are required.', 'All previews render at 49% width without a fixed display height. Each preview has a 1200 × 675 canvas; the source is scaled uniformly to fit, centered, and padded with white. No source artwork is cropped, stretched, or overwritten. Captions and website links retain their existing sizes. The profile display needs no external image services or runtime workflows.')
+          heading = '\n## Preview dimensions\n'
+          doc = doc.split(heading)[0].rstrip() + heading + '\n| Project | Original | Preview |\n| --- | --- | --- |\n'
+          for entry in manifest:
+              w, h = entry['source_size']
+              doc += '| ' + entry['project'] + ' | ' + str(w) + ' × ' + str(h) + ' | 1200 × 675 |\n'
+          doc_path.write_text(doc, encoding='utf-8')
+          (review / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
+          font = ImageFont.truetype('DejaVuSans.ttf', 18)
+          sheet = Image.new('RGB', (1248, 1540), '#0d1117')
+          draw = ImageDraw.Draw(sheet)
+          for i, name in enumerate(sources):
+              x = 16 + (i % 2) * 616
+              y = 16 + (i // 2) * 382
+              with Image.open(output / (name + '.webp')) as image:
+                  sheet.paste(image.resize((600, 338), Image.Resampling.LANCZOS), (x, y))
+              draw.text((x, y + 345), name, fill='white', font=font)
+          sheet.save(review / 'aligned-preview-grid.png')
+          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          print('Validated: eight equal 16:9 previews; source images, link order, and alt text preserved.')
+          PY
+      - name: Save review images
+        uses: actions/upload-artifact@v4
+        with:
+          name: profile-preview-review
+          path: /tmp/profile-preview-review
+          retention-days: 3
+      - name: Commit normalized previews
+        run: |
+          git add README.md assets/profile/gallery/compact/README.md assets/profile/gallery/compact/previews
+          if git diff --cached --quiet; then
+            echo 'Previews are already normalized.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'fix(profile): align all preview images on 16:9 canvases'
+          git push origin HEAD:master
