@@ -4,6 +4,8 @@ The profile uses 16:9 previews derived from the existing project images, followe
 
 Captions use a 30px serif project name, a 17px English summary on the same line, and an 18px Chinese summary below. Light and dark variants use transparent backgrounds. The website footer uses 17px text instead of the previous 28px text.
 
+The Fuwa preview is a capture of the live website hero on 2026-09-23, reflecting its updated white page and character art.
+
 All previews render at 49% width without a fixed display height. Each preview has a 1200 × 675 canvas; the source is scaled uniformly to fit, centered, and padded with white. No source artwork is cropped, stretched, or overwritten. Captions and website links retain their existing sizes. The profile display needs no external image services or runtime workflows.
 
 The two-column order is Kiri / Mimi, Fuwa / Tick, Koma / Pyfl, Vido / Osu. The compact text links below remain unchanged.
@@ -13,7 +15,7 @@ The two-column order is Kiri / Mimi, Fuwa / Tick, Koma / Pyfl, Vido / Osu. The c
 | --- | --- | --- |
 | kiri | 3840 × 2160 | 1200 × 675 |
 | mimi | 3840 × 2160 | 1200 × 675 |
-| fuwa | 3840 × 2160 | 1200 × 675 |
+| fuwa | 1512 × 850 | 1200 × 675 |
 | tick | 1200 × 750 | 1200 × 675 |
 | koma | 1200 × 750 | 1200 × 675 |
 | pyfl | 1200 × 750 | 1200 × 675 |

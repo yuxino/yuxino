@@ -8,7 +8,7 @@
 </p>
 
 <p>
-<a href="https://github.com/yuxino/fuwa"><img src="assets/profile/gallery/compact/previews/fuwa.webp" width="49%" alt="Fuwa 演示海报"></a>
+<a href="https://github.com/yuxino/fuwa"><img src="assets/profile/gallery/compact/previews/fuwa-20260923.webp" width="49%" alt="Fuwa 新版官网首页预览"></a>
 <a href="https://github.com/yuxino/tick"><img src="assets/profile/gallery/compact/previews/tick.webp" width="49%" alt="Tick 官网预览"></a><br>
 <a href="https://github.com/yuxino/fuwa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/compact/fuwa-dark.svg"><img src="assets/profile/gallery/compact/fuwa-light.svg" width="49%" alt="Fuwa — Mac 窗口镜像与鼠标穿透；Source / 源码"></picture></a>
 <a href="https://github.com/yuxino/tick"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/gallery/compact/tick-dark.svg"><img src="assets/profile/gallery/compact/tick-light.svg" width="49%" alt="Tick — Node.js 定时任务；Source / 源码"></picture></a><br>
