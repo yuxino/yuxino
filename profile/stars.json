@@ -1,11 +1,12 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
+  "timezone": "Asia/Shanghai",
   "counts": {
-    "yuxino/kiri": 499,
-    "yuxino/mimi": 316,
+    "yuxino/kiri": 506,
+    "yuxino/mimi": 323,
     "yuxino/fuwa": 61,
     "yuxino/tick": 2,
-    "yuxino/koma": 144,
+    "yuxino/koma": 148,
     "yuxino/pyfl": 41,
     "yuxino/vido": 10,
     "yuxino/osu": 6,

@@ -12,9 +12,9 @@
 
 <!-- All projects share the same card layout, ordered by star count. -->
 <p align="center">
-<a href="https://github.com/yuxino/kiri"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/kiri-dark.svg?v=a28cf2324268"><img src="assets/profile/minimal/kiri-light.svg?v=508e6135453e" width="380" alt="Kiri — Capture, annotate, record &amp; edit. / 截图、标注、文字识别、录屏与剪辑。 · ☆ 499"></picture></a>
-<a href="https://github.com/yuxino/mimi"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/mimi-dark.svg?v=3cc9b406df12"><img src="assets/profile/minimal/mimi-light.svg?v=f576aa58e037" width="380" alt="Mimi — Live captions &amp; audio translation. / 系统声音实时字幕与翻译。 · ☆ 316"></picture></a>
-<a href="https://github.com/yuxino/koma"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/koma-dark.svg?v=341210e3d7d7"><img src="assets/profile/minimal/koma-light.svg?v=dbf652eaa1c4" width="380" alt="Koma — Video summaries, chapters &amp; subtitles. / AI 视频总结、章节划分与字幕导出。 · ☆ 144"></picture></a>
+<a href="https://github.com/yuxino/kiri"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/kiri-dark.svg?v=b3110188ef59"><img src="assets/profile/minimal/kiri-light.svg?v=fea282fd3f4f" width="380" alt="Kiri — Capture, annotate, record &amp; edit. / 截图、标注、文字识别、录屏与剪辑。 · ☆ 506"></picture></a>
+<a href="https://github.com/yuxino/mimi"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/mimi-dark.svg?v=f223f6ec4793"><img src="assets/profile/minimal/mimi-light.svg?v=4c0b4ad0bd28" width="380" alt="Mimi — Live captions &amp; audio translation. / 系统声音实时字幕与翻译。 · ☆ 323"></picture></a>
+<a href="https://github.com/yuxino/koma"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/koma-dark.svg?v=8f234f736950"><img src="assets/profile/minimal/koma-light.svg?v=8f09b024a16c" width="380" alt="Koma — Video summaries, chapters &amp; subtitles. / AI 视频总结、章节划分与字幕导出。 · ☆ 148"></picture></a>
 <a href="https://github.com/yuxino/satori"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/satori-dark.svg?v=76e9227d4f58"><img src="assets/profile/minimal/satori-light.svg?v=bb2b1db98d94" width="380" alt="Satori — Read PDFs. Ask questions as you go. / 阅读 PDF，向 AI 提问页面与图表内容。 · ☆ 139"></picture></a>
 <a href="https://github.com/yuxino/fuwa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/fuwa-dark.svg?v=e324f2a8a420"><img src="assets/profile/minimal/fuwa-light.svg?v=288324bc4ae0" width="380" alt="Fuwa — Floating window mirrors for Mac. / Mac 窗口悬浮镜像，支持鼠标穿透。 · ☆ 61"></picture></a>
 <a href="https://github.com/yuxino/pyfl"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/pyfl-dark.svg?v=432bd36e9250"><img src="assets/profile/minimal/pyfl-light.svg?v=152245a3bf69" width="380" alt="Pyfl — Find Chinese text by pinyin initials. / 拼音首字母转换与多音字搜索。 · ☆ 41"></picture></a>
@@ -54,4 +54,4 @@
 
 <p align="center">(っ˘ω˘ς )♡</p>
 
-<p align="center"><sub>Stars ↓ · Updated daily / 每日更新 · 2026-09-25 (UTC)</sub></p>
+<p align="center"><sub>Stars ↓ · Updated daily / 每日更新 · 2026-09-26 (UTC+8)</sub></p>
