@@ -4,13 +4,13 @@
   <h3>yuxino</h3>
   <p>Full-stack developer. I make small, useful things.<br>
   <sub>全栈开发，做些日常用得上的小工具。</sub></p>
-  <samp><a href="https://yuxino.cn">website / 主页 ↗</a></samp>
 </div>
 
 <br>
 
 <p align="center"><sub>PROJECTS / 项目</sub></p>
 
+<!-- All projects share the same card layout, ordered by star count. -->
 <p align="center">
 <a href="https://github.com/yuxino/kiri"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/kiri-dark.svg?v=a28cf2324268"><img src="assets/profile/minimal/kiri-light.svg?v=508e6135453e" width="380" alt="Kiri — Capture, annotate, record &amp; edit. / 截图、标注、文字识别、录屏与剪辑。 · ☆ 499"></picture></a>
 <a href="https://github.com/yuxino/mimi"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/mimi-dark.svg?v=3cc9b406df12"><img src="assets/profile/minimal/mimi-light.svg?v=f576aa58e037" width="380" alt="Mimi — Live captions &amp; audio translation. / 系统声音实时字幕与翻译。 · ☆ 316"></picture></a>
@@ -18,42 +18,16 @@
 <a href="https://github.com/yuxino/satori"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/satori-dark.svg?v=76e9227d4f58"><img src="assets/profile/minimal/satori-light.svg?v=bb2b1db98d94" width="380" alt="Satori — Read PDFs. Ask questions as you go. / 阅读 PDF，向 AI 提问页面与图表内容。 · ☆ 139"></picture></a>
 <a href="https://github.com/yuxino/fuwa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/fuwa-dark.svg?v=e324f2a8a420"><img src="assets/profile/minimal/fuwa-light.svg?v=288324bc4ae0" width="380" alt="Fuwa — Floating window mirrors for Mac. / Mac 窗口悬浮镜像，支持鼠标穿透。 · ☆ 61"></picture></a>
 <a href="https://github.com/yuxino/pyfl"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/pyfl-dark.svg?v=432bd36e9250"><img src="assets/profile/minimal/pyfl-light.svg?v=152245a3bf69" width="380" alt="Pyfl — Find Chinese text by pinyin initials. / 拼音首字母转换与多音字搜索。 · ☆ 41"></picture></a>
+<a href="https://github.com/yuxino/vido"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/vido-dark.svg?v=787cadb856ee"><img src="assets/profile/minimal/vido-light.svg?v=4e307e87734a" width="380" alt="Vido — A dependency-free web video player. / 零运行时依赖的网页视频播放器。 · ☆ 10"></picture></a>
+<a href="https://github.com/yuxino/WeChat"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/wechat-dark.svg?v=2f61d4b15cf1"><img src="assets/profile/minimal/wechat-light.svg?v=388d6b6c81fd" width="380" alt="WeChat — A Vue-based WeChat client experiment. / 基于 Vue 的微信客户端实验。 · ☆ 9"></picture></a>
+<a href="https://github.com/yuxino/osu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/osu-dark.svg?v=90ec218fffc0"><img src="assets/profile/minimal/osu-light.svg?v=3e2f60ad7db7" width="380" alt="Osu — Floating iPhone captions. Source build. / iPhone 悬浮字幕翻译，目前需源码安装。 · ☆ 6"></picture></a>
+<a href="https://github.com/yuxino/2048"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/2048-dark.svg?v=2236d39b82b5"><img src="assets/profile/minimal/2048-light.svg?v=50bb1fca315d" width="380" alt="2048 — The 2048 puzzle, in your browser. / 浏览器里的 2048 小游戏。 · ☆ 5"></picture></a>
+<a href="https://github.com/yuxino/dsh-blue-whale-maid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/dsh-blue-whale-maid-dark.svg?v=8f80e09c9998"><img src="assets/profile/minimal/dsh-blue-whale-maid-light.svg?v=c29e5dda1e90" width="380" alt="Blue Whale Maid — A DeepSeek Harness pet with task alerts. / DeepSeek Harness 桌宠与任务提醒。 · ☆ 5"></picture></a>
+<a href="https://github.com/yuxino/viva"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/viva-dark.svg?v=645819e92d35"><img src="assets/profile/minimal/viva-light.svg?v=0fb404551e90" width="380" alt="Viva — Local Markdown, with live preview. / 本地 Markdown 编辑器，支持实时预览。 · ☆ 4"></picture></a>
+<a href="https://github.com/yuxino/doro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/doro-dark.svg?v=f80037c6cb0b"><img src="assets/profile/minimal/doro-light.svg?v=fb486a0ab790" width="380" alt="Doro — Little characters. Interactive 3D. / 可以转着看的 3D 角色动画。 · ☆ 3"></picture></a>
+<a href="https://github.com/yuxino/koe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/koe-dark.svg?v=8a225237f229"><img src="assets/profile/minimal/koe-light.svg?v=eeefd01d5180" width="380" alt="Koe — Browser video captions &amp; translation. / 浏览器视频字幕与中文翻译。 · ☆ 3"></picture></a>
+<a href="https://github.com/yuxino/tick"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/tick-dark.svg?v=24491a55c499"><img src="assets/profile/minimal/tick-light.svg?v=8e1c56de405e" width="380" alt="Tick — Schedule scripts. Keep an eye on logs. / 定时运行 Node.js 脚本、查看任务日志。 · ☆ 2"></picture></a>
 </p>
-
-<p align="center"><sub>Websites / 官网 · <a href="https://kiri.yuxino.cn/">Kiri</a> · <a href="https://mimi.yuxino.cn/en/#demo">Mimi</a> · <a href="https://koma.yuxino.cn/">Koma</a> · <a href="https://satori.yuxino.cn/">Satori</a> · <a href="https://fuwa.yuxino.cn/">Fuwa</a> · <a href="https://pyfl.yuxino.cn/">Pyfl</a></sub></p>
-
-<details>
-<summary>More projects / 其他项目 · 9</summary>
-<br>
-
-<p><a href="https://github.com/yuxino/vido"><strong>Vido</strong></a> &nbsp; <sub>☆ 10 · <a href="https://vido.yuxino.cn/en.html">Website / 官网 ↗</a></sub><br>
-<sub>A dependency-free web video player.<br>零运行时依赖的网页视频播放器。</sub></p>
-
-<p><a href="https://github.com/yuxino/WeChat"><strong>WeChat</strong></a> &nbsp; <sub>☆ 9 · <a href="https://yuxino.github.io/WeChat/">Website / 官网 ↗</a></sub><br>
-<sub>A Vue-based WeChat client experiment.<br>基于 Vue 的微信客户端实验。</sub></p>
-
-<p><a href="https://github.com/yuxino/osu"><strong>Osu</strong></a> &nbsp; <sub>☆ 6 · <a href="https://osu-web.yuxino.cn/en.html">Website / 官网 ↗</a></sub><br>
-<sub>Floating iPhone captions. Source build.<br>iPhone 悬浮字幕翻译，目前需源码安装。</sub></p>
-
-<p><a href="https://github.com/yuxino/2048"><strong>2048</strong></a> &nbsp; <sub>☆ 5 · <a href="https://yuxino.github.io/2048/">Website / 官网 ↗</a></sub><br>
-<sub>The 2048 puzzle, in your browser.<br>浏览器里的 2048 小游戏。</sub></p>
-
-<p><a href="https://github.com/yuxino/dsh-blue-whale-maid"><strong>Blue Whale Maid</strong></a> &nbsp; <sub>☆ 5 · <a href="https://whale.yuxino.cn/">Website / 官网 ↗</a></sub><br>
-<sub>A DeepSeek Harness pet with task alerts.<br>DeepSeek Harness 桌宠与任务提醒。</sub></p>
-
-<p><a href="https://github.com/yuxino/viva"><strong>Viva</strong></a> &nbsp; <sub>☆ 4 · <a href="https://viva.yuxino.cn/">Website / 官网 ↗</a></sub><br>
-<sub>Local Markdown, with live preview.<br>本地 Markdown 编辑器，支持实时预览。</sub></p>
-
-<p><a href="https://github.com/yuxino/doro"><strong>Doro</strong></a> &nbsp; <sub>☆ 3 · <a href="https://yuxino.github.io/doro/">Website / 官网 ↗</a></sub><br>
-<sub>Little characters. Interactive 3D.<br>可以转着看的 3D 角色动画。</sub></p>
-
-<p><a href="https://github.com/yuxino/koe"><strong>Koe</strong></a> &nbsp; <sub>☆ 3 · <a href="https://koe.yuxino.cn/">Website / 官网 ↗</a></sub><br>
-<sub>Browser video captions &amp; translation.<br>浏览器视频字幕与中文翻译。</sub></p>
-
-<p><a href="https://github.com/yuxino/tick"><strong>Tick</strong></a> &nbsp; <sub>☆ 2 · <a href="https://tick.yuxino.cn/en/">Website / 官网 ↗</a></sub><br>
-<sub>Schedule scripts. Keep an eye on logs.<br>定时运行 Node.js 脚本、查看任务日志。</sub></p>
-
-</details>
 
 <br>
 
@@ -68,6 +42,6 @@
   欢迎提 Issue 和 PR，我都会认真看。喜欢这些作品的话，也欢迎关注我。
 </sub></p>
 
-<p align="center">(´｡• ᵕ •｡`)</p>
+<p align="center">ฅ(•ㅅ•❀)ฅ</p>
 
 <p align="center"><sub>Stars ↓ · Updated daily / 每日更新 · 2026-09-25 (UTC)</sub></p>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="150" viewBox="0 0 380 150" role="img" aria-labelledby="title desc">
+<title id="title">2048 · 5 stars</title>
+<desc id="desc">The 2048 puzzle, in your browser. 浏览器里的 2048 小游戏。</desc>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans CJK SC, sans-serif">
+<rect x="20" y="23" width="34" height="34" rx="10" fill="#21262d"/>
+<g transform="translate(26 29) scale(.9167)" fill="none" stroke="#9ba4ae" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></g>
+<text x="66" y="47" font-size="21" font-weight="600" letter-spacing="-.5" fill="#e6edf3">2048</text>
+<text x="357" y="45" text-anchor="end" font-size="14" fill="#9ba4ae">☆ 5</text>
+<text x="20" y="85" font-size="14" fill="#e6edf3">The 2048 puzzle, in your browser.</text>
+<text x="20" y="109" font-size="13" fill="#9ba4ae">浏览器里的 2048 小游戏。</text>
+<path d="M20 139H357" stroke="#30363d"/>
+</g>
+</svg>
