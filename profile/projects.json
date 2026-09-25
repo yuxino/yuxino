@@ -1,0 +1,17 @@
+[
+  {"repo":"yuxino/kiri","name":"Kiri","en":"Capture, annotate, record & edit.","zh":"截图、标注、文字识别、录屏与剪辑。","web":"https://kiri.yuxino.cn/","icon":"capture"},
+  {"repo":"yuxino/mimi","name":"Mimi","en":"Live captions & audio translation.","zh":"系统声音实时字幕与翻译。","web":"https://mimi.yuxino.cn/en/#demo","icon":"audio"},
+  {"repo":"yuxino/fuwa","name":"Fuwa","en":"Floating window mirrors for Mac.","zh":"Mac 窗口悬浮镜像，支持鼠标穿透。","web":"https://fuwa.yuxino.cn/","icon":"window"},
+  {"repo":"yuxino/tick","name":"Tick","en":"Schedule scripts. Keep an eye on logs.","zh":"定时运行 Node.js 脚本、查看任务日志。","web":"https://tick.yuxino.cn/en/","icon":"clock"},
+  {"repo":"yuxino/koma","name":"Koma","en":"Video summaries, chapters & subtitles.","zh":"AI 视频总结、章节划分与字幕导出。","web":"https://koma.yuxino.cn/","icon":"video"},
+  {"repo":"yuxino/pyfl","name":"Pyfl","en":"Find Chinese text by pinyin initials.","zh":"拼音首字母转换与多音字搜索。","web":"https://pyfl.yuxino.cn/","icon":"search"},
+  {"repo":"yuxino/vido","name":"Vido","en":"A dependency-free web video player.","zh":"零运行时依赖的网页视频播放器。","web":"https://vido.yuxino.cn/en.html","icon":"video"},
+  {"repo":"yuxino/osu","name":"Osu","en":"Floating iPhone captions. Source build.","zh":"iPhone 悬浮字幕翻译，目前需源码安装。","web":"https://osu-web.yuxino.cn/en.html","icon":"audio"},
+  {"repo":"yuxino/satori","name":"Satori","en":"Read PDFs. Ask questions as you go.","zh":"阅读 PDF，向 AI 提问页面与图表内容。","web":"https://satori.yuxino.cn/","icon":"book"},
+  {"repo":"yuxino/dsh-blue-whale-maid","name":"Blue Whale Maid","en":"A DeepSeek Harness pet with task alerts.","zh":"DeepSeek Harness 桌宠与任务提醒。","web":"https://whale.yuxino.cn/","icon":"bell"},
+  {"repo":"yuxino/koe","name":"Koe","en":"Browser video captions & translation.","zh":"浏览器视频字幕与中文翻译。","web":"https://koe.yuxino.cn/","icon":"audio"},
+  {"repo":"yuxino/viva","name":"Viva","en":"Local Markdown, with live preview.","zh":"本地 Markdown 编辑器，支持实时预览。","web":"https://viva.yuxino.cn/","icon":"book"},
+  {"repo":"yuxino/doro","name":"Doro","en":"Little characters. Interactive 3D.","zh":"可以转着看的 3D 角色动画。","web":"https://yuxino.github.io/doro/","icon":"cube"},
+  {"repo":"yuxino/WeChat","name":"WeChat","en":"A Vue-based WeChat client experiment.","zh":"基于 Vue 的微信客户端实验。","web":"https://yuxino.github.io/WeChat/","icon":"chat"},
+  {"repo":"yuxino/2048","name":"2048","en":"The 2048 puzzle, in your browser.","zh":"浏览器里的 2048 小游戏。","web":"https://yuxino.github.io/2048/","icon":"grid"}
+]

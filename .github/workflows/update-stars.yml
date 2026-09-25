@@ -2,16 +2,17 @@ name: Update profile stars
 
 on:
   schedule:
-    # Daily at 00:23 UTC, away from the busiest start-of-hour period.
+    # Daily at 00:23 UTC; GitHub may delay scheduled runs.
     - cron: '23 0 * * *'
   workflow_dispatch:
   push:
     branches: [master]
     paths:
-      - README.md
-      - scripts/update_stars.py
-      - tests/test_update_stars.py
-      - .github/workflows/update-stars.yml
+      - 'profile/*.md'
+      - 'profile/projects.json'
+      - 'scripts/*.py'
+      - 'tests/*.py'
+      - '.github/workflows/update-stars.yml'
 
 permissions:
   contents: write
@@ -31,22 +32,22 @@ jobs:
         with:
           ref: ${{ github.event.repository.default_branch }}
 
-      - name: Test the updater
+      - name: Test sorting, layout and failure safety
         run: python3 -m unittest discover -s tests -v
 
-      - name: Refresh star counts
+      - name: Refresh stars and render the sorted profile
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/update_stars.py
 
-      - name: Commit changed counts and refresh date
+      - name: Commit the profile and both color themes together
         run: |
-          git add README.md
+          git add README.md profile/stars.json assets/profile/minimal/
           if git diff --cached --quiet; then
             echo "The profile is already up to date."
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m "chore: update profile stars"
+          git commit -m "chore: refresh stars and sort profile projects"
           git push

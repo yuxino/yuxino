@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""Update only the profile's star counts and successful refresh date.
+"""Fetch aggregate stars, sort descending, and render the bilingual profile.
 
-Uses repository metadata, never stargazer lists or user activity. All requests
-must succeed before README.md is written; failures leave the last snapshot intact.
-Run locally with Python 3.10+: python3 scripts/update_stars.py
-GITHUB_TOKEN is optional for public repositories and supplied by Actions.
+Only explicitly curated public repositories are queried, never stargazer lists.
+All API reads and rendering must succeed before any generated file is changed.
+Uses Python 3.10+ and its standard library only.
 """
-
 from __future__ import annotations
 
 import json
@@ -19,14 +17,9 @@ from datetime import datetime, timezone
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-README = Path(__file__).resolve().parents[1] / "README.md"
-STARS = re.compile(
-    r"(?P<start><!-- stars:(?P<repo>yuxino/[A-Za-z0-9_.-]+) -->)"
-    r"[0-9][0-9,]*(?P<end><!-- /stars -->)"
-)
-UPDATED = re.compile(
-    r"(?P<start><!-- stars-updated -->).*?(?P<end><!-- /stars-updated -->)"
-)
+from render_profile import build_outputs, validate_projects
+
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def fetch_stars(repo: str) -> int:
@@ -67,38 +60,33 @@ def fetch_stars(repo: str) -> int:
     raise RuntimeError(f"Could not fetch {repo}")
 
 
-def refresh(text: str, date: str) -> str:
-    """Preserve descriptions, links, ordering and all other hand-written text."""
-    repos = [match.group("repo") for match in STARS.finditer(text)]
-    if not repos or len(repos) != len(set(repo.lower() for repo in repos)):
-        raise ValueError("Missing or duplicate star markers")
-    if text.count("<!-- stars:") != len(repos):
-        raise ValueError("Malformed star marker")
-    if len(UPDATED.findall(text)) != 1:
-        raise ValueError("Expected exactly one update-date marker")
-    counts = {repo: fetch_stars(repo) for repo in repos}
-    updated = STARS.sub(
-        lambda match: f'{match["start"]}{counts[match["repo"]]:,}{match["end"]}',
-        text,
-    )
-    return UPDATED.sub(lambda match: f'{match["start"]}{date}{match["end"]}', updated)
-
-
 def main() -> None:
-    original = README.read_text(encoding="utf-8")
-    updated = refresh(original, datetime.now(timezone.utc).date().isoformat())
-    if updated == original:
-        print("Star counts and refresh date are already current.")
-        return
-    temporary = README.with_suffix(".md.tmp")
-    temporary.write_text(updated, encoding="utf-8")
-    temporary.replace(README)
-    print(f"Updated {len(STARS.findall(updated))} project counts and refresh date.")
+    projects = json.loads((ROOT / "profile/projects.json").read_text(encoding="utf-8"))
+    validate_projects(projects)
+    intro = (ROOT / "profile/intro.md").read_text(encoding="utf-8")
+    footer = (ROOT / "profile/footer.md").read_text(encoding="utf-8")
+    counts = {project["repo"]: fetch_stars(project["repo"]) for project in projects}
+    date = datetime.now(timezone.utc).date().isoformat()
+    outputs = build_outputs(intro, projects, counts, date, footer)
+    outputs["profile/stars.json"] = json.dumps(
+        {"date": date, "counts": counts}, ensure_ascii=False, indent=2
+    ) + "\n"
+    changed = 0
+    for relative, content in outputs.items():
+        path = ROOT / relative
+        if path.exists() and path.read_text(encoding="utf-8") == content:
+            continue
+        path.parent.mkdir(parents=True, exist_ok=True)
+        temporary = path.with_suffix(path.suffix + ".tmp")
+        temporary.write_text(content, encoding="utf-8")
+        temporary.replace(path)
+        changed += 1
+    print(f"Refreshed {len(projects)} projects, sorted by stars; {changed} files changed.")
 
 
 if __name__ == "__main__":
     try:
         main()
     except (OSError, ValueError, RuntimeError) as error:
-        print(f"Star refresh failed; README was not changed: {error}", file=sys.stderr)
+        print(f"Profile refresh failed: {error}", file=sys.stderr)
         sys.exit(1)
