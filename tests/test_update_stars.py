@@ -1,4 +1,4 @@
-"""Regression tests for equal project cards, star ranking and safe API reads."""
+"""Regression tests for equal project cards, folding, ranking and safe API reads."""
 from hashlib import sha256
 from html import escape
 import io
@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import update_stars as updater
-from render_profile import build_outputs, rank_projects, render_card, validate_projects
+from render_profile import FEATURED_COUNT, build_outputs, rank_projects, render_card, validate_projects
 
 PROJECTS = json.loads((ROOT / "profile/projects.json").read_text(encoding="utf-8"))
 COUNTS = {p["repo"]: i for i, p in enumerate(PROJECTS)}
@@ -42,14 +42,15 @@ class ProfileTests(unittest.TestCase):
         readme = render(counts)["README.md"]
         self.assertEqual(re.findall(r'<a href="https://github.com/([^"]+)"', readme)[0], "yuxino/kiri")
         self.assertIn("1,000", render(counts)["assets/profile/minimal/kiri-light.svg"])
+        before, _, _ = readme.partition("<details>")
+        self.assertIn('href="https://github.com/yuxino/kiri"', before)
 
     def test_every_project_gets_the_same_card(self):
         outputs = render()
         readme = outputs["README.md"]
         self.assertEqual(readme.count("<picture>"), len(PROJECTS))
         self.assertEqual(readme.count('width="380"'), len(PROJECTS))
-        self.assertNotIn("<details", readme)
-        self.assertNotIn("More projects", readme)
+        self.assertEqual(readme.count("<details>"), 1)
         self.assertNotIn("<table", readme)
         self.assertNotIn('width="49%"', readme)
         self.assertNotIn("style=", readme)
@@ -60,6 +61,32 @@ class ProfileTests(unittest.TestCase):
             slug = project["repo"].split("/")[1].lower()
             for theme in ("light", "dark"):
                 self.assertIn(f"assets/profile/minimal/{slug}-{theme}.svg", outputs)
+
+    def test_other_projects_are_folded_but_keep_identical_cards(self):
+        readme = render()["README.md"]
+        before, separator, rest = readme.partition("<details>")
+        folded, closing, after = rest.partition("</details>")
+        self.assertTrue(separator)
+        self.assertTrue(closing)
+        self.assertEqual(before.count("<picture>"), FEATURED_COUNT)
+        self.assertEqual(folded.count("<picture>"), len(PROJECTS) - FEATURED_COUNT)
+        self.assertNotIn("<picture>", after)
+        self.assertNotIn("<details open", readme)
+        self.assertIn(f"<summary>Other projects / 其他项目 · {len(PROJECTS) - FEATURED_COUNT}</summary>", folded)
+        self.assertIn('<p align="center">', folded)
+        ranked = rank_projects(PROJECTS, COUNTS)
+        for project in ranked[FEATURED_COUNT:]:
+            self.assertIn(f'href="https://github.com/{project["repo"]}"', folded)
+            self.assertIn(escape(project["en"]), folded)
+            self.assertIn(escape(project["zh"]), folded)
+
+    def test_small_project_list_has_no_empty_other_section(self):
+        for size in (1, FEATURED_COUNT):
+            projects = PROJECTS[:size]
+            counts = {p["repo"]: COUNTS[p["repo"]] for p in projects}
+            readme = build_outputs("Intro", projects, counts, "2026-09-25")["README.md"]
+            self.assertNotIn("<details", readme)
+            self.assertEqual(readme.count("<picture>"), size)
 
     def test_low_and_zero_star_projects_are_not_downgraded(self):
         outputs = render(dict.fromkeys(COUNTS, 0))
@@ -105,14 +132,16 @@ class ProfileTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             rank_projects(PROJECTS, {})
 
-    def test_footer_and_replacement_kaomoji(self):
+    def test_footer_and_heart_kaomoji(self):
         footer = (ROOT / "profile/footer.md").read_text(encoding="utf-8")
         result = build_outputs("Intro", PROJECTS, COUNTS, "2026-09-25", footer)["README.md"]
         self.assertIn(footer.strip(), result)
         self.assertIn("Issues and PRs", result)
         self.assertIn("我都会认真看", result)
-        self.assertEqual(result.count("ฅ(•ㅅ•❀)ฅ"), 1)
+        self.assertEqual(result.count("(っ˘ω˘ς )♡"), 1)
+        self.assertNotIn("ฅ(•ㅅ•❀)ฅ", result)
         self.assertNotIn("(´｡• ᵕ •｡`)", result)
+        self.assertGreater(result.index(footer.strip()), result.index("</details>"))
 
     def test_api_reads_only_repository_metadata(self):
         body = b'{"full_name":"yuxino/kiri","private":false,"stargazers_count":498}'
@@ -163,6 +192,7 @@ class ProfileTests(unittest.TestCase):
             self.assertIn("Original intro", readme)
             self.assertIn("Original footer", readme)
             self.assertEqual(readme.count("<picture>"), len(PROJECTS))
+            self.assertEqual(readme.count("<details>"), 1)
 
 
 if __name__ == "__main__":

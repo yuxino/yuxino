@@ -11,4 +11,4 @@
   欢迎提 Issue 和 PR，我都会认真看。喜欢这些作品的话，也欢迎关注我。
 </sub></p>
 
-<p align="center">ฅ(•ㅅ•❀)ฅ</p>
+<p align="center">(っ˘ω˘ς )♡</p>
