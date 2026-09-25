@@ -5,7 +5,7 @@ Small tools for everyday use. / 做些日常用得上的小工具。
 | Project / 项目 | What it does / 功能 | Stars |
 | --- | --- | ---: |
 | [Kiri](https://github.com/yuxino/kiri) · [Web](https://kiri.yuxino.cn/) | Screenshots, annotation, OCR, recording & editing.<br>截图、标注、文字识别、录屏与剪辑。 | <!-- stars:yuxino/kiri -->498<!-- /stars --> |
-| [Mimi](https://github.com/yuxino/mimi) · [Web](https://mimi.yuxino.cn/en/#demo) | Live subtitles & translation for system audio.<br>系统声音实时字幕与翻译。 | <!-- stars:yuxino/mimi -->315<!-- /stars --> |
+| [Mimi](https://github.com/yuxino/mimi) · [Web](https://mimi.yuxino.cn/en/#demo) | Live subtitles & translation for system audio.<br>系统声音实时字幕与翻译。 | <!-- stars:yuxino/mimi -->316<!-- /stars --> |
 | [Fuwa](https://github.com/yuxino/fuwa) · [Web](https://fuwa.yuxino.cn/) | Always-on-top window mirrors for Mac.<br>Mac 窗口悬浮镜像，支持鼠标穿透。 | <!-- stars:yuxino/fuwa -->61<!-- /stars --> |
 | [Tick](https://github.com/yuxino/tick) · [Web](https://tick.yuxino.cn/en/) | Schedule Node.js scripts & inspect run logs.<br>定时运行 Node.js 脚本、查看任务日志。 | <!-- stars:yuxino/tick -->2<!-- /stars --> |
 | [Koma](https://github.com/yuxino/koma) · [Web](https://koma.yuxino.cn/) | AI video summaries, chapters & subtitles.<br>AI 视频总结、章节划分与字幕导出。 | <!-- stars:yuxino/koma -->144<!-- /stars --> |
