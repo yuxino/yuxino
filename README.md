@@ -18,6 +18,14 @@
 <a href="https://github.com/yuxino/satori"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/satori-dark.svg?v=76e9227d4f58"><img src="assets/profile/minimal/satori-light.svg?v=bb2b1db98d94" width="380" alt="Satori — Read PDFs. Ask questions as you go. / 阅读 PDF，向 AI 提问页面与图表内容。 · ☆ 139"></picture></a>
 <a href="https://github.com/yuxino/fuwa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/fuwa-dark.svg?v=e324f2a8a420"><img src="assets/profile/minimal/fuwa-light.svg?v=288324bc4ae0" width="380" alt="Fuwa — Floating window mirrors for Mac. / Mac 窗口悬浮镜像，支持鼠标穿透。 · ☆ 61"></picture></a>
 <a href="https://github.com/yuxino/pyfl"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/pyfl-dark.svg?v=432bd36e9250"><img src="assets/profile/minimal/pyfl-light.svg?v=152245a3bf69" width="380" alt="Pyfl — Find Chinese text by pinyin initials. / 拼音首字母转换与多音字搜索。 · ☆ 41"></picture></a>
+</p>
+
+<details>
+<summary>Other projects / 其他项目 · 9</summary>
+
+<br>
+
+<p align="center">
 <a href="https://github.com/yuxino/vido"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/vido-dark.svg?v=787cadb856ee"><img src="assets/profile/minimal/vido-light.svg?v=4e307e87734a" width="380" alt="Vido — A dependency-free web video player. / 零运行时依赖的网页视频播放器。 · ☆ 10"></picture></a>
 <a href="https://github.com/yuxino/WeChat"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/wechat-dark.svg?v=2f61d4b15cf1"><img src="assets/profile/minimal/wechat-light.svg?v=388d6b6c81fd" width="380" alt="WeChat — A Vue-based WeChat client experiment. / 基于 Vue 的微信客户端实验。 · ☆ 9"></picture></a>
 <a href="https://github.com/yuxino/osu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/osu-dark.svg?v=90ec218fffc0"><img src="assets/profile/minimal/osu-light.svg?v=3e2f60ad7db7" width="380" alt="Osu — Floating iPhone captions. Source build. / iPhone 悬浮字幕翻译，目前需源码安装。 · ☆ 6"></picture></a>
@@ -28,6 +36,8 @@
 <a href="https://github.com/yuxino/koe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/koe-dark.svg?v=8a225237f229"><img src="assets/profile/minimal/koe-light.svg?v=eeefd01d5180" width="380" alt="Koe — Browser video captions &amp; translation. / 浏览器视频字幕与中文翻译。 · ☆ 3"></picture></a>
 <a href="https://github.com/yuxino/tick"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/tick-dark.svg?v=24491a55c499"><img src="assets/profile/minimal/tick-light.svg?v=8e1c56de405e" width="380" alt="Tick — Schedule scripts. Keep an eye on logs. / 定时运行 Node.js 脚本、查看任务日志。 · ☆ 2"></picture></a>
 </p>
+
+</details>
 
 <br>
 
@@ -42,6 +52,6 @@
   欢迎提 Issue 和 PR，我都会认真看。喜欢这些作品的话，也欢迎关注我。
 </sub></p>
 
-<p align="center">ฅ(•ㅅ•❀)ฅ</p>
+<p align="center">(っ˘ω˘ς )♡</p>
 
 <p align="center"><sub>Stars ↓ · Updated daily / 每日更新 · 2026-09-25 (UTC)</sub></p>
