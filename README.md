@@ -2,8 +2,8 @@
 
 <div align="center">
   <h3>yuxino</h3>
-  <p>Frontend developer. I make small, useful things.<br>
-  <sub>前端开发，做些日常用得上的小工具。</sub></p>
+  <p>Full-stack developer. I make small, useful things.<br>
+  <sub>全栈开发，做些日常用得上的小工具。</sub></p>
   <samp><a href="https://yuxino.cn">website / 主页 ↗</a></samp>
 </div>
 
@@ -12,7 +12,7 @@
 <p align="center"><sub>PROJECTS / 项目</sub></p>
 
 <p align="center">
-<a href="https://github.com/yuxino/kiri"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/kiri-dark.svg?v=1e7866cfacb5"><img src="assets/profile/minimal/kiri-light.svg?v=209dd7a060e8" width="380" alt="Kiri — Capture, annotate, record &amp; edit. / 截图、标注、文字识别、录屏与剪辑。 · ☆ 498"></picture></a>
+<a href="https://github.com/yuxino/kiri"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/kiri-dark.svg?v=a28cf2324268"><img src="assets/profile/minimal/kiri-light.svg?v=508e6135453e" width="380" alt="Kiri — Capture, annotate, record &amp; edit. / 截图、标注、文字识别、录屏与剪辑。 · ☆ 499"></picture></a>
 <a href="https://github.com/yuxino/mimi"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/mimi-dark.svg?v=3cc9b406df12"><img src="assets/profile/minimal/mimi-light.svg?v=f576aa58e037" width="380" alt="Mimi — Live captions &amp; audio translation. / 系统声音实时字幕与翻译。 · ☆ 316"></picture></a>
 <a href="https://github.com/yuxino/koma"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/koma-dark.svg?v=341210e3d7d7"><img src="assets/profile/minimal/koma-light.svg?v=dbf652eaa1c4" width="380" alt="Koma — Video summaries, chapters &amp; subtitles. / AI 视频总结、章节划分与字幕导出。 · ☆ 144"></picture></a>
 <a href="https://github.com/yuxino/satori"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/minimal/satori-dark.svg?v=76e9227d4f58"><img src="assets/profile/minimal/satori-light.svg?v=bb2b1db98d94" width="380" alt="Satori — Read PDFs. Ask questions as you go. / 阅读 PDF，向 AI 提问页面与图表内容。 · ☆ 139"></picture></a>
