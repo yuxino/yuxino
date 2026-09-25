@@ -102,7 +102,7 @@ def render_readme(intro: str, ranked: list[dict], counts: dict[str, int], date: 
         ]
     if footer.strip():
         lines += [footer.strip(), ""]
-    lines += [f'<p align="center"><sub>Stars ↓ · Updated daily / 每日更新 · {escape(date)} (UTC)</sub></p>', ""]
+    lines += [f'<p align="center"><sub>Stars ↓ · Updated daily / 每日更新 · {escape(date)} (UTC+8)</sub></p>', ""]
     return "\n".join(lines)
 
 

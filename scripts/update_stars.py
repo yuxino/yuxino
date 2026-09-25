@@ -13,13 +13,15 @@ from pathlib import Path
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 from render_profile import build_outputs, validate_projects
 
 ROOT = Path(__file__).resolve().parents[1]
+PROFILE_TIMEZONE = ZoneInfo("Asia/Shanghai")
 
 
 def fetch_stars(repo: str) -> int:
@@ -66,10 +68,12 @@ def main() -> None:
     intro = (ROOT / "profile/intro.md").read_text(encoding="utf-8")
     footer = (ROOT / "profile/footer.md").read_text(encoding="utf-8")
     counts = {project["repo"]: fetch_stars(project["repo"]) for project in projects}
-    date = datetime.now(timezone.utc).date().isoformat()
+    # Use the same timezone as the schedule, including the date after midnight.
+    date = datetime.now(PROFILE_TIMEZONE).date().isoformat()
     outputs = build_outputs(intro, projects, counts, date, footer)
     outputs["profile/stars.json"] = json.dumps(
-        {"date": date, "counts": counts}, ensure_ascii=False, indent=2
+        {"date": date, "timezone": PROFILE_TIMEZONE.key, "counts": counts},
+        ensure_ascii=False, indent=2
     ) + "\n"
     changed = 0
     for relative, content in outputs.items():

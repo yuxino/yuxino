@@ -2,8 +2,9 @@ name: Update profile stars
 
 on:
   schedule:
-    # Daily at 00:23 UTC; GitHub may delay scheduled runs.
-    - cron: '23 0 * * *'
+    # Daily at midnight Beijing time. GitHub may delay scheduled runs.
+    - cron: '0 0 * * *'
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
   push:
     branches: [master]
