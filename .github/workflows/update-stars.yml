@@ -1,19 +1,9 @@
-name: Update profile
+name: Update profile (manual only)
 
+# Automatic updates are stopped so README.md can be maintained by hand.
+# Only an explicit manual run can regenerate the profile.
 on:
-  schedule:
-    # Daily at midnight Beijing time. GitHub may delay scheduled runs.
-    - cron: '0 0 * * *'
-      timezone: "Asia/Shanghai"
   workflow_dispatch:
-  push:
-    branches: [master]
-    paths:
-      - 'profile/*.md'
-      - 'profile/projects.json'
-      - 'scripts/*.py'
-      - 'tests/*.py'
-      - '.github/workflows/update-stars.yml'
 
 permissions:
   contents: write
