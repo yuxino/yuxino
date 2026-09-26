@@ -1,9 +1,7 @@
 <div align="center">
 
-# yuxino
-
 Full-stack developer. I make small, useful things.  
-全栈开发，做些日常用得上的小工具。
+全栈开发者，做些日常用得上的小工具。
 
 </div>
 
@@ -15,7 +13,7 @@ Thanks for trying my apps.
 Stars, forks, feedback, issues, and PRs are always welcome.
 
 谢谢你愿意试试这些小工具。  
-也欢迎 Star、Fork、Issue 和 PR，我都会认真看。
+非常欢迎 Star、Fork、Issue 和 PR，我都会认真看。
 
 **(っ˘ω˘ς )♡**
 
