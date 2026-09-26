@@ -5,8 +5,6 @@ Full-stack developer. I make small, useful things.
 
 </div>
 
-<br>
-
 <div align="center">
 
 Thanks for trying my apps.  
