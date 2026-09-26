@@ -1,4 +1,4 @@
-"""Keep the midnight schedule and internal snapshot date consistent."""
+"""Keep automatic profile updates disabled and internal snapshot dates consistent."""
 from datetime import datetime, timezone
 import json
 from pathlib import Path
@@ -14,13 +14,17 @@ import update_stars as updater
 
 
 class ProfileScheduleTests(unittest.TestCase):
-    def test_one_daily_schedule_at_beijing_midnight(self):
+    def test_profile_updates_are_manual_only(self):
         workflow = (ROOT / ".github/workflows/update-stars.yml").read_text(encoding="utf-8")
-        schedules = re.findall(r"^\s+- cron: '([^']+)'", workflow, re.MULTILINE)
-        timezones = re.findall(r'^\s+timezone: "([^"]+)"', workflow, re.MULTILINE)
-        self.assertEqual(schedules, ["0 0 * * *"])
-        self.assertEqual(timezones, ["Asia/Shanghai"])
-        self.assertEqual(updater.PROFILE_TIMEZONE.key, timezones[0])
+        triggers = re.search(r"(?ms)^on:\n(.*?)(?=^[^\s#]|\Z)", workflow)
+        self.assertIsNotNone(triggers)
+        active_lines = [
+            line.strip() for line in triggers.group(1).splitlines()
+            if line.strip() and not line.lstrip().startswith("#")
+        ]
+        self.assertEqual(active_lines, ["workflow_dispatch:"])
+        self.assertNotRegex(workflow, r"(?m)^\s+- cron:")
+        self.assertEqual(updater.PROFILE_TIMEZONE.key, "Asia/Shanghai")
 
     def test_date_rolls_over_in_snapshot_without_appearing_on_profile(self):
         projects = [{
