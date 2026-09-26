@@ -1,4 +1,4 @@
-"""Keep the daily schedule, snapshot date and displayed timezone consistent."""
+"""Keep the midnight schedule and internal snapshot date consistent."""
 from datetime import datetime, timezone
 import json
 from pathlib import Path
@@ -22,9 +22,9 @@ class ProfileScheduleTests(unittest.TestCase):
         self.assertEqual(timezones, ["Asia/Shanghai"])
         self.assertEqual(updater.PROFILE_TIMEZONE.key, timezones[0])
 
-    def test_date_rolls_over_at_beijing_midnight_not_utc_midnight(self):
+    def test_date_rolls_over_in_snapshot_without_appearing_on_profile(self):
         projects = [{
-            "repo": "yuxino/kiri", "name": "Kiri", "icon": "capture",
+            "repo": "yuxino/kiri", "name": "Kiri",
             "en": "Screenshots and recording.", "zh": "截图与录屏。"
         }]
         cases = [
@@ -48,8 +48,9 @@ class ProfileScheduleTests(unittest.TestCase):
                 self.assertEqual(snapshot["date"], expected_date)
                 self.assertEqual(snapshot["timezone"], "Asia/Shanghai")
                 self.assertEqual(snapshot["counts"], {"yuxino/kiri": 123})
-                self.assertIn(f"{expected_date} (UTC+8)", readme)
-                self.assertNotIn("(UTC)", readme)
+                self.assertNotIn(expected_date, readme)
+                self.assertNotIn("UTC", readme)
+                self.assertNotIn("123", readme)
 
 
 if __name__ == "__main__":

@@ -1,26 +1,10 @@
-"""Render bilingual project cards, with additional projects in a folded gallery."""
+"""Render one bilingual text line per project; retain the folded Other section."""
 from __future__ import annotations
 
 from html import escape
-from hashlib import sha256
 import re
-import unicodedata
 
 FEATURED_COUNT = 6
-ASSET_DIR = "assets/profile/minimal"
-ICONS = {
-    "capture": '<path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/><rect x="7" y="7" width="10" height="10" rx="2"/>',
-    "audio": '<path d="M4 10v4m4-8v12m4-16v20m4-16v12m4-8v4"/>',
-    "window": '<rect x="3" y="3" width="13" height="13" rx="2"/><rect x="8" y="8" width="13" height="13" rx="2"/>',
-    "clock": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
-    "video": '<rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4Z"/>',
-    "search": '<circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/>',
-    "book": '<path d="M12 5v16M3 3h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5v16h-5a4 4 0 0 0-4 2 4 4 0 0 0-4-2H3Z"/>',
-    "bell": '<path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M9 21h6"/>',
-    "cube": '<path d="m12 2 9 5v10l-9 5-9-5V7Zm0 10 9-5m-9 5L3 7m9 5v10"/>',
-    "chat": '<path d="M21 11a9 9 0 0 1-9 9H3l2-4a9 9 0 1 1 16-5Z"/><path d="M8 11h8"/>',
-    "grid": '<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>',
-}
 
 
 def validate_projects(projects: list[dict]) -> None:
@@ -30,18 +14,16 @@ def validate_projects(projects: list[dict]) -> None:
     for project in projects:
         if not isinstance(project, dict):
             raise ValueError("Each project must be an object")
-        for key in ("repo", "name", "en", "zh", "icon"):
-            if not isinstance(project.get(key), str) or not project[key].strip():
+        for key in ("repo", "name", "en", "zh"):
+            value = project.get(key)
+            if not isinstance(value, str) or not value.strip():
                 raise ValueError(f"Missing project field: {key}")
+            if any(c in value for c in "\r\n"):
+                raise ValueError(f"Project fields must stay on one line: {key}")
         repo = project["repo"]
         if not re.fullmatch(r"yuxino/[A-Za-z0-9_.-]+", repo) or repo.lower() in seen:
             raise ValueError("Invalid or duplicate repository")
         seen.add(repo.lower())
-        if project["icon"] not in ICONS:
-            raise ValueError(f"Invalid icon for {repo}")
-        units = lambda value: sum(2 if unicodedata.east_asian_width(c) in "WF" else 1 for c in value)
-        if units(project["en"]) > 47 or units(project["zh"]) > 48:
-            raise ValueError(f"Keep the bilingual summary short: {repo}")
 
 
 def rank_projects(projects: list[dict], counts: dict[str, int]) -> list[dict]:
@@ -53,65 +35,37 @@ def rank_projects(projects: list[dict], counts: dict[str, int]) -> list[dict]:
     return sorted(projects, key=lambda p: (-counts[p["repo"]], p["name"].casefold(), p["repo"].casefold()))
 
 
-def render_card(project: dict, count: int, dark: bool) -> str:
-    text, muted, rule, icon_bg = (
-        ("#e6edf3", "#9ba4ae", "#30363d", "#21262d") if dark
-        else ("#202124", "#656a72", "#e8e9ec", "#f4f5f6")
-    )
+def render_project(project: dict) -> str:
+    """Use normal, wrapping text; no cards, badges, counts or website links."""
     name, en, zh = (escape(project[key]) for key in ("name", "en", "zh"))
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="380" height="150" viewBox="0 0 380 150" role="img" aria-labelledby="title desc">
-<title id="title">{name} · {count:,} stars</title>
-<desc id="desc">{en} {zh}</desc>
-<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans CJK SC, sans-serif">
-<rect x="20" y="23" width="34" height="34" rx="10" fill="{icon_bg}"/>
-<g transform="translate(26 29) scale(.9167)" fill="none" stroke="{muted}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{ICONS[project['icon']]}</g>
-<text x="66" y="47" font-size="21" font-weight="600" letter-spacing="-.5" fill="{text}">{name}</text>
-<text x="357" y="45" text-anchor="end" font-size="14" fill="{muted}">☆ {count:,}</text>
-<text x="20" y="85" font-size="14" fill="{text}">{en}</text>
-<text x="20" y="109" font-size="13" fill="{muted}">{zh}</text>
-<path d="M20 139H357" stroke="{rule}"/>
-</g>
-</svg>
-'''
+    repo = escape(project["repo"], quote=True)
+    return f'<a href="https://github.com/{repo}"><strong>{name}</strong></a> — {en} / {zh}'
 
 
-def render_readme(intro: str, ranked: list[dict], counts: dict[str, int], date: str, footer: str = "") -> str:
-    """Show six cards; fold the remaining identical cards into Other projects."""
+def render_group(projects: list[dict]) -> str:
+    return "<p>\n" + "<br>\n".join(render_project(p) for p in projects) + "\n</p>"
+
+
+def render_readme(intro: str, ranked: list[dict], footer: str = "") -> str:
     lines = [
         "<!-- Generated by scripts/update_stars.py. Edit profile/*.md and profile/projects.json. -->",
         "", intro.strip(), "",
         '<p align="center"><sub>PROJECTS / 项目</sub></p>', "",
-        '<!-- All projects share the same card layout, ordered by star count. -->',
+        render_group(ranked[:FEATURED_COUNT]), "",
     ]
-    cards = []
-    for project in ranked:
-        slug = project["repo"].split("/")[1].lower()
-        light_version = sha256(render_card(project, counts[project["repo"]], False).encode()).hexdigest()[:12]
-        dark_version = sha256(render_card(project, counts[project["repo"]], True).encode()).hexdigest()[:12]
-        alt = escape(f'{project["name"]} — {project["en"]} / {project["zh"]} · ☆ {counts[project["repo"]]:,}', quote=True)
-        cards.append(f'<a href="https://github.com/{project["repo"]}"><picture><source media="(prefers-color-scheme: dark)" srcset="{ASSET_DIR}/{slug}-dark.svg?v={dark_version}"><img src="{ASSET_DIR}/{slug}-light.svg?v={light_version}" width="380" alt="{alt}"></picture></a>')
-    lines += ['<p align="center">', *cards[:FEATURED_COUNT], "</p>", ""]
-    others = cards[FEATURED_COUNT:]
+    others = ranked[FEATURED_COUNT:]
     if others:
         lines += [
-            "<details>",
-            f"<summary>Other projects / 其他项目 · {len(others)}</summary>",
-            "", "<br>", "",
-            '<p align="center">', *others, "</p>", "",
-            "</details>", "",
+            "<details>", "<summary>Other projects / 其他项目</summary>", "",
+            render_group(others), "", "</details>", "",
         ]
     if footer.strip():
         lines += [footer.strip(), ""]
-    lines += [f'<p align="center"><sub>Stars ↓ · Updated daily / 每日更新 · {escape(date)} (UTC+8)</sub></p>', ""]
     return "\n".join(lines)
 
 
 def build_outputs(intro: str, projects: list[dict], counts: dict[str, int], date: str, footer: str = "") -> dict[str, str]:
+    # Keep the updater's interface. Counts determine order only; neither the
+    # counts nor the refresh date is displayed. The snapshot stays in JSON.
     ranked = rank_projects(projects, counts)
-    outputs = {"README.md": render_readme(intro, ranked, counts, date, footer)}
-    # Generate BOTH themes for EVERY project, including the folded gallery.
-    for project in ranked:
-        slug = project["repo"].split("/")[1].lower()
-        for dark, theme in ((False, "light"), (True, "dark")):
-            outputs[f"{ASSET_DIR}/{slug}-{theme}.svg"] = render_card(project, counts[project["repo"]], dark)
-    return outputs
+    return {"README.md": render_readme(intro, ranked, footer)}
