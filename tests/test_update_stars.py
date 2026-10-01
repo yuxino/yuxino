@@ -79,19 +79,19 @@ class ProfileTests(unittest.TestCase):
     def test_count_and_date_changes_do_not_change_page_if_order_is_same(self):
         self.assertEqual(render(), render({repo: n + 100 for repo, n in COUNTS.items()}, "2026-09-28"))
 
-    def test_full_stack_intro_and_cute_footer_are_preserved(self):
+    def test_frontend_intro_and_cute_footer_are_preserved(self):
         intro = (ROOT / "profile/intro.md").read_text(encoding="utf-8")
         footer = (ROOT / "profile/footer.md").read_text(encoding="utf-8")
         readme = build_outputs(intro, PROJECTS, COUNTS, "2026-09-27", footer)["README.md"]
         self.assertIn(intro.strip(), readme)
         self.assertIn(footer.strip(), readme)
-        self.assertIn("Full-stack developer", readme)
-        self.assertIn("全栈开发", readme)
+        self.assertIn("Frontend Developer", readme)
+        self.assertIn("前端开发者", readme)
         self.assertIn("Issues and PRs", readme)
         self.assertIn("我都会认真看", readme)
         self.assertEqual(readme.count("(っ˘ω˘ς )♡"), 1)
         self.assertGreater(readme.index(footer.strip()), readme.index("</details>"))
-        self.assertNotIn("Frontend developer", readme)
+        self.assertNotIn("Full-stack developer", readme)
         self.assertNotIn("官网", readme)
         self.assertTrue(all(url.startswith("https://github.com/yuxino/") for url in re.findall(r'href="([^"]+)"', readme)))
 
