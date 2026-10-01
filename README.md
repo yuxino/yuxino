@@ -1,7 +1,7 @@
 <div align="center">
 
-Full-stack developer. I make small, useful things.  
-全栈开发者，做些日常用得上的小工具。
+Frontend Developer. I make small, useful things.  
+前端开发者，做些日常用得上的小工具。
 
 </div>
 
